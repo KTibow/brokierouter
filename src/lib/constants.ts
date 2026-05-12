@@ -162,6 +162,7 @@ export const MODEL_SKIP = new Set([
 // Key = fast model ID, value = base model ID to merge into.
 export const FAST_MODEL_MAP: Record<string, string> = {
   "anthropic/claude-opus-4.6-fast": "anthropic/claude-opus-4.6",
+  "anthropic/claude-opus-4.7-fast": "anthropic/claude-opus-4.7",
 };
 
 // ─── reasoning efforts ─────────────────────────────────────────────────────
