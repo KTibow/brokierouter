@@ -277,6 +277,7 @@ const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
   "google/gemini-3.1-pro-preview": ["low", "medium", "high"],
   "google/gemini-3.1-pro-preview-customtools": ["low", "medium", "high"],
   "google/gemini-3.1-flash-lite": ["minimal", "low", "medium", "high"],
+  "google/gemini-3.5-flash": ["minimal", "low", "medium", "high"],
 
   // XAI ─────────────────────────────────────────────────────
   "x-ai/grok-3": [null], // no reasoning
