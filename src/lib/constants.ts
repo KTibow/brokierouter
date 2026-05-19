@@ -139,6 +139,7 @@ export const GOOGLE_NAME_TO_OR: Record<string, string> = {
   "models/gemini-2.5-flash-lite": "google/gemini-2.5-flash-lite",
   "models/gemini-3-flash-preview": "google/gemini-3-flash-preview",
   "models/gemini-3.1-flash-lite": "google/gemini-3.1-flash-lite",
+  "models/gemini-3.5-flash": "google/gemini-3.5-flash",
 };
 
 export const GHC_ID_TO_OR: Record<string, string> = {
