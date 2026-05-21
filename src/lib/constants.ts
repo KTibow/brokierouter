@@ -174,6 +174,130 @@ export const FAST_MODEL_MAP: Record<string, string> = {
   "anthropic/claude-opus-4.7-fast": "anthropic/claude-opus-4.7",
 };
 
+// ─── token use proxies ─────────────────────────────────────────────────────
+
+const tokenProxy = (totalTokens: number) => Math.round(totalTokens / 50000);
+
+export const TOKEN_USE_PROXIES: Record<
+  string,
+  { direct?: number; thinking?: number }
+> = {
+  "z-ai/glm-4.7": {
+    direct: tokenProxy(13_148_408),
+    thinking: tokenProxy(167_493_394),
+  },
+  "moonshotai/kimi-k2.6": {
+    direct: tokenProxy(27_158_041),
+    thinking: tokenProxy(165_546_938),
+  },
+  "openai/gpt-5.4": {
+    direct: tokenProxy(3_918_205),
+    thinking: tokenProxy(Math.sqrt(9_900_000 * 120_000_000)),
+  },
+  "openai/gpt-5.2": {
+    direct: tokenProxy(3_811_797),
+    thinking: tokenProxy(21_463_750),
+  },
+  "openai/gpt-5.1": {
+    direct: tokenProxy(3_878_635),
+    thinking: tokenProxy(68_667_516),
+  },
+  "google/gemini-3.5-flash": {
+    thinking: tokenProxy(72_602_272),
+  },
+  "google/gemini-3.1-pro-preview": {
+    thinking: tokenProxy(57_292_121),
+  },
+  "x-ai/grok-4.20": {
+    direct: tokenProxy(36_039_325),
+    thinking: tokenProxy(60_942_393),
+  },
+  "qwen/qwen3-235b-a22b-2507": {
+    direct: tokenProxy(14_764_063),
+  },
+  "qwen/qwen3-32b": {
+    thinking: tokenProxy(29_881_909),
+  },
+  "x-ai/grok-4.3": {
+    direct: tokenProxy(7_815_637),
+  },
+  "anthropic/claude-sonnet-4.6": {
+    direct: tokenProxy(Math.sqrt(13_758_308 * 7_229_330)),
+  },
+  "anthropic/claude-opus-4.5": {
+    direct: tokenProxy(7_872_264),
+    thinking: tokenProxy(71_875_727),
+  },
+  "anthropic/claude-opus-4.6": {
+    direct: tokenProxy(10_895_113),
+    thinking: tokenProxy(156_962_674),
+  },
+  "anthropic/claude-opus-4.7": {
+    direct: tokenProxy(11_555_162),
+    thinking: tokenProxy(111_936_386),
+  },
+  "google/gemini-3-flash-preview": {
+    direct: tokenProxy(4_095_332),
+    thinking: tokenProxy(72_019_315),
+  },
+  "google/gemini-2.5-flash-lite": {
+    direct: tokenProxy(35_613_125),
+    thinking: tokenProxy(107_610_017),
+  },
+  "openai/gpt-5.4-mini": {
+    direct: tokenProxy(2_448_213),
+    thinking: tokenProxy(9_872_802),
+  },
+  "z-ai/glm-5": {
+    direct: tokenProxy(12_641_846),
+    thinking: tokenProxy(109_321_829),
+  },
+  "z-ai/glm-5.1": {
+    direct: tokenProxy(75_784_572),
+  },
+  "meta-llama/llama-3.1-8b-instruct": {
+    direct: tokenProxy(5_184_067),
+  },
+  "deepseek/deepseek-v4-pro": {
+    direct: tokenProxy(13_522_583),
+    thinking: tokenProxy(103_731_266),
+  },
+  "deepseek/deepseek-v4-flash": {
+    direct: tokenProxy(10_913_640),
+    thinking: tokenProxy(98_716_774),
+  },
+  "moonshotai/kimi-k2-0905": {
+    direct: tokenProxy(7_884_136),
+  },
+  "google/gemma-4-31b-it": {
+    direct: tokenProxy(7_135_092),
+    thinking: tokenProxy(39_244_141),
+  },
+  "minimax/minimax-m2.7": {
+    thinking: tokenProxy(86_930_041),
+  },
+  "minimax/minimax-m2.5": {
+    thinking: tokenProxy(56_257_382),
+  },
+  "openai/gpt-oss-120b": {
+    thinking: tokenProxy(Math.sqrt(77_700_466 * 7_713_152)),
+  },
+  "openai/gpt-oss-20b": {
+    thinking: tokenProxy(Math.sqrt(60_996_569 * 9_664_387)),
+  },
+  "xiaomi/mimo-v2.5-pro": {
+    direct: tokenProxy(28_388_397),
+    thinking: tokenProxy(91_897_190),
+  },
+  "qwen/qwen3.5-35b-a3b": {
+    direct: tokenProxy(36_574_753),
+    thinking: tokenProxy(100_478_692),
+  },
+  "inception/mercury-2": {
+    thinking: tokenProxy(69_582_378),
+  },
+};
+
 // ─── reasoning efforts ─────────────────────────────────────────────────────
 
 type Effort = "none" | "minimal" | "low" | "medium" | "high" | "xhigh" | "max";

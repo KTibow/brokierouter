@@ -48,6 +48,7 @@ import {
   REASONING_EFFORT_OVERRIDES,
   MODEL_SKIP,
   FAST_MODEL_MAP,
+  TOKEN_USE_PROXIES,
 } from "./lib/constants.ts";
 
 // ─── helpers ─────────────────────────────────────────────────────────────
@@ -587,6 +588,12 @@ const merge = (
       providers: provs.map((p) => ({ ...p, tps: p.tps ?? null, ttfb: p.ttfb ?? null })),
       elo_direct: elos[id]?.elo_direct ?? null,
       elo_thinking: elos[id]?.elo_thinking ?? null,
+      ...(TOKEN_USE_PROXIES[id]?.direct !== undefined
+        ? { token_use_direct: TOKEN_USE_PROXIES[id].direct }
+        : {}),
+      ...(TOKEN_USE_PROXIES[id]?.thinking !== undefined
+        ? { token_use_thinking: TOKEN_USE_PROXIES[id].thinking }
+        : {}),
     });
   }
 
@@ -599,6 +606,12 @@ const merge = (
         providers: [],
         elo_direct: elos[id]?.elo_direct ?? null,
         elo_thinking: elos[id]?.elo_thinking ?? null,
+        ...(TOKEN_USE_PROXIES[id]?.direct !== undefined
+          ? { token_use_direct: TOKEN_USE_PROXIES[id].direct }
+          : {}),
+        ...(TOKEN_USE_PROXIES[id]?.thinking !== undefined
+          ? { token_use_thinking: TOKEN_USE_PROXIES[id].thinking }
+          : {}),
       });
     }
   };

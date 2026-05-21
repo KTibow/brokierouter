@@ -18,6 +18,8 @@ export type Model = {
   providers: Provider[];
   elo_direct: number | null;
   elo_thinking: number | null;
+  token_use_direct?: number;
+  token_use_thinking?: number;
 };
 
 export type Provider = {
