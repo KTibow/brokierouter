@@ -252,6 +252,10 @@ export const TOKEN_USE_PROXIES: Record<
     direct: tokenProxy(35_613_125),
     thinking: tokenProxy(107_610_017),
   },
+  "google/gemini-2.5-flash": {
+    direct: tokenProxy(17_480_533),
+    thinking: tokenProxy(52_286_476),
+  },
   "openai/gpt-5.4-mini": {
     direct: tokenProxy(2_448_213),
     thinking: tokenProxy(9_872_802),
@@ -303,6 +307,16 @@ export const TOKEN_USE_PROXIES: Record<
   },
   "inception/mercury-2": {
     thinking: tokenProxy(69_582_378),
+  },
+  "qwen/qwen3.5-397b-a17b": {
+    direct: tokenProxy(20_035_242),
+    thinking: tokenProxy(85_941_062),
+  },
+  "qwen/qwen3-next-80b-a3b-instruct": {
+    direct: tokenProxy(14_523_280),
+  },
+  "qwen/qwen3-next-80b-a3b-thinking": {
+    thinking: tokenProxy(51_330_758),
   },
 };
 
