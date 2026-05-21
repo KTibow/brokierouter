@@ -32487,7 +32487,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": null,
+    "elo_thinking": 1475,
     "token_use_thinking": 1452
   },
   {
