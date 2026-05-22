@@ -1377,7 +1377,7 @@
     ],
     "elo_direct": null,
     "elo_thinking": 1474.8214426579223,
-    "token_use_thinking": 1219
+    "token_use_thinking": 2000
   },
   {
     "id": "google/gemini-3-flash-preview",
@@ -2671,7 +2671,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
+        "tps": 27,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -2695,7 +2695,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
+        "tps": 88,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -4198,7 +4198,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 96,
+        "tps": 93,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -4811,7 +4811,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 77,
+        "tps": 85,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -4835,7 +4835,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 78,
+        "tps": 76,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
