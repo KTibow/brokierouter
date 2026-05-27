@@ -74,31 +74,6 @@ const requireModalities = (
   return value;
 };
 
-// ─── crof speed scraper ─────────────────────────────────────────────────
-
-const fetchCrofSpeeds = async (): Promise<Record<string, number>> => {
-  try {
-    const res = await fetch("https://crof.ai/pricing");
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const html = await res.text();
-    const match = html.match(/const allModels\s*=\s*(\[[\s\S]*?\]);/);
-    if (!match) throw new Error("allModels not found in HTML");
-    const models: { id: string; speed: number }[] = JSON.parse(match[1]);
-    const speeds: Record<string, number> = {};
-    for (const m of models) {
-      if (m.speed) {
-        let speed = m.speed;
-        if (speed > 100) speed = 100;
-        speeds[m.id] = speed;
-      }
-    }
-    return speeds;
-  } catch (e) {
-    console.warn("CrofAI speed scrape failed:", (e as Error).message);
-    return {};
-  }
-};
-
 // ─── build endpoint provider from raw endpoint data ─────────────────────
 
 const endpointToProvider = (
@@ -314,7 +289,7 @@ const providers = {
             ? ["text", "image"]
             : ["text"],
           output_modalities: ["text"],
-          tps: null,
+          tps: m.speed ? Math.min(m.speed, 100) : null,
           ttfb: null,
           reasoning_efforts: getReasoningEfforts(
             orId,
@@ -573,7 +548,6 @@ const merge = (
   hcResult: ParseResult,
   providerResults: { name: string; result: ParseResult }[],
   elos: EloMap,
-  crofSpeeds: Record<string, number>,
 ): Model[] => {
   const dropped: string[] = [];
   const unofficial: string[] = [];
@@ -669,18 +643,6 @@ const merge = (
     }
   }
 
-  // Apply scraped crofai speeds (sqrt-transformed)
-  for (const model of models.values()) {
-    for (const provider of model.providers) {
-      if (
-        provider.provider === "crofai" &&
-        crofSpeeds[provider.model_id] !== undefined
-      ) {
-        provider.tps = crofSpeeds[provider.model_id];
-      }
-    }
-  }
-
   // Apply per-provider reasoning effort overrides
   for (const model of models.values()) {
     const overrides = REASONING_EFFORT_OVERRIDES[model.id];
@@ -735,7 +697,6 @@ const [
   crofData,
   ghmData,
   ghcData,
-  crofSpeeds,
   groqData,
   cerebrasData,
   googleData,
@@ -757,7 +718,6 @@ const [
     console.warn("GHC fetch failed:", e.message);
     return { data: [] };
   }),
-  fetchCrofSpeeds(),
   providers.groq.fetch().catch((e) => {
     console.warn("Groq fetch failed:", e.message);
     return { data: [] };
@@ -789,7 +749,6 @@ const models = merge(
   hcResult,
   providerResults,
   elos,
-  crofSpeeds,
 );
 writeFileSync("models.json", JSON.stringify(models, null, 2));
 console.log(`Built models.json with ${models.length} models`);

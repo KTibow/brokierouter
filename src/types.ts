@@ -123,6 +123,7 @@ export const CrofModelSchema = object({
   quantization: string(),
   reasoning_effort: optional(boolean()),
   custom_reasoning: optional(boolean()),
+  speed: number(),
 });
 export type CrofModel = InferOutput<typeof CrofModelSchema>;
 

@@ -64,11 +64,16 @@ export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
     orId: "deepseek/deepseek-v4-pro",
     variant: "precision",
   },
+  "deepseek-v4-pro-lightning": {
+    orId: "deepseek/deepseek-v4-pro",
+    variant: "lightning",
+  },
   "mimo-v2.5-pro": { orId: "xiaomi/mimo-v2.5-pro" },
   "mimo-v2.5-pro-precision": {
     orId: "xiaomi/mimo-v2.5-pro",
     variant: "precision",
   },
+  "deepseek-v4-flash": { orId: "deepseek/deepseek-v4-flash" },
   "kimi-k2.6": { orId: "moonshotai/kimi-k2.6" },
   "kimi-k2.6-precision": { orId: "moonshotai/kimi-k2.6", variant: "precision" },
   "kimi-k2.5": { orId: "moonshotai/kimi-k2.5" },
@@ -85,7 +90,6 @@ export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
   "glm-4.7-flash": { orId: "z-ai/glm-4.7-flash" },
   "deepseek-v3.2": { orId: "deepseek/deepseek-v3.2" },
   "gemma-4-31b-it": { orId: "google/gemma-4-31b-it" },
-  greg: { orId: "crofai/greg" },
 };
 
 export const GHM_ID_TO_OR: Record<string, string> = {
