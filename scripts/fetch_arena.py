@@ -34,6 +34,8 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-opus-4-6-thinking": ("anthropic/claude-opus-4.6", True),
     "claude-opus-4-7": ("anthropic/claude-opus-4.7", False),
     "claude-opus-4-7-thinking": ("anthropic/claude-opus-4.7", True),
+    "claude-opus-4-8": ("anthropic/claude-opus-4.8", False),
+    "claude-opus-4-8-thinking": ("anthropic/claude-opus-4.8", True),
     "claude-sonnet-4-20250514": ("anthropic/claude-sonnet-4", False),
     "claude-sonnet-4-20250514-thinking-32k": ("anthropic/claude-sonnet-4", True),
     "claude-sonnet-4-5-20250929": ("anthropic/claude-sonnet-4.5", False),
