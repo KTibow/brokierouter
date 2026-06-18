@@ -19,8 +19,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 2869.5,
+        "tps": 50,
+        "ttfb": 1664,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47,8 +47,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1935.5,
+        "tps": 34,
+        "ttfb": 2549,
         "reasoning_efforts": [
           "none",
           "low",
@@ -74,8 +74,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 2160,
+        "tps": 38,
+        "ttfb": 2125.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -101,8 +101,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35,
-        "ttfb": 2558,
+        "tps": 36,
+        "ttfb": 3191,
         "reasoning_efforts": [
           "none",
           "low",
@@ -129,7 +129,7 @@
           "text"
         ],
         "tps": 37,
-        "ttfb": 2411,
+        "ttfb": 2212,
         "reasoning_efforts": [
           "none",
           "low",
@@ -156,7 +156,7 @@
           "text"
         ],
         "tps": 42,
-        "ttfb": 2129,
+        "ttfb": 2124.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -182,8 +182,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 2714,
+        "tps": 36,
+        "ttfb": 2520,
         "reasoning_efforts": [
           "none",
           "low",
@@ -219,8 +219,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
-        "ttfb": 712,
+        "tps": 93,
+        "ttfb": 850,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -244,8 +244,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 1422,
+        "tps": 65,
+        "ttfb": 1147,
         "reasoning_efforts": [
           "none",
           "low",
@@ -272,8 +272,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 8531,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "low",
@@ -300,8 +300,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 9868.5,
+        "tps": 55,
+        "ttfb": 2604,
         "reasoning_efforts": [
           "none",
           "low",
@@ -328,8 +328,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1767,
+        "tps": 41,
+        "ttfb": 1717,
         "reasoning_efforts": [
           "none",
           "low",
@@ -356,8 +356,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 1490,
+        "tps": 56,
+        "ttfb": 1634,
         "reasoning_efforts": [
           "none",
           "low",
@@ -384,8 +384,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 2352.5,
+        "tps": 44,
+        "ttfb": 2181,
         "reasoning_efforts": [
           "none",
           "low",
@@ -424,8 +424,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 76,
-        "ttfb": 5515,
+        "tps": 65,
+        "ttfb": 6438,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -451,8 +451,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 92.5,
-        "ttfb": 3221,
+        "tps": 94,
+        "ttfb": 3146,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -511,8 +511,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 1945,
+        "tps": 54,
+        "ttfb": 2377.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -536,7 +536,7 @@
           "text"
         ],
         "tps": 55,
-        "ttfb": 3184,
+        "ttfb": 2722,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -559,8 +559,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 2286,
+        "tps": 56,
+        "ttfb": 2218,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -583,8 +583,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 6100,
+        "tps": 54,
+        "ttfb": 5225,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -631,8 +631,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 3070,
+        "tps": 64,
+        "ttfb": 2645,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -664,8 +664,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 917,
+        "tps": 65,
+        "ttfb": 950,
         "reasoning_efforts": [
           "none",
           "low",
@@ -691,8 +691,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 5817.5,
+        "tps": 43,
+        "ttfb": 4614.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -730,8 +730,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 111,
-        "ttfb": 3022,
+        "tps": 124,
+        "ttfb": 2967,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -758,8 +758,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 78,
-        "ttfb": 1726,
+        "tps": 126,
+        "ttfb": 2049,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -794,8 +794,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 1620,
+        "tps": 52,
+        "ttfb": 1234,
         "reasoning_efforts": [
           null
         ],
@@ -817,8 +817,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 2738,
+        "tps": 31,
+        "ttfb": 2983,
         "reasoning_efforts": [
           null
         ],
@@ -846,8 +846,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 4114,
+        "tps": 18,
+        "ttfb": 4800,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -870,8 +870,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 1259.5,
+        "tps": 21,
+        "ttfb": 1419.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -894,8 +894,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
-        "ttfb": 1012,
+        "tps": 99,
+        "ttfb": 908,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -918,14 +918,38 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 834,
+        "tps": 59,
+        "ttfb": 832,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {
           "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.1;siliconflow/fp8",
+        "context_length": 204800,
+        "per_mtok": {
+          "prompt": 1.19,
+          "completion": 3.74
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 10,
+        "ttfb": 3421.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
         }
       },
       {
@@ -942,37 +966,13 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 4450,
+        "tps": 14,
+        "ttfb": 3658,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.1;siliconflow/fp8",
-        "context_length": 204800,
-        "per_mtok": {
-          "prompt": 1.19,
-          "completion": 4.300000000000001
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 13,
-        "ttfb": 3519,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
       },
       {
         "provider": "openrouter",
@@ -988,8 +988,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 2319,
+        "tps": 41,
+        "ttfb": 2071,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1012,8 +1012,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 7051,
+        "tps": 31,
+        "ttfb": 4981.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1034,8 +1034,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 3290,
+        "tps": 16,
+        "ttfb": 2884,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1058,8 +1058,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 73,
-        "ttfb": 795.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1082,8 +1082,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 3602,
+        "tps": 30,
+        "ttfb": 2376,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1106,8 +1106,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 973,
+        "tps": 52,
+        "ttfb": 986,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1130,8 +1130,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1258,
+        "tps": 63.5,
+        "ttfb": 1032,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1152,8 +1152,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 859,
+        "tps": 76,
+        "ttfb": 949.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1174,8 +1174,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 4437,
+        "tps": 40,
+        "ttfb": 4077,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1198,8 +1198,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 3265,
+        "tps": 24,
+        "ttfb": 4878,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1222,8 +1222,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 56,
-        "ttfb": 665,
+        "tps": 77,
+        "ttfb": 490.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1244,8 +1244,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 796,
+        "tps": 22,
+        "ttfb": 930,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1268,8 +1268,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1255,
+        "tps": 31,
+        "ttfb": 910,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1292,7 +1292,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
+        "tps": 98,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -1324,8 +1324,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 1363.5,
+        "tps": 50,
+        "ttfb": 1201,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1357,8 +1357,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 124,
-        "ttfb": 558,
+        "tps": 141,
+        "ttfb": 566,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -1391,8 +1391,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 4421.5,
+        "tps": 41,
+        "ttfb": 5665.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1418,8 +1418,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 3092.5,
+        "tps": 34,
+        "ttfb": 4007,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1484,8 +1484,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 68,
-        "ttfb": 1642,
+        "tps": 69,
+        "ttfb": 1530,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -1513,7 +1513,7 @@
           "text"
         ],
         "tps": 57,
-        "ttfb": 1526,
+        "ttfb": 1564,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -1590,8 +1590,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 557,
-        "ttfb": 9187,
+        "tps": 493,
+        "ttfb": 25866,
         "reasoning_efforts": [
           "medium",
           "high"
@@ -1623,8 +1623,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1442,
+        "tps": 41.5,
+        "ttfb": 1646,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1649,8 +1649,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 1603,
+        "tps": 32,
+        "ttfb": 1663.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1675,8 +1675,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1543,
+        "tps": 37,
+        "ttfb": 2021,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1701,8 +1701,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 787,
+        "tps": 45,
+        "ttfb": 763,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1727,8 +1727,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 3261,
+        "tps": 33,
+        "ttfb": 3227,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1763,8 +1763,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 2016,
+        "tps": 45,
+        "ttfb": 2115,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1790,8 +1790,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1739,
+        "tps": 39,
+        "ttfb": 1690,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1817,8 +1817,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 1515,
+        "tps": 28,
+        "ttfb": 1702.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1844,8 +1844,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 1507,
+        "tps": 36,
+        "ttfb": 1473.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1871,8 +1871,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34.5,
-        "ttfb": 2641,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1898,8 +1898,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 1436,
+        "tps": 41,
+        "ttfb": 1414,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1925,8 +1925,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1453,
+        "tps": 32,
+        "ttfb": 1655,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1952,8 +1952,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 1412.5,
+        "tps": 47,
+        "ttfb": 1421,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1987,8 +1987,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 2597,
+        "tps": 41,
+        "ttfb": 1796.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2011,8 +2011,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 3743.5,
+        "tps": 33,
+        "ttfb": 2482,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2033,8 +2033,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 1301.5,
+        "tps": 37,
+        "ttfb": 1882,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2055,8 +2055,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 3582,
+        "tps": 39,
+        "ttfb": 47213,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2079,7 +2079,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65,
+        "tps": 64,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -2113,8 +2113,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1640.5,
+        "tps": 23,
+        "ttfb": 2033,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2138,14 +2138,39 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 1680,
+        "tps": 27,
+        "ttfb": 5993,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {
           "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k2.6;inceptron/int4",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.6799999999999999,
+          "completion": 3.5
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 24,
+        "ttfb": 1147,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "int4"
         }
       },
       {
@@ -2163,39 +2188,14 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 2325,
+        "tps": 43,
+        "ttfb": 1892,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {
           "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k2.6;inceptron/int4",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.73,
-          "completion": 3.5
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 28,
-        "ttfb": 1161.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "int4"
         }
       },
       {
@@ -2213,8 +2213,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 2489,
+        "tps": 17,
+        "ttfb": 4597,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2238,8 +2238,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 1420.5,
+        "tps": 31,
+        "ttfb": 1635.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2286,8 +2286,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 939,
+        "tps": 24,
+        "ttfb": 867,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2311,8 +2311,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 1051,
+        "tps": 39.5,
+        "ttfb": 1233.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2334,8 +2334,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 1477,
+        "tps": 30,
+        "ttfb": 1580.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2359,8 +2359,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 2505.5,
+        "tps": 31,
+        "ttfb": 1589.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2382,8 +2382,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 23,
+        "ttfb": 1092,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2407,8 +2407,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 3565,
+        "tps": 53,
+        "ttfb": 1585.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2430,8 +2430,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 2667,
+        "tps": 25,
+        "ttfb": 2581.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2455,8 +2455,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 4065.5,
+        "tps": 33,
+        "ttfb": 622,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2480,8 +2480,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 2199,
+        "tps": 34,
+        "ttfb": 3271,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2505,8 +2505,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 29,
+        "ttfb": 6081,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2528,8 +2528,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
-        "ttfb": 662,
+        "tps": 65,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2551,8 +2551,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 1506,
+        "tps": 42,
+        "ttfb": 2489.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2574,8 +2574,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 124,
-        "ttfb": 5696,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2598,7 +2598,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
+        "tps": 78,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -2631,8 +2631,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 1718,
+        "tps": 14,
+        "ttfb": 1552,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2662,8 +2662,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 3924.5,
+        "tps": 16,
+        "ttfb": 7426,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2686,8 +2686,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 1179,
+        "tps": 16,
+        "ttfb": 2920,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2710,8 +2710,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 2758.5,
+        "tps": 32,
+        "ttfb": 2642,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2732,8 +2732,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1237.5,
+        "tps": 26,
+        "ttfb": 1856,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2756,8 +2756,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 1151,
+        "tps": 29,
+        "ttfb": 1074,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2778,8 +2778,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 2293,
+        "tps": 21,
+        "ttfb": 2995,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2802,8 +2802,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 2265,
+        "tps": 46,
+        "ttfb": 1916,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2826,8 +2826,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 3253.5,
+        "tps": 10,
+        "ttfb": 2032,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2850,8 +2850,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30.5,
-        "ttfb": 2399,
+        "tps": 48,
+        "ttfb": 3322,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2872,8 +2872,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 111,
-        "ttfb": 362,
+        "tps": 94,
+        "ttfb": 655,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2894,8 +2894,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 2506,
+        "tps": 30,
+        "ttfb": 2996,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2918,8 +2918,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 8076,
+        "tps": 26,
+        "ttfb": 5734.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2942,8 +2942,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1463.5,
+        "tps": 34,
+        "ttfb": 1111,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2966,8 +2966,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 56,
-        "ttfb": 1310.5,
+        "tps": 43,
+        "ttfb": 1288,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -2990,8 +2990,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 78,
-        "ttfb": 1368,
+        "tps": 80,
+        "ttfb": 1039.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3012,8 +3012,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 7018,
+        "tps": 54,
+        "ttfb": 6039,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3067,8 +3067,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 1285,
+        "tps": 54,
+        "ttfb": 1466,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3090,7 +3090,7 @@
           "text"
         ],
         "tps": 37,
-        "ttfb": 791,
+        "ttfb": 843.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3113,8 +3113,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 2009.5,
+        "tps": 47,
+        "ttfb": 2127.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3135,8 +3135,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1228,
+        "tps": 15,
+        "ttfb": 3473.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3159,8 +3159,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 1179,
+        "tps": 15,
+        "ttfb": 1000,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3183,8 +3183,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 1657,
+        "tps": 4,
+        "ttfb": 2749,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3205,8 +3205,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 1680,
+        "tps": 51,
+        "ttfb": 2126.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3229,8 +3229,32 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 1138,
+        "tps": 37,
+        "ttfb": 1687.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;nextbit/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.5999999999999999,
+          "completion": 3.1999999999999997
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3254,7 +3278,7 @@
           "text"
         ],
         "tps": 36,
-        "ttfb": 2281,
+        "ttfb": 2179.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3275,8 +3299,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 4016,
+        "tps": 25,
+        "ttfb": 4229,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3299,8 +3323,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 2422,
+        "tps": 46,
+        "ttfb": 2677,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3321,8 +3345,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 478,
+        "tps": 13,
+        "ttfb": 456,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3345,8 +3369,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 865,
+        "tps": 17,
+        "ttfb": 1429.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3367,8 +3391,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 8,
-        "ttfb": 777,
+        "tps": 10,
+        "ttfb": 676,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3391,37 +3415,13 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 1630,
+        "tps": 25,
+        "ttfb": 1800,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;nextbit/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.7999999999999998,
-          "completion": 3.1999999999999997
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 43,
-        "ttfb": 984,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
       },
       {
         "provider": "crofai",
@@ -3437,7 +3437,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 68,
+        "tps": 84,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -3461,7 +3461,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
+        "tps": 53,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -3496,8 +3496,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 2177,
+        "tps": 46,
+        "ttfb": 1920,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3520,8 +3520,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 103,
-        "ttfb": 1006,
+        "tps": 36,
+        "ttfb": 1572,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3544,8 +3544,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 2011.5,
+        "tps": 41,
+        "ttfb": 1834.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3568,8 +3568,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 1316,
+        "tps": 37,
+        "ttfb": 1653,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3592,8 +3592,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 1701,
+        "tps": 34,
+        "ttfb": 1397,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3616,8 +3616,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 1900.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3640,8 +3640,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 31317,
+        "tps": 45,
+        "ttfb": 1960,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3700,8 +3700,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 45,
-        "ttfb": 969,
+        "tps": 46,
+        "ttfb": 1004,
         "reasoning_efforts": [
           "none",
           "low",
@@ -3726,8 +3726,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 1118,
+        "tps": 51,
+        "ttfb": 1215,
         "reasoning_efforts": [
           "none",
           "low",
@@ -3762,8 +3762,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 2689,
+        "tps": 54,
+        "ttfb": 2068.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3789,7 +3789,7 @@
           "text"
         ],
         "tps": 42,
-        "ttfb": 2264,
+        "ttfb": 2483,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3813,7 +3813,7 @@
           "text"
         ],
         "tps": 23,
-        "ttfb": 1050,
+        "ttfb": 1089,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3838,8 +3838,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 2284,
+        "tps": 25,
+        "ttfb": 1464,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3862,8 +3862,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 2205,
+        "tps": 21,
+        "ttfb": 2893,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3888,8 +3888,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1170.5,
+        "tps": 19,
+        "ttfb": 953,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3921,8 +3921,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1039.5,
+        "tps": 35,
+        "ttfb": 996,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3947,8 +3947,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 2427,
+        "tps": 17,
+        "ttfb": 3453.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3971,8 +3971,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 433,
+        "tps": 47,
+        "ttfb": 419,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -3997,8 +3997,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1219,
+        "tps": 29,
+        "ttfb": 1196,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4023,8 +4023,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 766,
+        "tps": 29,
+        "ttfb": 485,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4049,8 +4049,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 723,
+        "tps": 29,
+        "ttfb": 700,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4075,8 +4075,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 2600,
+        "tps": 25,
+        "ttfb": 2331,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4101,8 +4101,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1427.5,
+        "tps": 15,
+        "ttfb": 1734,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4127,8 +4127,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 1483,
+        "tps": 17,
+        "ttfb": 1646.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4153,8 +4153,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 2251,
+        "tps": 12,
+        "ttfb": 1525,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4179,8 +4179,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 6,
-        "ttfb": 7037,
+        "tps": 10,
+        "ttfb": 6984,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4203,8 +4203,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 278,
+        "tps": 71,
+        "ttfb": 249,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4229,8 +4229,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1957.5,
+        "tps": 22,
+        "ttfb": 1262,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4253,8 +4253,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1340,
+        "tps": 24,
+        "ttfb": 1256.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4327,8 +4327,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1406,
+        "tps": 23,
+        "ttfb": 1431,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4350,8 +4350,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 820,
+        "tps": 47,
+        "ttfb": 366,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4375,8 +4375,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 1907.5,
+        "tps": 23.5,
+        "ttfb": 3127.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4400,8 +4400,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 712,
+        "tps": 16,
+        "ttfb": 837.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4425,8 +4425,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 2212,
+        "tps": 25,
+        "ttfb": 2182,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4450,8 +4450,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 2345.5,
+        "tps": 20,
+        "ttfb": 3041,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4475,8 +4475,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 1456.5,
+        "tps": 27,
+        "ttfb": 2759,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4498,8 +4498,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 71,
-        "ttfb": 1368,
+        "tps": 123.5,
+        "ttfb": 974,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4521,8 +4521,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 4328,
+        "tps": 26,
+        "ttfb": 4399,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4544,8 +4544,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1917,
+        "tps": 39,
+        "ttfb": 1420,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4569,8 +4569,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 7532,
+        "tps": 20,
+        "ttfb": 6872.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4676,8 +4676,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 3651,
+        "tps": 18,
+        "ttfb": 2082,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4724,8 +4724,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 4,
-        "ttfb": 3261.5,
+        "tps": 5,
+        "ttfb": 3244,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -4756,8 +4756,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 55,
-        "ttfb": 789,
+        "tps": 74,
+        "ttfb": 814,
         "reasoning_efforts": [
           "none",
           "low",
@@ -4783,8 +4783,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 713,
+        "tps": 76,
+        "ttfb": 839,
         "reasoning_efforts": [
           "none",
           "low",
@@ -4849,8 +4849,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 2874,
+        "tps": 31,
+        "ttfb": 4035,
         "reasoning_efforts": [
           null
         ],
@@ -4872,8 +4872,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 1303,
+        "tps": 46,
+        "ttfb": 1154.5,
         "reasoning_efforts": [
           null
         ],
@@ -4905,8 +4905,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 92,
-        "ttfb": 2252,
+        "tps": 89,
+        "ttfb": 2219,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -4932,8 +4932,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 103,
-        "ttfb": 2993,
+        "tps": 98,
+        "ttfb": 2324,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -4959,8 +4959,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 108,
-        "ttfb": 2441.5,
+        "tps": 67,
+        "ttfb": 1382.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -4986,8 +4986,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 3625,
+        "tps": 85,
+        "ttfb": 4888,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -5043,8 +5043,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 1200,
+        "tps": 12,
+        "ttfb": 1288.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5067,8 +5067,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 1272,
+        "tps": 52,
+        "ttfb": 1840,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5091,8 +5091,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 2225,
+        "tps": 37.5,
+        "ttfb": 2362,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5117,8 +5117,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 683,
+        "tps": 34,
+        "ttfb": 637,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5143,8 +5143,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1281.5,
+        "tps": 50,
+        "ttfb": 1341.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5167,8 +5167,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 1334,
+        "tps": 70,
+        "ttfb": 841,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5193,8 +5193,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 2046,
+        "tps": 33,
+        "ttfb": 1656,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5219,8 +5219,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 24,
+        "ttfb": 6117,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5243,8 +5243,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 1317.5,
+        "tps": 53,
+        "ttfb": 1438,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5267,8 +5267,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 869,
+        "tps": 45,
+        "ttfb": 910,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5291,8 +5291,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 129,
-        "ttfb": 720,
+        "tps": 87,
+        "ttfb": 777,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5315,8 +5315,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 3227,
+        "tps": 28,
+        "ttfb": 4499,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5341,8 +5341,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 1712,
+        "tps": 34,
+        "ttfb": 2231,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5399,8 +5399,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1071,
+        "tps": 14,
+        "ttfb": 1046,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5431,8 +5431,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 699,
+        "tps": 69,
+        "ttfb": 687,
         "reasoning_efforts": [
           "none",
           "low",
@@ -5465,8 +5465,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 766.5,
+        "tps": 40,
+        "ttfb": 592,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5489,8 +5489,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 1614,
+        "tps": 60,
+        "ttfb": 1016.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5511,8 +5511,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 1577,
+        "tps": 8,
+        "ttfb": 1140,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5535,8 +5535,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 3951,
+        "tps": 19,
+        "ttfb": 2103,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5559,8 +5559,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
-        "ttfb": 1448,
+        "tps": 32,
+        "ttfb": 1050.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5583,8 +5583,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 17930.5,
+        "tps": 26,
+        "ttfb": 14925.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5607,8 +5607,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 162.5,
-        "ttfb": 542,
+        "tps": 156,
+        "ttfb": 586,
         "reasoning_efforts": [
           "medium"
         ],
@@ -5628,8 +5628,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 25,
+        "ttfb": 6849,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5650,8 +5650,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 480,
-        "ttfb": 794,
+        "tps": 362.5,
+        "ttfb": 670.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5733,8 +5733,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 2635,
+        "tps": 33,
+        "ttfb": 1583.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5757,8 +5757,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
-        "ttfb": 703,
+        "tps": 10,
+        "ttfb": 1986.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5783,8 +5783,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 517,
+        "tps": 16,
+        "ttfb": 592,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5809,8 +5809,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 376,
+        "tps": 46,
+        "ttfb": 381,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5833,8 +5833,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1920,
+        "tps": 18,
+        "ttfb": 2012.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5859,8 +5859,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1170,
+        "tps": 19,
+        "ttfb": 1211.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5885,8 +5885,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1457,
+        "tps": 16,
+        "ttfb": 1516,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5911,8 +5911,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 6,
-        "ttfb": 2426.5,
+        "tps": 4,
+        "ttfb": 3470,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5937,8 +5937,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
-        "ttfb": 466.5,
+        "tps": 58,
+        "ttfb": 429,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5961,8 +5961,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 1170,
+        "tps": 20,
+        "ttfb": 1497,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6014,8 +6014,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 2084.5,
+        "tps": 36,
+        "ttfb": 2476.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -6041,8 +6041,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 2933,
+        "tps": 32.5,
+        "ttfb": 2679.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -6077,7 +6077,7 @@
           "text"
         ],
         "tps": 39,
-        "ttfb": 742,
+        "ttfb": 774,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6100,8 +6100,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 2513,
+        "tps": 26,
+        "ttfb": 3695,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6124,8 +6124,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
-        "ttfb": 689,
+        "tps": 77,
+        "ttfb": 653,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6149,7 +6149,7 @@
           "text"
         ],
         "tps": 17,
-        "ttfb": 1069,
+        "ttfb": 1053,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6172,8 +6172,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 593,
+        "tps": 59,
+        "ttfb": 657,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6194,8 +6194,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1785,
+        "tps": 22,
+        "ttfb": 1352,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6216,8 +6216,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 59,
-        "ttfb": 1252,
+        "tps": 57,
+        "ttfb": 1292,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6240,8 +6240,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 949,
+        "tps": 44,
+        "ttfb": 990,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6263,7 +6263,7 @@
           "text"
         ],
         "tps": 74,
-        "ttfb": 651,
+        "ttfb": 695,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6284,8 +6284,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 606,
+        "tps": 68,
+        "ttfb": 641,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6306,8 +6306,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 576,
+        "tps": 30,
+        "ttfb": 559,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6330,8 +6330,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1001.5,
+        "tps": 24,
+        "ttfb": 1093,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6354,8 +6354,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 774.5,
+        "tps": 39,
+        "ttfb": 710,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6378,8 +6378,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 61,
-        "ttfb": 1066,
+        "tps": 58,
+        "ttfb": 1112,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6402,8 +6402,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 506,
+        "tps": 34,
+        "ttfb": 535.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6426,8 +6426,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 81,
-        "ttfb": 963,
+        "tps": 74,
+        "ttfb": 1118,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6448,8 +6448,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 887,
+        "tps": 41,
+        "ttfb": 1027.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6471,7 +6471,7 @@
           "text"
         ],
         "tps": 43,
-        "ttfb": 1602,
+        "ttfb": 1680,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6492,7 +6492,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 70,
+        "tps": 58,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -6527,8 +6527,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 878,
+        "tps": 36,
+        "ttfb": 913,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -6553,8 +6553,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 2857,
+        "tps": 60,
+        "ttfb": 4374,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -6636,8 +6636,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 3264.5,
+        "tps": 45,
+        "ttfb": 2389.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6663,8 +6663,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1677,
+        "tps": 11,
+        "ttfb": 1743.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6698,8 +6698,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 92,
-        "ttfb": 1749,
+        "tps": 90,
+        "ttfb": 1684.5,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -6726,8 +6726,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 112,
-        "ttfb": 826,
+        "tps": 103,
+        "ttfb": 583,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -6780,8 +6780,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 83,
-        "ttfb": 3349,
+        "tps": 63,
+        "ttfb": 3603,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -6831,8 +6831,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 187,
-        "ttfb": 475,
+        "tps": 168,
+        "ttfb": 403,
         "reasoning_efforts": [
           "medium"
         ],
@@ -6852,8 +6852,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 924.5,
+        "tps": 44.5,
+        "ttfb": 816.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -6875,8 +6875,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 1278,
+        "tps": 54,
+        "ttfb": 1178.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -6909,8 +6909,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 1516,
+        "tps": 40,
+        "ttfb": 1358,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6942,8 +6942,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 73,
-        "ttfb": 561,
+        "tps": 98,
+        "ttfb": 587,
         "reasoning_efforts": [
           null
         ],
@@ -6988,8 +6988,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 64,
-        "ttfb": 423,
+        "tps": 21,
+        "ttfb": 668,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7012,8 +7012,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 2262.5,
+        "tps": 33,
+        "ttfb": 1943,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7036,8 +7036,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 8050,
+        "tps": 30,
+        "ttfb": 10791,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7060,8 +7060,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1330,
+        "tps": 28,
+        "ttfb": 1783,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7084,8 +7084,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35.5,
-        "ttfb": 869.5,
+        "tps": 23,
+        "ttfb": 1142,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7118,8 +7118,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 2027,
+        "tps": 20,
+        "ttfb": 1904,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7140,8 +7140,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 1077,
+        "tps": 21,
+        "ttfb": 1039.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7165,7 +7165,7 @@
           "text"
         ],
         "tps": 14,
-        "ttfb": 2749,
+        "ttfb": 2525,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7188,8 +7188,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 739,
+        "tps": 10,
+        "ttfb": 719.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7212,8 +7212,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 1473,
+        "tps": 12,
+        "ttfb": 1438.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7237,7 +7237,7 @@
           "text"
         ],
         "tps": 24,
-        "ttfb": 1527,
+        "ttfb": 1530,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7260,8 +7260,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 1223,
+        "tps": 27,
+        "ttfb": 1115.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7282,8 +7282,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 500,
+        "tps": 17,
+        "ttfb": 1633,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7304,8 +7304,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 782.5,
+        "tps": 25,
+        "ttfb": 2862,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7326,8 +7326,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 896,
+        "tps": 25,
+        "ttfb": 767,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7348,8 +7348,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 2097,
+        "tps": 22,
+        "ttfb": 2794,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7404,7 +7404,7 @@
           "text"
         ],
         "tps": 17,
-        "ttfb": 1388,
+        "ttfb": 1362,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7428,7 +7428,7 @@
           "text"
         ],
         "tps": 11,
-        "ttfb": 2759,
+        "ttfb": 2672,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7451,8 +7451,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1529,
+        "tps": 6,
+        "ttfb": 1481,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7488,7 +7488,7 @@
           "text"
         ],
         "tps": 3,
-        "ttfb": 2564,
+        "ttfb": 2607,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -7517,8 +7517,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 1099,
+        "tps": 27,
+        "ttfb": 1094,
         "reasoning_efforts": [
           "none"
         ],
@@ -7547,8 +7547,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 378,
+        "tps": 16,
+        "ttfb": 355,
         "reasoning_efforts": [
           "none"
         ],
@@ -7570,8 +7570,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1328,
+        "tps": 32,
+        "ttfb": 1424,
         "reasoning_efforts": [
           "none"
         ],
@@ -7593,8 +7593,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 277,
+        "tps": 76,
+        "ttfb": 275,
         "reasoning_efforts": [
           "none"
         ],
@@ -7616,8 +7616,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 558,
+        "tps": 26,
+        "ttfb": 581,
         "reasoning_efforts": [
           "none"
         ],
@@ -7639,8 +7639,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 628.5,
+        "tps": 51,
+        "ttfb": 615,
         "reasoning_efforts": [
           "none"
         ],
@@ -7660,8 +7660,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 720,
+        "tps": 27,
+        "ttfb": 480,
         "reasoning_efforts": [
           "none"
         ],
@@ -7681,8 +7681,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 415,
+        "tps": 26,
+        "ttfb": 412,
         "reasoning_efforts": [
           "none"
         ],
@@ -7702,8 +7702,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 1097,
+        "tps": 10,
+        "ttfb": 1215,
         "reasoning_efforts": [
           "none"
         ],
@@ -7725,8 +7725,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 714,
+        "tps": 32,
+        "ttfb": 803,
         "reasoning_efforts": [
           "none"
         ],
@@ -7746,8 +7746,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 690,
+        "tps": 32,
+        "ttfb": 556.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -7767,8 +7767,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 55,
-        "ttfb": 471.5,
+        "tps": 79,
+        "ttfb": 574,
         "reasoning_efforts": [
           "none"
         ],
@@ -7797,8 +7797,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 572,
+        "tps": 68,
+        "ttfb": 557,
         "reasoning_efforts": [
           "medium"
         ],
@@ -7820,8 +7820,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 1949,
+        "tps": 18,
+        "ttfb": 1887,
         "reasoning_efforts": [
           "medium"
         ],
@@ -7843,8 +7843,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 2953,
+        "tps": 20,
+        "ttfb": 3175.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -7867,7 +7867,7 @@
           "text"
         ],
         "tps": 25,
-        "ttfb": 2895,
+        "ttfb": 2905,
         "reasoning_efforts": [
           "medium"
         ],
@@ -7935,8 +7935,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 8,
-        "ttfb": 1511,
+        "tps": 9,
+        "ttfb": 1484,
         "reasoning_efforts": [
           "none"
         ],
@@ -7959,7 +7959,7 @@
           "text"
         ],
         "tps": 6,
-        "ttfb": 961,
+        "ttfb": 986,
         "reasoning_efforts": [
           "none"
         ],
@@ -7981,8 +7981,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 105,
-        "ttfb": 267,
+        "tps": 111,
+        "ttfb": 316,
         "reasoning_efforts": [
           "none"
         ],
@@ -8011,8 +8011,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 721,
+        "tps": 40,
+        "ttfb": 661,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8035,8 +8035,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 16,
+        "ttfb": 1982,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8060,7 +8060,7 @@
           "text"
         ],
         "tps": 24,
-        "ttfb": 1845,
+        "ttfb": 1712,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8083,8 +8083,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1279,
+        "tps": 10,
+        "ttfb": 1282.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8107,8 +8107,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1990,
+        "tps": 26,
+        "ttfb": 1496,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8140,7 +8140,7 @@
           "text"
         ],
         "tps": 8,
-        "ttfb": 960,
+        "ttfb": 1044,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8163,8 +8163,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 1784,
+        "tps": 20,
+        "ttfb": 1732,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8187,8 +8187,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 7,
-        "ttfb": 1904,
+        "tps": 15,
+        "ttfb": 1879.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8211,8 +8211,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 8,
-        "ttfb": 1356,
+        "tps": 11,
+        "ttfb": 1357,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8235,8 +8235,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 300,
+        "tps": 34,
+        "ttfb": 303,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8259,8 +8259,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 564,
+        "tps": 97,
+        "ttfb": 626,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8281,8 +8281,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1085.5,
+        "tps": 54,
+        "ttfb": 1184,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8316,7 +8316,7 @@
           "text"
         ],
         "tps": 12,
-        "ttfb": 1494,
+        "ttfb": 1433,
         "reasoning_efforts": [
           "none"
         ],
@@ -8349,8 +8349,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 1247,
+        "tps": 2,
+        "ttfb": 2348,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8375,8 +8375,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 524,
+        "tps": 98,
+        "ttfb": 796.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8399,8 +8399,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1003,
+        "tps": 45,
+        "ttfb": 1270,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8425,8 +8425,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 708,
+        "tps": 80,
+        "ttfb": 984,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8459,8 +8459,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 620,
+        "tps": 26,
+        "ttfb": 619.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8483,8 +8483,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 1746,
+        "tps": 19,
+        "ttfb": 1532,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8507,8 +8507,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
-        "ttfb": 1089.5,
+        "tps": 44,
+        "ttfb": 979,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8529,8 +8529,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1973,
+        "tps": 34,
+        "ttfb": 1816.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8553,8 +8553,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 94,
-        "ttfb": 737.5,
+        "tps": 95,
+        "ttfb": 418,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8577,8 +8577,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 120,
-        "ttfb": 805,
+        "tps": 161,
+        "ttfb": 664,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8599,8 +8599,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 124,
-        "ttfb": 1225.5,
+        "tps": 205,
+        "ttfb": 1190,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8621,8 +8621,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 86,
-        "ttfb": 1394,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8645,8 +8645,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1501,
+        "tps": 56,
+        "ttfb": 840,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8669,8 +8669,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 129.5,
-        "ttfb": 983,
+        "tps": 166,
+        "ttfb": 751,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8691,8 +8691,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 113,
-        "ttfb": 1272,
+        "tps": 203.5,
+        "ttfb": 1879.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8723,8 +8723,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 739,
+        "tps": 25,
+        "ttfb": 714.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -8754,8 +8754,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 1828,
+        "tps": 31,
+        "ttfb": 1340.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -8778,8 +8778,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 1535,
+        "tps": 13,
+        "ttfb": 2417,
         "reasoning_efforts": [
           "none"
         ],
@@ -8803,7 +8803,7 @@
           "text"
         ],
         "tps": 13,
-        "ttfb": 2929,
+        "ttfb": 3169,
         "reasoning_efforts": [
           "none"
         ],
@@ -8826,8 +8826,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 717,
+        "tps": 39,
+        "ttfb": 822,
         "reasoning_efforts": [
           "none"
         ],
@@ -8848,8 +8848,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 2235,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none"
         ],
@@ -8872,8 +8872,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 1877,
+        "tps": 23,
+        "ttfb": 2199.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -8929,8 +8929,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 803.5,
+        "tps": 53,
+        "ttfb": 871.5,
         "reasoning_efforts": [
           null
         ],
@@ -8952,8 +8952,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 719,
+        "tps": 33,
+        "ttfb": 798,
         "reasoning_efforts": [
           null
         ],
@@ -9024,8 +9024,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 430,
+        "tps": 72.5,
+        "ttfb": 399,
         "reasoning_efforts": [
           null
         ],
@@ -9047,8 +9047,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 78,
-        "ttfb": 492,
+        "tps": 77,
+        "ttfb": 580,
         "reasoning_efforts": [
           null
         ],
@@ -9070,8 +9070,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 68,
-        "ttfb": 867,
+        "tps": 70,
+        "ttfb": 911,
         "reasoning_efforts": [
           null
         ],
@@ -9093,8 +9093,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 69,
-        "ttfb": 991,
+        "tps": 51,
+        "ttfb": 954,
         "reasoning_efforts": [
           null
         ],
@@ -9149,8 +9149,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1740.5,
+        "tps": 28,
+        "ttfb": 1842.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9173,8 +9173,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 3382,
+        "tps": 32,
+        "ttfb": 2762,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9210,8 +9210,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 77,
-        "ttfb": 793,
+        "tps": 23,
+        "ttfb": 2781,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -9238,8 +9238,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 814,
+        "tps": 47,
+        "ttfb": 1036.5,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -9266,8 +9266,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 520,
+        "tps": 68,
+        "ttfb": 546,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -9294,8 +9294,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33.5,
-        "ttfb": 3029,
+        "tps": 82,
+        "ttfb": 1152,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -9349,8 +9349,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 518,
+        "tps": 46,
+        "ttfb": 448,
         "reasoning_efforts": [
           "none"
         ],
@@ -9381,8 +9381,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 818.5,
+        "tps": 24,
+        "ttfb": 632,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9405,8 +9405,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 1440.5,
+        "tps": 20,
+        "ttfb": 1549.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9431,8 +9431,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 680,
+        "tps": 24,
+        "ttfb": 1015,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9457,8 +9457,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1399,
+        "tps": 9,
+        "ttfb": 1360.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9483,8 +9483,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 5743,
+        "tps": 17,
+        "ttfb": 2970.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9507,8 +9507,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1017,
+        "tps": 69,
+        "ttfb": 1231,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9541,8 +9541,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 629,
+        "tps": 58,
+        "ttfb": 579,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9575,8 +9575,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 1268,
+        "tps": 51,
+        "ttfb": 1186,
         "reasoning_efforts": [
           "none",
           "low",
@@ -9602,8 +9602,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 539,
+        "tps": 89,
+        "ttfb": 789,
         "reasoning_efforts": [
           "none",
           "low",
@@ -9639,8 +9639,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 84.5,
+        "ttfb": 2209.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -9713,8 +9713,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 704,
+        "tps": 74,
+        "ttfb": 369,
         "reasoning_efforts": [
           "none"
         ],
@@ -9736,8 +9736,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 535,
+        "tps": 68,
+        "ttfb": 508,
         "reasoning_efforts": [
           "none"
         ],
@@ -9757,8 +9757,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
-        "ttfb": 1237,
+        "tps": 53,
+        "ttfb": 1079,
         "reasoning_efforts": [
           "none"
         ],
@@ -9780,8 +9780,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 145,
-        "ttfb": 523,
+        "tps": 131,
+        "ttfb": 597,
         "reasoning_efforts": [
           "none"
         ],
@@ -9801,8 +9801,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 87,
-        "ttfb": 1436,
+        "tps": 31,
+        "ttfb": 1268,
         "reasoning_efforts": [
           "none"
         ],
@@ -9824,8 +9824,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 1502,
+        "tps": 63,
+        "ttfb": 1490,
         "reasoning_efforts": [
           "none"
         ],
@@ -9856,8 +9856,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 587,
+        "tps": 71,
+        "ttfb": 436.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -9879,8 +9879,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 817,
+        "tps": 73,
+        "ttfb": 508.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -9900,8 +9900,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1647,
+        "tps": 38,
+        "ttfb": 403,
         "reasoning_efforts": [
           "medium"
         ],
@@ -9923,8 +9923,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 3962,
+        "tps": 42.5,
+        "ttfb": 1207,
         "reasoning_efforts": [
           "medium"
         ],
@@ -9946,8 +9946,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1230,
+        "tps": 38,
+        "ttfb": 661,
         "reasoning_efforts": [
           "medium"
         ],
@@ -9980,8 +9980,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1093,
+        "tps": 42,
+        "ttfb": 1266,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10028,8 +10028,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
-        "ttfb": 1108,
+        "tps": 51,
+        "ttfb": 1217,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10052,8 +10052,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 686,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10076,8 +10076,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 1220,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10109,7 +10109,7 @@
           "text"
         ],
         "tps": 27,
-        "ttfb": 1917,
+        "ttfb": 1954,
         "reasoning_efforts": [
           "medium"
         ],
@@ -10131,8 +10131,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 71,
-        "ttfb": 1540,
+        "tps": 78,
+        "ttfb": 1374,
         "reasoning_efforts": [
           "medium"
         ],
@@ -10179,8 +10179,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
-        "ttfb": 658.5,
+        "tps": 46,
+        "ttfb": 840,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10209,8 +10209,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 398,
+        "tps": 42,
+        "ttfb": 431,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10233,8 +10233,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 2371,
+        "tps": 19,
+        "ttfb": 5319.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10268,8 +10268,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43.5,
-        "ttfb": 353,
+        "tps": 51,
+        "ttfb": 773,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10294,8 +10294,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 905.5,
+        "tps": 69,
+        "ttfb": 1018,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10320,8 +10320,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 75,
-        "ttfb": 595.5,
+        "tps": 55,
+        "ttfb": 1258,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10346,8 +10346,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 664,
+        "tps": 143,
+        "ttfb": 780,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10370,8 +10370,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 876,
+        "tps": 84,
+        "ttfb": 1418,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10396,8 +10396,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 1152,
+        "tps": 87,
+        "ttfb": 1847,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10422,8 +10422,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 88,
-        "ttfb": 304.5,
+        "tps": 178,
+        "ttfb": 350,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10448,8 +10448,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 876.5,
+        "tps": 15,
+        "ttfb": 1639,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10474,8 +10474,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36.5,
-        "ttfb": 768.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10507,8 +10507,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 55,
-        "ttfb": 1036,
+        "tps": 46,
+        "ttfb": 3613,
         "reasoning_efforts": [
           "medium"
         ],
@@ -10529,8 +10529,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 1377,
+        "tps": 38,
+        "ttfb": 2659,
         "reasoning_efforts": [
           "medium"
         ],
@@ -10562,7 +10562,7 @@
           "text"
         ],
         "tps": 23,
-        "ttfb": 649,
+        "ttfb": 669,
         "reasoning_efforts": [
           "none"
         ],
@@ -10584,8 +10584,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 1384,
+        "tps": 7,
+        "ttfb": 1105,
         "reasoning_efforts": [
           "none"
         ],
@@ -10607,8 +10607,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1415,
+        "tps": 28,
+        "ttfb": 1217.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -10631,7 +10631,7 @@
           "text"
         ],
         "tps": 19,
-        "ttfb": 1359,
+        "ttfb": 1238,
         "reasoning_efforts": [
           "none"
         ],
@@ -10653,8 +10653,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 1534,
+        "tps": 23,
+        "ttfb": 1182,
         "reasoning_efforts": [
           "none"
         ],
@@ -10676,8 +10676,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 2970,
+        "tps": 12.5,
+        "ttfb": 3508,
         "reasoning_efforts": [
           "none"
         ],
@@ -10724,8 +10724,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 700,
+        "tps": 43,
+        "ttfb": 315,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10748,8 +10748,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 719,
+        "tps": 84,
+        "ttfb": 791,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10772,8 +10772,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 70,
-        "ttfb": 842,
+        "tps": 66,
+        "ttfb": 597,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10796,8 +10796,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 1663,
+        "tps": 24,
+        "ttfb": 1522,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10820,8 +10820,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 4147,
+        "tps": 20,
+        "ttfb": 4504,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10842,8 +10842,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 624,
+        "tps": 8,
+        "ttfb": 855,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10864,8 +10864,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 6865,
+        "tps": 73,
+        "ttfb": 3878,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10886,8 +10886,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25.5,
-        "ttfb": 8605,
+        "tps": 32,
+        "ttfb": 6082,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10910,8 +10910,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 106,
-        "ttfb": 1007,
+        "tps": 97,
+        "ttfb": 331,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10932,8 +10932,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 1461,
+        "tps": 72,
+        "ttfb": 1393,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10956,8 +10956,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65.5,
-        "ttfb": 1236,
+        "tps": 44,
+        "ttfb": 2105,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -10980,8 +10980,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 1447,
+        "tps": 50,
+        "ttfb": 1145,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11004,8 +11004,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 98,
-        "ttfb": 375,
+        "tps": 97,
+        "ttfb": 462.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11028,8 +11028,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 439,
+        "tps": 88.5,
+        "ttfb": 358,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11052,8 +11052,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 222,
-        "ttfb": 742,
+        "tps": 219,
+        "ttfb": 982.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11074,8 +11074,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 86,
-        "ttfb": 803,
+        "tps": 54,
+        "ttfb": 772,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11096,8 +11096,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 2776,
+        "tps": 54,
+        "ttfb": 1659,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11154,8 +11154,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 76,
-        "ttfb": 2696,
+        "tps": 78,
+        "ttfb": 2335,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -11206,8 +11206,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 3684.5,
+        "tps": 55,
+        "ttfb": 3662,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -11291,8 +11291,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 98,
-        "ttfb": 3240.5,
+        "tps": 121,
+        "ttfb": 5085.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -11365,8 +11365,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 2104,
+        "tps": 47,
+        "ttfb": 2006.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -11386,8 +11386,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 523,
+        "tps": 45,
+        "ttfb": 472,
         "reasoning_efforts": [
           "none"
         ],
@@ -11409,8 +11409,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 865,
+        "tps": 28,
+        "ttfb": 886,
         "reasoning_efforts": [
           "none"
         ],
@@ -11432,8 +11432,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48.5,
-        "ttfb": 1426,
+        "tps": 32.5,
+        "ttfb": 1398.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -11455,8 +11455,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 1233,
+        "tps": 9.5,
+        "ttfb": 1256.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -11478,8 +11478,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 824,
+        "tps": 11,
+        "ttfb": 833,
         "reasoning_efforts": [
           "none"
         ],
@@ -11499,8 +11499,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 3608.5,
+        "tps": 16,
+        "ttfb": 3645,
         "reasoning_efforts": [
           "none"
         ],
@@ -11533,8 +11533,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 646.5,
+        "tps": 30,
+        "ttfb": 608,
         "reasoning_efforts": [
           "none"
         ],
@@ -11580,8 +11580,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38.5,
-        "ttfb": 5784.5,
+        "tps": 10,
+        "ttfb": 4549,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11604,8 +11604,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 61,
-        "ttfb": 1385,
+        "tps": 24,
+        "ttfb": 3435,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11628,8 +11628,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 98.5,
-        "ttfb": 3200.5,
+        "tps": 115,
+        "ttfb": 2258,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11652,8 +11652,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1564,
+        "tps": 47,
+        "ttfb": 1201,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11685,8 +11685,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 2205,
+        "tps": 43,
+        "ttfb": 2131,
         "reasoning_efforts": [
           "none"
         ],
@@ -11706,8 +11706,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 6,
-        "ttfb": 3273,
+        "tps": 23,
+        "ttfb": 1532,
         "reasoning_efforts": [
           "none"
         ],
@@ -11729,8 +11729,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 5,
-        "ttfb": 390,
+        "tps": 8,
+        "ttfb": 263,
         "reasoning_efforts": [
           "none"
         ],
@@ -11752,8 +11752,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 2617,
+        "tps": 12,
+        "ttfb": 2572,
         "reasoning_efforts": [
           "none"
         ],
@@ -11775,8 +11775,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 247,
+        "tps": 79,
+        "ttfb": 399,
         "reasoning_efforts": [
           "none"
         ],
@@ -11798,8 +11798,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 358,
+        "tps": 92,
+        "ttfb": 451,
         "reasoning_efforts": [
           "none"
         ],
@@ -11830,8 +11830,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 682,
+        "tps": 28,
+        "ttfb": 735,
         "reasoning_efforts": [
           null
         ],
@@ -11876,8 +11876,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 866,
+        "tps": 42,
+        "ttfb": 738,
         "reasoning_efforts": [
           null
         ],
@@ -11927,8 +11927,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 170,
-        "ttfb": 516,
+        "tps": 166,
+        "ttfb": 501,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -11963,8 +11963,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 3846,
+        "tps": 20,
+        "ttfb": 2363.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -11989,8 +11989,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 4115,
+        "tps": 30,
+        "ttfb": 3480,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12027,8 +12027,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 461.5,
+        "tps": 102,
+        "ttfb": 373.5,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -12055,8 +12055,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 522,
+        "tps": 95,
+        "ttfb": 484,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -12083,8 +12083,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 114,
-        "ttfb": 358,
+        "tps": 95,
+        "ttfb": 408,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -12136,8 +12136,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 790,
+        "tps": 46,
+        "ttfb": 900,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12160,8 +12160,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1887.5,
+        "tps": 25,
+        "ttfb": 1447,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12184,8 +12184,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 2090,
+        "tps": 23,
+        "ttfb": 1448,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12217,8 +12217,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 164,
+        "ttfb": 507,
         "reasoning_efforts": [
           "medium"
         ],
@@ -12238,8 +12238,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 69.5,
-        "ttfb": 112.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "medium"
         ],
@@ -12261,8 +12261,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 54.5,
+        "ttfb": 441.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -12282,8 +12282,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 226,
-        "ttfb": 1062,
+        "tps": 159,
+        "ttfb": 1072,
         "reasoning_efforts": [
           "medium"
         ],
@@ -12305,8 +12305,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 175,
+        "ttfb": 1357,
         "reasoning_efforts": [
           "medium"
         ],
@@ -12337,8 +12337,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 597,
+        "tps": 41,
+        "ttfb": 715.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12361,8 +12361,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 380.5,
+        "tps": 21,
+        "ttfb": 438,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12383,8 +12383,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1672,
+        "tps": 80,
+        "ttfb": 830,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12407,8 +12407,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 82.5,
+        "ttfb": 3904,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12429,8 +12429,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30.5,
-        "ttfb": 880,
+        "tps": 44,
+        "ttfb": 759,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12487,8 +12487,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1117,
+        "tps": 16,
+        "ttfb": 971.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -12511,8 +12511,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 1406,
+        "tps": 46,
+        "ttfb": 498,
         "reasoning_efforts": [
           "none"
         ],
@@ -12535,8 +12535,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 855,
+        "tps": 9,
+        "ttfb": 833,
         "reasoning_efforts": [
           "none"
         ],
@@ -12559,8 +12559,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 4,
-        "ttfb": 27930,
+        "tps": 5,
+        "ttfb": 24065,
         "reasoning_efforts": [
           "none"
         ],
@@ -12583,8 +12583,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 6020,
+        "tps": 12,
+        "ttfb": 5842,
         "reasoning_efforts": [
           "none"
         ],
@@ -12613,8 +12613,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63.5,
-        "ttfb": 865,
+        "tps": 52,
+        "ttfb": 1018,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12635,8 +12635,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34.5,
-        "ttfb": 1146,
+        "tps": 10,
+        "ttfb": 1211,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12668,8 +12668,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 3176.5,
+        "tps": 21,
+        "ttfb": 3426,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12690,8 +12690,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 924,
+        "tps": 7,
+        "ttfb": 4330,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12714,8 +12714,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 668,
+        "tps": 49.5,
+        "ttfb": 1467.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12738,8 +12738,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 491.5,
+        "tps": 22,
+        "ttfb": 1185,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12760,8 +12760,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 915,
+        "tps": 42,
+        "ttfb": 822.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -12793,8 +12793,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1042,
+        "tps": 24,
+        "ttfb": 849,
         "reasoning_efforts": [
           "none"
         ],
@@ -12814,8 +12814,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 501,
+        "tps": 25,
+        "ttfb": 458,
         "reasoning_efforts": [
           "none"
         ],
@@ -12837,8 +12837,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 1486.5,
+        "tps": 23,
+        "ttfb": 1184.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -12870,8 +12870,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 418,
+        "tps": 38,
+        "ttfb": 348,
         "reasoning_efforts": [
           "none"
         ],
@@ -12894,8 +12894,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1232,
+        "tps": 25,
+        "ttfb": 1053,
         "reasoning_efforts": [
           "none"
         ],
@@ -12918,8 +12918,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 549,
+        "tps": 32,
+        "ttfb": 545,
         "reasoning_efforts": [
           "none"
         ],
@@ -12942,8 +12942,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 120,
-        "ttfb": 315,
+        "tps": 86,
+        "ttfb": 359,
         "reasoning_efforts": [
           "none"
         ],
@@ -12972,8 +12972,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 149,
+        "tps": 93,
+        "ttfb": 337,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13005,8 +13005,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 413.5,
+        "tps": 58,
+        "ttfb": 395,
         "reasoning_efforts": [
           "none"
         ],
@@ -13052,8 +13052,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1447,
+        "tps": 12,
+        "ttfb": 1787,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13077,8 +13077,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 4822.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13111,8 +13111,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 803,
+        "tps": 22,
+        "ttfb": 846,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13136,8 +13136,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 10,
-        "ttfb": 695,
+        "tps": 8,
+        "ttfb": 869,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13161,8 +13161,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 578,
+        "tps": 48,
+        "ttfb": 601.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13186,8 +13186,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 92,
-        "ttfb": 321,
+        "tps": 79,
+        "ttfb": 350,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13211,8 +13211,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 116,
-        "ttfb": 450,
+        "tps": 124,
+        "ttfb": 415,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13236,8 +13236,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 1404,
+        "tps": 18,
+        "ttfb": 1395,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13261,8 +13261,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 111,
-        "ttfb": 561,
+        "tps": 35,
+        "ttfb": 1005.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13284,8 +13284,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 155,
-        "ttfb": 365,
+        "tps": 126,
+        "ttfb": 412,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13307,8 +13307,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 313,
-        "ttfb": 207,
+        "tps": 197,
+        "ttfb": 198,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13332,8 +13332,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 131,
-        "ttfb": 339,
+        "tps": 127,
+        "ttfb": 317,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13357,8 +13357,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 255,
-        "ttfb": 865.5,
+        "tps": 151,
+        "ttfb": 1061,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13380,8 +13380,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 141,
-        "ttfb": 2124,
+        "tps": 146,
+        "ttfb": 3260,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13426,8 +13426,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 679,
+        "tps": 61,
+        "ttfb": 663,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13449,8 +13449,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 223,
-        "ttfb": 297,
+        "tps": 113,
+        "ttfb": 833,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13474,8 +13474,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 149,
-        "ttfb": 297,
+        "tps": 117,
+        "ttfb": 301,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13499,8 +13499,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 365,
-        "ttfb": 197.5,
+        "tps": 331,
+        "ttfb": 218,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13522,8 +13522,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 13,
+        "ttfb": 5639.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13545,8 +13545,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 886,
+        "tps": 145,
+        "ttfb": 1962,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13568,8 +13568,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 768,
-        "ttfb": 192,
+        "tps": 542,
+        "ttfb": 334,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13621,8 +13621,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 179,
-        "ttfb": 8604,
+        "tps": 121,
+        "ttfb": 1528,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -13671,8 +13671,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 235,
+        "tps": 31,
+        "ttfb": 201,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13695,8 +13695,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 284,
+        "tps": 34,
+        "ttfb": 313.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13719,8 +13719,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 1109.5,
+        "tps": 5,
+        "ttfb": 1072.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13743,8 +13743,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 937,
+        "tps": 64,
+        "ttfb": 834,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13765,8 +13765,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 1894,
+        "tps": 17,
+        "ttfb": 1678,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13789,8 +13789,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 229,
-        "ttfb": 454,
+        "tps": 440,
+        "ttfb": 338.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13837,8 +13837,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 447,
-        "ttfb": 204,
+        "tps": 442,
+        "ttfb": 213,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13868,8 +13868,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17.5,
-        "ttfb": 1410.5,
+        "tps": 13.5,
+        "ttfb": 1789,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13892,8 +13892,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 1504,
+        "tps": 68.5,
+        "ttfb": 965.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13916,8 +13916,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 120,
+        "ttfb": 605,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13938,8 +13938,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 1447,
+        "tps": 67,
+        "ttfb": 1387,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13973,8 +13973,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 1208,
+        "tps": 10,
+        "ttfb": 1124,
         "reasoning_efforts": [
           null
         ],
@@ -13996,8 +13996,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 425,
+        "tps": 29,
+        "ttfb": 403,
         "reasoning_efforts": [
           null
         ],
@@ -14025,8 +14025,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48.5,
-        "ttfb": 270.5,
+        "tps": 50,
+        "ttfb": 236,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14060,8 +14060,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 503,
+        "tps": 33,
+        "ttfb": 475,
         "reasoning_efforts": [
           "none"
         ],
@@ -14120,8 +14120,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 102,
-        "ttfb": 2322,
+        "tps": 87,
+        "ttfb": 1964,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -14146,8 +14146,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 1692,
+        "tps": 72,
+        "ttfb": 1625,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -14203,8 +14203,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 86,
-        "ttfb": 1524,
+        "tps": 115,
+        "ttfb": 1141,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14228,8 +14228,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20,
-        "ttfb": 1240,
+        "tps": 89,
+        "ttfb": 404,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14260,8 +14260,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 819,
+        "tps": 14,
+        "ttfb": 1132.5,
         "reasoning_efforts": [
           null
         ],
@@ -14283,8 +14283,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 525,
+        "tps": 46,
+        "ttfb": 560,
         "reasoning_efforts": [
           null
         ],
@@ -14356,8 +14356,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 75,
-        "ttfb": 327,
+        "tps": 89,
+        "ttfb": 232,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14380,8 +14380,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 94,
-        "ttfb": 547,
+        "tps": 89,
+        "ttfb": 459,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14402,8 +14402,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 1361,
+        "tps": 19,
+        "ttfb": 895,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -14437,8 +14437,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 605,
+        "tps": 31,
+        "ttfb": 426,
         "reasoning_efforts": [
           "none"
         ],
@@ -14461,8 +14461,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 756,
+        "tps": 28,
+        "ttfb": 637,
         "reasoning_efforts": [
           "none"
         ],
@@ -14485,8 +14485,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 277,
+        "tps": 48,
+        "ttfb": 284,
         "reasoning_efforts": [
           "none"
         ],
@@ -14509,8 +14509,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 10,
-        "ttfb": 393,
+        "tps": 70,
+        "ttfb": 763,
         "reasoning_efforts": [
           "none"
         ],
@@ -14557,8 +14557,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1381,
+        "tps": 26,
+        "ttfb": 631.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -14587,8 +14587,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 7,
-        "ttfb": 612,
+        "tps": 40.5,
+        "ttfb": 767,
         "reasoning_efforts": [
           null
         ],
@@ -14609,8 +14609,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 888,
+        "tps": 45,
+        "ttfb": 1219,
         "reasoning_efforts": [
           null
         ],
@@ -14640,8 +14640,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 372,
+        "tps": 34,
+        "ttfb": 295.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -14664,8 +14664,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 112,
-        "ttfb": 350,
+        "tps": 59,
+        "ttfb": 580,
         "reasoning_efforts": [
           "none"
         ],
@@ -14686,8 +14686,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 482.5,
+        "tps": 26,
+        "ttfb": 492,
         "reasoning_efforts": [
           "none"
         ],
@@ -14710,8 +14710,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67.5,
-        "ttfb": 725,
+        "tps": 50,
+        "ttfb": 578,
         "reasoning_efforts": [
           "none"
         ],
@@ -14776,8 +14776,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 471,
+        "tps": 16,
+        "ttfb": 537,
         "reasoning_efforts": [
           null
         ],
@@ -14822,8 +14822,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
-        "ttfb": 970.5,
+        "tps": 63,
+        "ttfb": 995,
         "reasoning_efforts": [
           null
         ],
@@ -14892,8 +14892,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 303,
+        "tps": 14,
+        "ttfb": 451,
         "reasoning_efforts": [
           "none"
         ],
@@ -14915,8 +14915,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 397,
+        "tps": 20,
+        "ttfb": 402.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -14938,8 +14938,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35,
-        "ttfb": 508,
+        "tps": 22,
+        "ttfb": 667,
         "reasoning_efforts": [
           "none"
         ],
@@ -14961,8 +14961,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 523,
+        "tps": 21,
+        "ttfb": 650,
         "reasoning_efforts": [
           "none"
         ],
@@ -14984,8 +14984,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 551,
+        "tps": 43,
+        "ttfb": 558.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -15007,8 +15007,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 369,
+        "tps": 32,
+        "ttfb": 448,
         "reasoning_efforts": [
           "none"
         ],
@@ -15030,8 +15030,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 56,
-        "ttfb": 594,
+        "tps": 78,
+        "ttfb": 475.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -15053,8 +15053,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 168,
-        "ttfb": 189,
+        "tps": 241,
+        "ttfb": 287,
         "reasoning_efforts": [
           "none"
         ],
@@ -15074,8 +15074,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 166,
-        "ttfb": 1168.5,
+        "tps": 43.5,
+        "ttfb": 655,
         "reasoning_efforts": [
           "none"
         ],
@@ -15097,8 +15097,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 666,
+        "tps": 30,
+        "ttfb": 338.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -15120,8 +15120,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 282,
+        "tps": 25,
+        "ttfb": 254,
         "reasoning_efforts": [
           "none"
         ],
@@ -15141,8 +15141,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 270.5,
+        "tps": 79,
+        "ttfb": 190,
         "reasoning_efforts": [
           "none"
         ],
@@ -15162,8 +15162,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25.5,
-        "ttfb": 769.5,
+        "tps": 48,
+        "ttfb": 710.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -15226,8 +15226,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 297,
+        "tps": 34,
+        "ttfb": 282,
         "reasoning_efforts": [
           "none"
         ],
@@ -15258,8 +15258,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 62.5,
-        "ttfb": 1308,
+        "tps": 60,
+        "ttfb": 1533,
         "reasoning_efforts": [
           null
         ],
@@ -15281,8 +15281,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 799,
+        "tps": 32,
+        "ttfb": 730,
         "reasoning_efforts": [
           null
         ],
@@ -15304,8 +15304,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 504,
+        "tps": 38,
+        "ttfb": 496.5,
         "reasoning_efforts": [
           null
         ],
@@ -15374,8 +15374,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 559,
+        "tps": 28,
+        "ttfb": 575,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15399,8 +15399,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 1065,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15424,8 +15424,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 174,
-        "ttfb": 273,
+        "tps": 216,
+        "ttfb": 271,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15449,8 +15449,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
-        "ttfb": 269,
+        "tps": 44,
+        "ttfb": 244,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15474,8 +15474,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 2958,
+        "tps": 66,
+        "ttfb": 4908,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15497,8 +15497,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 122,
-        "ttfb": 685,
+        "tps": 121,
+        "ttfb": 677,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15522,8 +15522,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 1346,
+        "tps": 69,
+        "ttfb": 1283.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15547,8 +15547,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 237,
-        "ttfb": 325,
+        "tps": 235,
+        "ttfb": 312,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15572,8 +15572,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 98,
-        "ttfb": 689,
+        "tps": 99,
+        "ttfb": 699.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15618,8 +15618,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 3660,
+        "tps": 73.5,
+        "ttfb": 4826.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15641,8 +15641,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 538,
+        "tps": 73,
+        "ttfb": 533.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15664,8 +15664,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 715,
+        "tps": 48,
+        "ttfb": 735,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15687,8 +15687,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 240,
-        "ttfb": 479,
+        "tps": 252,
+        "ttfb": 518,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15710,8 +15710,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 122,
-        "ttfb": 660,
+        "tps": 136.5,
+        "ttfb": 750,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -15762,8 +15762,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 157,
-        "ttfb": 492,
+        "tps": 152,
+        "ttfb": 441.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -15786,8 +15786,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 73,
-        "ttfb": 1378,
+        "tps": 75,
+        "ttfb": 1301,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -15834,8 +15834,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 95,
-        "ttfb": 638,
+        "tps": 44.5,
+        "ttfb": 9621.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -15869,8 +15869,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 20.5,
-        "ttfb": 791.5,
+        "tps": 44,
+        "ttfb": 860,
         "reasoning_efforts": [
           "none"
         ],
@@ -15898,8 +15898,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 95,
-        "ttfb": 208,
+        "tps": 101,
+        "ttfb": 180,
         "reasoning_efforts": [
           "none"
         ],
@@ -15931,8 +15931,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 400,
+        "tps": 36,
+        "ttfb": 442.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -15979,8 +15979,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 473,
+        "tps": 24,
+        "ttfb": 460,
         "reasoning_efforts": [
           "none"
         ],
@@ -16011,8 +16011,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 797,
+        "tps": 16,
+        "ttfb": 983,
         "reasoning_efforts": [
           "none"
         ],
@@ -16034,8 +16034,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 6139,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none"
         ],
@@ -16065,8 +16065,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 271,
+        "tps": 16,
+        "ttfb": 295,
         "reasoning_efforts": [
           "none"
         ],
@@ -16089,7 +16089,7 @@
           "text"
         ],
         "tps": 11,
-        "ttfb": 431,
+        "ttfb": 440,
         "reasoning_efforts": [
           "none"
         ],
@@ -16110,7 +16110,7 @@
           "text"
         ],
         "tps": 24,
-        "ttfb": 211,
+        "ttfb": 241,
         "reasoning_efforts": [
           "none"
         ],
@@ -16142,8 +16142,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 741,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none"
         ],
@@ -16164,8 +16164,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42.5,
-        "ttfb": 462,
+        "tps": 38,
+        "ttfb": 384,
         "reasoning_efforts": [
           "none"
         ],
@@ -16193,8 +16193,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 731,
+        "tps": 20,
+        "ttfb": 805,
         "reasoning_efforts": [
           "none"
         ],
@@ -16226,7 +16226,7 @@
           "text"
         ],
         "tps": 39,
-        "ttfb": 919,
+        "ttfb": 845,
         "reasoning_efforts": [
           "none"
         ],
@@ -16257,7 +16257,7 @@
           "text"
         ],
         "tps": 19,
-        "ttfb": 919,
+        "ttfb": 1029.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -16287,8 +16287,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 199,
+        "tps": 36,
+        "ttfb": 321,
         "reasoning_efforts": [
           "none"
         ],
@@ -16316,8 +16316,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 614,
+        "tps": 24,
+        "ttfb": 541,
         "reasoning_efforts": [
           "none"
         ],
@@ -16337,8 +16337,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 8,
-        "ttfb": 360,
+        "tps": 23,
+        "ttfb": 368,
         "reasoning_efforts": [
           "none"
         ],
@@ -16366,8 +16366,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1008,
+        "tps": 44,
+        "ttfb": 324.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -16397,8 +16397,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 427,
+        "tps": 28,
+        "ttfb": 469,
         "reasoning_efforts": [
           "none"
         ],
@@ -16427,8 +16427,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 45,
-        "ttfb": 599,
+        "tps": 53,
+        "ttfb": 595,
         "reasoning_efforts": [
           null
         ],
@@ -16480,8 +16480,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 142,
-        "ttfb": 466,
+        "tps": 70,
+        "ttfb": 642,
         "reasoning_efforts": [
           "none"
         ],
@@ -16509,8 +16509,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 64,
-        "ttfb": 549,
+        "tps": 6,
+        "ttfb": 436,
         "reasoning_efforts": [
           "none"
         ],
@@ -16532,8 +16532,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 257,
+        "tps": 60,
+        "ttfb": 206.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -16579,8 +16579,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 230,
+        "tps": 45,
+        "ttfb": 233,
         "reasoning_efforts": [
           "none"
         ],
@@ -16608,8 +16608,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49.5,
-        "ttfb": 415.5,
+        "tps": 91,
+        "ttfb": 332,
         "reasoning_efforts": [
           "none"
         ],
@@ -16629,8 +16629,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 95.5,
-        "ttfb": 279,
+        "tps": 112,
+        "ttfb": 289,
         "reasoning_efforts": [
           "none"
         ],
@@ -16659,8 +16659,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
-        "ttfb": 393,
+        "tps": 68,
+        "ttfb": 451,
         "reasoning_efforts": [
           "none"
         ],
@@ -16688,8 +16688,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 510,
+        "tps": 39,
+        "ttfb": 499.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -16717,8 +16717,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 507.5,
+        "tps": 31,
+        "ttfb": 988,
         "reasoning_efforts": [
           "none"
         ],
@@ -16748,8 +16748,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 260,
+        "tps": 35,
+        "ttfb": 261,
         "reasoning_efforts": [
           "none"
         ],
@@ -16771,8 +16771,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 276,
+        "tps": 39,
+        "ttfb": 295.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -16794,8 +16794,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 679,
+        "tps": 47,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none"
         ],
@@ -16817,8 +16817,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 138.5,
-        "ttfb": 211,
+        "tps": 91,
+        "ttfb": 318,
         "reasoning_efforts": [
           "none"
         ],
@@ -16839,7 +16839,7 @@
           "text"
         ],
         "tps": 19,
-        "ttfb": 433,
+        "ttfb": 414,
         "reasoning_efforts": [
           "none"
         ],
@@ -16861,8 +16861,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
-        "ttfb": 186,
+        "tps": 117,
+        "ttfb": 156,
         "reasoning_efforts": [
           "none"
         ],
@@ -16948,8 +16948,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 169,
-        "ttfb": 198,
+        "tps": 145,
+        "ttfb": 216,
         "reasoning_efforts": [
           "none"
         ],
@@ -16977,8 +16977,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 181,
-        "ttfb": 321,
+        "tps": 126,
+        "ttfb": 319,
         "reasoning_efforts": [
           "none"
         ],
@@ -17006,8 +17006,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 2,
-        "ttfb": 1341,
+        "tps": 1,
+        "ttfb": 1233,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17038,8 +17038,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 3,
-        "ttfb": 1479,
+        "tps": 9,
+        "ttfb": 1301,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17068,8 +17068,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 1962,
+        "tps": 26,
+        "ttfb": 1940.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17098,8 +17098,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 887,
+        "tps": 24,
+        "ttfb": 912,
         "reasoning_efforts": [
           "none"
         ],
@@ -17128,8 +17128,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 480,
+        "tps": 22,
+        "ttfb": 442,
         "reasoning_efforts": [
           "none"
         ],
@@ -17157,8 +17157,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33.5,
-        "ttfb": 799,
+        "tps": 26.5,
+        "ttfb": 1632.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -17318,8 +17318,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 117.5,
-        "ttfb": 2064.5,
+        "tps": 104,
+        "ttfb": 1620,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17377,8 +17377,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 123,
-        "ttfb": 496,
+        "tps": 124,
+        "ttfb": 598.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -17400,8 +17400,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 123,
-        "ttfb": 682,
+        "tps": 60,
+        "ttfb": 759,
         "reasoning_efforts": [
           "medium"
         ],
@@ -17421,8 +17421,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 142,
-        "ttfb": 607.5,
+        "tps": 81.5,
+        "ttfb": 680.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -17453,8 +17453,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 141.5,
-        "ttfb": 214,
+        "tps": 180.5,
+        "ttfb": 121.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17515,8 +17515,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15,
-        "ttfb": 1207,
+        "tps": 35,
+        "ttfb": 1598,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17549,8 +17549,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 456,
+        "tps": 53,
+        "ttfb": 866,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17583,8 +17583,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 2100,
+        "tps": 34,
+        "ttfb": 790.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17617,8 +17617,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 2991,
+        "tps": 46,
+        "ttfb": 1856,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17651,8 +17651,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 83,
-        "ttfb": 952,
+        "tps": 79,
+        "ttfb": 1264,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17685,7 +17685,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 715.5,
+        "ttfb": 693,
         "reasoning_efforts": [
           "none"
         ],
@@ -17715,8 +17715,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 432,
+        "tps": 82,
+        "ttfb": 456,
         "reasoning_efforts": [
           "none"
         ],
@@ -17747,7 +17747,7 @@
           "text"
         ],
         "tps": 53,
-        "ttfb": 226.5,
+        "ttfb": 227,
         "reasoning_efforts": [
           "none"
         ],
@@ -17775,8 +17775,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 112,
-        "ttfb": 1828,
+        "tps": 128,
+        "ttfb": 1751.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17805,8 +17805,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 350,
+        "tps": 31,
+        "ttfb": 291,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -17835,8 +17835,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 810,
+        "tps": 72,
+        "ttfb": 901.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -17866,8 +17866,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 262,
+        "tps": 51,
+        "ttfb": 144,
         "reasoning_efforts": [
           "none"
         ],
@@ -17898,7 +17898,7 @@
           "text"
         ],
         "tps": 164,
-        "ttfb": 7246.5,
+        "ttfb": 7163,
         "reasoning_efforts": [
           "minimal"
         ],
@@ -17920,8 +17920,8 @@
           "image",
           "text"
         ],
-        "tps": 116.5,
-        "ttfb": 980.5,
+        "tps": 184.5,
+        "ttfb": 2509.5,
         "reasoning_efforts": [
           "minimal"
         ],
@@ -17951,8 +17951,8 @@
           "image",
           "text"
         ],
-        "tps": 69,
-        "ttfb": 3707,
+        "tps": 71.5,
+        "ttfb": 3550,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -17977,8 +17977,8 @@
           "image",
           "text"
         ],
-        "tps": 34,
-        "ttfb": 32604.5,
+        "tps": 41,
+        "ttfb": 28060,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -18011,8 +18011,8 @@
           "image",
           "text"
         ],
-        "tps": 45,
-        "ttfb": 22324,
+        "tps": 50,
+        "ttfb": 23997,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18036,7 +18036,7 @@
           "text"
         ],
         "tps": 76,
-        "ttfb": 3313,
+        "ttfb": 3152.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18067,8 +18067,8 @@
           "image",
           "text"
         ],
-        "tps": 147,
-        "ttfb": 10034.5,
+        "tps": 145,
+        "ttfb": 9797.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18091,8 +18091,8 @@
           "image",
           "text"
         ],
-        "tps": 79,
-        "ttfb": 13260,
+        "tps": 87,
+        "ttfb": 12174,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18123,8 +18123,8 @@
           "image",
           "text"
         ],
-        "tps": 141,
-        "ttfb": 9227.5,
+        "tps": 139,
+        "ttfb": 9943,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18147,8 +18147,8 @@
           "image",
           "text"
         ],
-        "tps": 82,
-        "ttfb": 12555,
+        "tps": 83,
+        "ttfb": 12372,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18181,8 +18181,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 3734,
+        "tps": 82,
+        "ttfb": 3280,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -18214,8 +18214,8 @@
           "text",
           "audio"
         ],
-        "tps": 0,
-        "ttfb": 2468,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none"
         ],
@@ -18245,8 +18245,8 @@
           "text",
           "audio"
         ],
-        "tps": 10,
-        "ttfb": 7362,
+        "tps": 12,
+        "ttfb": 10528,
         "reasoning_efforts": [
           "none"
         ],
@@ -18274,8 +18274,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29,
-        "ttfb": 836,
+        "tps": 35,
+        "ttfb": 699,
         "reasoning_efforts": [
           "none"
         ],
@@ -18297,8 +18297,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39.5,
-        "ttfb": 257.5,
+        "tps": 46,
+        "ttfb": 259,
         "reasoning_efforts": [
           "none"
         ],
@@ -18320,8 +18320,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 642,
+        "tps": 32,
+        "ttfb": 701,
         "reasoning_efforts": [
           "none"
         ],
@@ -18352,7 +18352,7 @@
           "text"
         ],
         "tps": 30,
-        "ttfb": 412.5,
+        "ttfb": 454,
         "reasoning_efforts": [
           "none"
         ],
@@ -18380,8 +18380,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 1747,
+        "tps": 43,
+        "ttfb": 2060,
         "reasoning_efforts": [
           "none"
         ],
@@ -18410,8 +18410,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 723,
+        "tps": 58,
+        "ttfb": 807,
         "reasoning_efforts": [
           "none"
         ],
@@ -18440,8 +18440,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 3003,
+        "tps": 76,
+        "ttfb": 2465,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -18529,8 +18529,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 2421,
+        "tps": 39.5,
+        "ttfb": 850,
         "reasoning_efforts": [
           "none"
         ],
@@ -18550,8 +18550,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 2163,
+        "tps": 5,
+        "ttfb": 821,
         "reasoning_efforts": [
           "none"
         ],
@@ -18582,8 +18582,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 71,
-        "ttfb": 165,
+        "tps": 64,
+        "ttfb": 184,
         "reasoning_efforts": [
           "none"
         ],
@@ -18612,8 +18612,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 102,
-        "ttfb": 344,
+        "tps": 104,
+        "ttfb": 346,
         "reasoning_efforts": [
           "none"
         ],
@@ -18641,8 +18641,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 505,
+        "tps": 87,
+        "ttfb": 536,
         "reasoning_efforts": [
           "medium"
         ],
@@ -18670,8 +18670,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 91,
-        "ttfb": 1105,
+        "tps": 39,
+        "ttfb": 945,
         "reasoning_efforts": [
           "none"
         ],
@@ -18702,8 +18702,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 839,
+        "tps": 37,
+        "ttfb": 585.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -18753,7 +18753,7 @@
           "text"
         ],
         "tps": 9,
-        "ttfb": 304,
+        "ttfb": 300,
         "reasoning_efforts": [
           "none"
         ],
@@ -18776,8 +18776,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 125,
+        "tps": 17,
+        "ttfb": 126,
         "reasoning_efforts": [
           "none"
         ],
@@ -18805,8 +18805,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 271,
-        "ttfb": 289,
+        "tps": 197,
+        "ttfb": 452,
         "reasoning_efforts": [
           "none"
         ],
@@ -18853,8 +18853,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 838.5,
+        "tps": 11,
+        "ttfb": 923,
         "reasoning_efforts": [
           "none"
         ],
@@ -18885,8 +18885,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 856,
+        "tps": 26,
+        "ttfb": 828,
         "reasoning_efforts": [
           "none"
         ],
@@ -18914,8 +18914,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 1011,
+        "tps": 20,
+        "ttfb": 1168,
         "reasoning_efforts": [
           "none"
         ],
@@ -18944,8 +18944,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 362.5,
+        "tps": 17,
+        "ttfb": 235,
         "reasoning_efforts": [
           "none"
         ],
@@ -18974,8 +18974,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 916,
+        "tps": 13,
+        "ttfb": 763.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -19004,8 +19004,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
-        "ttfb": 318,
+        "tps": 45,
+        "ttfb": 344,
         "reasoning_efforts": [
           "none"
         ],
@@ -19026,8 +19026,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 515,
+        "tps": 29,
+        "ttfb": 531,
         "reasoning_efforts": [
           "none"
         ],
@@ -19059,8 +19059,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65,
-        "ttfb": 307,
+        "tps": 51,
+        "ttfb": 326,
         "reasoning_efforts": [
           "none"
         ],
@@ -19081,8 +19081,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 563,
+        "tps": 31,
+        "ttfb": 512.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -19114,8 +19114,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 47,
-        "ttfb": 355,
+        "tps": 16,
+        "ttfb": 387.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -19136,8 +19136,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 756.5,
+        "tps": 6,
+        "ttfb": 666,
         "reasoning_efforts": [
           "none"
         ],
@@ -19170,8 +19170,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 888,
+        "tps": 31,
+        "ttfb": 891,
         "reasoning_efforts": [
           "none"
         ],
@@ -19199,8 +19199,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 588,
+        "tps": 24,
+        "ttfb": 631,
         "reasoning_efforts": [
           "none"
         ],
@@ -19222,8 +19222,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 497,
+        "tps": 31,
+        "ttfb": 431,
         "reasoning_efforts": [
           "none"
         ],
@@ -19246,7 +19246,7 @@
           "text"
         ],
         "tps": 20,
-        "ttfb": 817,
+        "ttfb": 767,
         "reasoning_efforts": [
           "none"
         ],
@@ -19268,7 +19268,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 69,
+        "tps": 68,
         "ttfb": 351,
         "reasoning_efforts": [
           "none"
@@ -19298,8 +19298,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 81,
-        "ttfb": 307,
+        "tps": 64,
+        "ttfb": 361,
         "reasoning_efforts": [
           "none"
         ],
@@ -19328,8 +19328,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 97,
-        "ttfb": 423,
+        "tps": 90,
+        "ttfb": 431,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19351,7 +19351,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
+        "tps": 46,
         "ttfb": 739,
         "reasoning_efforts": [
           "none",
@@ -19385,8 +19385,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 256.5,
+        "tps": 89,
+        "ttfb": 482,
         "reasoning_efforts": [
           "none"
         ],
@@ -19415,8 +19415,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 1077,
+        "tps": 9,
+        "ttfb": 3316.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19440,8 +19440,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 1670,
+        "tps": 25,
+        "ttfb": 2354,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19465,8 +19465,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
-        "ttfb": 2971,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19490,8 +19490,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 29.5,
-        "ttfb": 1569.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19515,8 +19515,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 2487,
+        "tps": 42,
+        "ttfb": 1264,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19540,8 +19540,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 33,
-        "ttfb": 3324,
+        "tps": 48,
+        "ttfb": 1150,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19563,8 +19563,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 4521,
+        "tps": 34,
+        "ttfb": 966,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19586,8 +19586,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 1065,
+        "tps": 26,
+        "ttfb": 908,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19611,8 +19611,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
-        "ttfb": 1149,
+        "tps": 60,
+        "ttfb": 678,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19636,8 +19636,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 82,
-        "ttfb": 734,
+        "tps": 46,
+        "ttfb": 823.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19659,8 +19659,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 90,
-        "ttfb": 3588.5,
+        "tps": 187,
+        "ttfb": 1191,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19691,8 +19691,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 978,
-        "ttfb": 244,
+        "tps": 128,
+        "ttfb": 229,
         "reasoning_efforts": [
           "none"
         ],
@@ -19720,8 +19720,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 2470,
-        "ttfb": 342,
+        "tps": 2767,
+        "ttfb": 384,
         "reasoning_efforts": [
           "none"
         ],
@@ -19750,8 +19750,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 11889,
+        "tps": 17,
+        "ttfb": 9370,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19775,8 +19775,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 13194.5,
+        "tps": 23,
+        "ttfb": 7774,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19828,8 +19828,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 4,
-        "ttfb": 2173,
+        "tps": 23,
+        "ttfb": 350,
         "reasoning_efforts": [
           "none"
         ],
@@ -19859,8 +19859,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 403.5,
+        "tps": 26,
+        "ttfb": 586.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -19890,8 +19890,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 335,
+        "tps": 40,
+        "ttfb": 403,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19924,8 +19924,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 80,
-        "ttfb": 274,
+        "tps": 73,
+        "ttfb": 277,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19961,8 +19961,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 167,
-        "ttfb": 431,
+        "tps": 177,
+        "ttfb": 463,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -19991,8 +19991,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 8,
-        "ttfb": 7049.5,
+        "tps": 7,
+        "ttfb": 7341.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20013,8 +20013,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 839.5,
+        "tps": 59,
+        "ttfb": 1271,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20037,8 +20037,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 61,
-        "ttfb": 738,
+        "tps": 113,
+        "ttfb": 659,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20059,8 +20059,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 1324,
+        "tps": 26,
+        "ttfb": 901,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20092,8 +20092,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 78,
-        "ttfb": 302,
+        "tps": 79,
+        "ttfb": 279,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20124,8 +20124,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 1524,
+        "tps": 23,
+        "ttfb": 2307.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20154,8 +20154,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 919,
+        "tps": 48,
+        "ttfb": 727,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20188,8 +20188,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 25,
-        "ttfb": 1066,
+        "tps": 19.5,
+        "ttfb": 381.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -20217,8 +20217,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21.5,
-        "ttfb": 428.5,
+        "tps": 9,
+        "ttfb": 704,
         "reasoning_efforts": [
           "none"
         ],
@@ -20238,8 +20238,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 13,
+        "ttfb": 370,
         "reasoning_efforts": [
           "none"
         ],
@@ -20267,8 +20267,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 723.5,
+        "tps": 33.5,
+        "ttfb": 1433.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -20327,8 +20327,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 497,
+        "tps": 67,
+        "ttfb": 539,
         "reasoning_efforts": [
           null
         ],
@@ -20357,8 +20357,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 59.5,
-        "ttfb": 2220.5,
+        "tps": 45.5,
+        "ttfb": 1983,
         "reasoning_efforts": [
           null
         ],
@@ -20386,8 +20386,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65.5,
-        "ttfb": 2336.5,
+        "tps": 50,
+        "ttfb": 3011,
         "reasoning_efforts": [
           null
         ],
@@ -20416,8 +20416,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 3470,
+        "tps": 79,
+        "ttfb": 2481.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20451,8 +20451,8 @@
           "image",
           "text"
         ],
-        "tps": 109,
-        "ttfb": 5109,
+        "tps": 105,
+        "ttfb": 7335,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -20486,8 +20486,8 @@
           "image",
           "text"
         ],
-        "tps": 83.5,
-        "ttfb": 6378,
+        "tps": 89,
+        "ttfb": 5705,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -20551,8 +20551,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 101.5,
+        "ttfb": 989,
         "reasoning_efforts": [
           null
         ],
@@ -20574,8 +20574,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 742,
+        "tps": 59,
+        "ttfb": 975.5,
         "reasoning_efforts": [
           null
         ],
@@ -20604,8 +20604,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 99.5,
-        "ttfb": 3619.5,
+        "tps": 85.5,
+        "ttfb": 2445.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20662,8 +20662,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 115,
-        "ttfb": 3004,
+        "tps": 127,
+        "ttfb": 2559,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20686,8 +20686,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 125,
-        "ttfb": 4324,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20719,8 +20719,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 66.5,
+        "ttfb": 3974.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20743,8 +20743,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
-        "ttfb": 2203,
+        "tps": 73,
+        "ttfb": 1826.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20776,8 +20776,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 2904,
+        "tps": 49,
+        "ttfb": 2342,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20801,8 +20801,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 26,
+        "ttfb": 1442,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20836,8 +20836,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 42550,
+        "tps": 23,
+        "ttfb": 38612.5,
         "reasoning_efforts": [
           "high",
           "xhigh"
@@ -20868,8 +20868,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 4367,
+        "tps": 48,
+        "ttfb": 4144,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20894,8 +20894,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 2929,
+        "tps": 61,
+        "ttfb": 3092,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -20930,8 +20930,8 @@
           "image",
           "text"
         ],
-        "tps": 41,
-        "ttfb": 733,
+        "tps": 40,
+        "ttfb": 1017.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -20962,8 +20962,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 4,
-        "ttfb": 24813.5,
+        "tps": 5,
+        "ttfb": 8023,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -21022,8 +21022,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 64006.5,
+        "tps": 15,
+        "ttfb": 89962,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -21056,8 +21056,8 @@
           "text",
           "audio"
         ],
-        "tps": 108,
-        "ttfb": 671,
+        "tps": 116,
+        "ttfb": 544,
         "reasoning_efforts": [
           "none"
         ],
@@ -21087,8 +21087,8 @@
           "text",
           "audio"
         ],
-        "tps": 75,
-        "ttfb": 1095,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none"
         ],
@@ -21118,8 +21118,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 1183,
+        "tps": 56,
+        "ttfb": 1382,
         "reasoning_efforts": [
           "none"
         ],
@@ -21147,8 +21147,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 658,
-        "ttfb": 193,
+        "tps": 545,
+        "ttfb": 256,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21243,8 +21243,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 18,
+        "ttfb": 59111,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -21305,8 +21305,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 6,
-        "ttfb": 935,
+        "tps": 4,
+        "ttfb": 903,
         "reasoning_efforts": [
           "none"
         ],
@@ -21338,8 +21338,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35,
-        "ttfb": 560.5,
+        "tps": 4,
+        "ttfb": 1748,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21368,8 +21368,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30.5,
-        "ttfb": 87626,
+        "tps": 22,
+        "ttfb": 113836,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21400,7 +21400,7 @@
           "text"
         ],
         "tps": 33,
-        "ttfb": 3710,
+        "ttfb": 3741,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21430,8 +21430,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 75,
-        "ttfb": 1883,
+        "tps": 73,
+        "ttfb": 2061,
         "reasoning_efforts": [
           "none"
         ],
@@ -21460,8 +21460,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 10605,
+        "tps": 29.5,
+        "ttfb": 12705.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21491,8 +21491,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 95,
-        "ttfb": 1705,
+        "tps": 70,
+        "ttfb": 1767,
         "reasoning_efforts": [
           "none"
         ],
@@ -21520,8 +21520,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 2208,
+        "tps": 12,
+        "ttfb": 2497.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21552,8 +21552,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 86,
-        "ttfb": 836.5,
+        "tps": 69,
+        "ttfb": 1016.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21584,8 +21584,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 3642.5,
+        "tps": 53,
+        "ttfb": 2540,
         "reasoning_efforts": [
           "none"
         ],
@@ -21605,8 +21605,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 76,
-        "ttfb": 418,
+        "tps": 77,
+        "ttfb": 393,
         "reasoning_efforts": [
           "none"
         ],
@@ -21636,8 +21636,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 482,
+        "tps": 65.5,
+        "ttfb": 491,
         "reasoning_efforts": [
           "none"
         ],
@@ -21665,8 +21665,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 471,
+        "tps": 50,
+        "ttfb": 343,
         "reasoning_efforts": [
           "none"
         ],
@@ -21695,8 +21695,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1049,
+        "tps": 14,
+        "ttfb": 1212,
         "reasoning_efforts": [
           "none"
         ],
@@ -21726,8 +21726,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 45,
-        "ttfb": 685.5,
+        "tps": 61,
+        "ttfb": 762,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21750,8 +21750,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 395.5,
+        "tps": 58,
+        "ttfb": 521,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21774,8 +21774,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28.5,
-        "ttfb": 8975.5,
+        "tps": 27,
+        "ttfb": 1567,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21806,8 +21806,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 82,
-        "ttfb": 1205.5,
+        "tps": 45,
+        "ttfb": 743,
         "reasoning_efforts": [
           "medium"
         ],
@@ -21829,8 +21829,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 133,
-        "ttfb": 475,
+        "tps": 155.5,
+        "ttfb": 472,
         "reasoning_efforts": [
           "medium"
         ],
@@ -21859,8 +21859,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 742,
+        "tps": 21,
+        "ttfb": 672,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21883,8 +21883,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 638,
+        "tps": 31,
+        "ttfb": 612,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -21915,8 +21915,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 1181,
+        "tps": 33,
+        "ttfb": 1114,
         "reasoning_efforts": [
           "none"
         ],
@@ -21938,8 +21938,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 24,
-        "ttfb": 1750,
+        "tps": 17,
+        "ttfb": 1163,
         "reasoning_efforts": [
           "none"
         ],
@@ -21961,8 +21961,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 1006,
+        "tps": 9,
+        "ttfb": 854.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -21991,8 +21991,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1164.5,
+        "tps": 51.5,
+        "ttfb": 1013,
         "reasoning_efforts": [
           "none"
         ],
@@ -22020,8 +22020,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
-        "ttfb": 624.5,
+        "tps": 25,
+        "ttfb": 2221,
         "reasoning_efforts": [
           "none"
         ],
@@ -22043,8 +22043,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 552,
+        "tps": 30,
+        "ttfb": 1873,
         "reasoning_efforts": [
           "none"
         ],
@@ -22066,8 +22066,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 109,
-        "ttfb": 695,
+        "tps": 30.5,
+        "ttfb": 1547,
         "reasoning_efforts": [
           "none"
         ],
@@ -22087,8 +22087,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 731.5,
+        "tps": 6,
+        "ttfb": 762,
         "reasoning_efforts": [
           "none"
         ],
@@ -22110,8 +22110,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 56,
-        "ttfb": 1244,
+        "tps": 10,
+        "ttfb": 5542,
         "reasoning_efforts": [
           "none"
         ],
@@ -22142,8 +22142,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12,
-        "ttfb": 1370,
+        "tps": 33,
+        "ttfb": 1473,
         "reasoning_efforts": [
           "none"
         ],
@@ -22171,8 +22171,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 50,
-        "ttfb": 1627,
+        "tps": 55,
+        "ttfb": 1236,
         "reasoning_efforts": [
           "medium"
         ],
@@ -22202,8 +22202,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 635,
+        "tps": 52,
+        "ttfb": 585,
         "reasoning_efforts": [
           "none"
         ],
@@ -22224,8 +22224,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 7,
-        "ttfb": 749,
+        "tps": 5,
+        "ttfb": 1217,
         "reasoning_efforts": [
           "none"
         ],
@@ -22248,8 +22248,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 302,
+        "tps": 29,
+        "ttfb": 342,
         "reasoning_efforts": [
           "none"
         ],
@@ -22294,8 +22294,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16.5,
-        "ttfb": 1217.5,
+        "tps": 26,
+        "ttfb": 1622,
         "reasoning_efforts": [
           "none"
         ],
@@ -22318,8 +22318,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9,
-        "ttfb": 2740,
+        "tps": 10,
+        "ttfb": 3043,
         "reasoning_efforts": [
           "none"
         ],
@@ -22351,8 +22351,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 124,
-        "ttfb": 556,
+        "tps": 114,
+        "ttfb": 932,
         "reasoning_efforts": [
           "medium"
         ],
@@ -22373,8 +22373,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 85,
-        "ttfb": 1374,
+        "tps": 71.5,
+        "ttfb": 2380,
         "reasoning_efforts": [
           "medium"
         ],
@@ -22397,8 +22397,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 15.5,
-        "ttfb": 1376.5,
+        "tps": 25,
+        "ttfb": 1237,
         "reasoning_efforts": [
           "medium"
         ],
@@ -22430,8 +22430,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 58,
-        "ttfb": 821,
+        "tps": 34,
+        "ttfb": 534,
         "reasoning_efforts": [
           "none"
         ],
@@ -22461,8 +22461,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 826,
+        "tps": 42,
+        "ttfb": 702,
         "reasoning_efforts": [
           "none"
         ],
@@ -22485,8 +22485,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 666,
+        "tps": 5,
+        "ttfb": 523,
         "reasoning_efforts": [
           "none"
         ],
@@ -22509,8 +22509,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 66,
-        "ttfb": 416,
+        "tps": 62,
+        "ttfb": 439,
         "reasoning_efforts": [
           "none"
         ],
@@ -22531,8 +22531,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
-        "ttfb": 366,
+        "tps": 35,
+        "ttfb": 608,
         "reasoning_efforts": [
           "none"
         ],
@@ -22564,8 +22564,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 120,
-        "ttfb": 629,
+        "tps": 90,
+        "ttfb": 1091,
         "reasoning_efforts": [
           "medium"
         ],
@@ -22596,8 +22596,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 1293,
+        "tps": 19,
+        "ttfb": 1274,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22622,8 +22622,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 410.5,
+        "tps": 22,
+        "ttfb": 438,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22648,8 +22648,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 37,
-        "ttfb": 677,
+        "tps": 53,
+        "ttfb": 637,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22674,8 +22674,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
-        "ttfb": 380,
+        "tps": 52,
+        "ttfb": 372,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22732,8 +22732,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
-        "ttfb": 1684,
+        "tps": 46,
+        "ttfb": 1686,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22764,8 +22764,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35,
-        "ttfb": 1124,
+        "tps": 52,
+        "ttfb": 1559.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22796,8 +22796,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 2487,
+        "tps": 34,
+        "ttfb": 2207,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22822,8 +22822,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 43,
-        "ttfb": 978.5,
+        "tps": 58,
+        "ttfb": 853,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22846,8 +22846,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 6,
-        "ttfb": 5942,
+        "tps": 16,
+        "ttfb": 2585,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22872,8 +22872,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 13,
-        "ttfb": 6475,
+        "tps": 15,
+        "ttfb": 5515,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22898,8 +22898,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 6,
+        "ttfb": 6491,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22922,8 +22922,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 62,
-        "ttfb": 603,
+        "tps": 68,
+        "ttfb": 275,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22948,8 +22948,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 62.5,
-        "ttfb": 575,
+        "tps": 72,
+        "ttfb": 497.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22974,8 +22974,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 6346.5,
+        "tps": 32,
+        "ttfb": 4138,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -22998,8 +22998,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 324.5,
+        "tps": 67,
+        "ttfb": 374,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23073,8 +23073,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 7,
-        "ttfb": 305,
+        "tps": 41,
+        "ttfb": 457,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23099,8 +23099,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 91,
-        "ttfb": 1003,
+        "tps": 27,
+        "ttfb": 902,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23125,8 +23125,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 117,
-        "ttfb": 970,
+        "tps": 50,
+        "ttfb": 827,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23151,8 +23151,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 1497,
+        "tps": 38,
+        "ttfb": 1387,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23177,8 +23177,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 213,
-        "ttfb": 239,
+        "tps": 145,
+        "ttfb": 259,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23213,8 +23213,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 83,
-        "ttfb": 696,
+        "tps": 59,
+        "ttfb": 787,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23244,8 +23244,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 34,
-        "ttfb": 1600,
+        "tps": 12,
+        "ttfb": 1273,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23276,8 +23276,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 9.5,
-        "ttfb": 1205.5,
+        "tps": 10,
+        "ttfb": 1259,
         "reasoning_efforts": [
           "none"
         ],
@@ -23339,8 +23339,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 1657,
-        "ttfb": 440,
+        "tps": 1043,
+        "ttfb": 941,
         "reasoning_efforts": [
           "none"
         ],
@@ -23370,8 +23370,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 628,
+        "tps": 13,
+        "ttfb": 644.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -23401,8 +23401,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 180,
+        "tps": 80,
+        "ttfb": 154,
         "reasoning_efforts": [
           "none"
         ],
@@ -23424,8 +23424,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 71,
-        "ttfb": 325,
+        "tps": 81,
+        "ttfb": 285,
         "reasoning_efforts": [
           "none"
         ],
@@ -23455,8 +23455,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 12.5,
-        "ttfb": 392,
+        "tps": 11.5,
+        "ttfb": 1158.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -23486,8 +23486,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 184.5,
+        "tps": 42,
+        "ttfb": 308,
         "reasoning_efforts": [
           "none"
         ],
@@ -23509,8 +23509,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 513.5,
+        "tps": 42.5,
+        "ttfb": 484.5,
         "reasoning_efforts": [
           "none"
         ],
@@ -23540,8 +23540,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1073.5,
+        "tps": 5,
+        "ttfb": 2063,
         "reasoning_efforts": [
           "none"
         ],
@@ -23573,8 +23573,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 25328.5,
+        "tps": 71,
+        "ttfb": 3130,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23599,8 +23599,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 68,
-        "ttfb": 374,
+        "tps": 48,
+        "ttfb": 1424,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23653,8 +23653,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 5,
-        "ttfb": 1453,
+        "tps": 3,
+        "ttfb": 1741.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23683,8 +23683,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 70,
-        "ttfb": 1220.5,
+        "tps": 10.5,
+        "ttfb": 1028,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23715,8 +23715,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 38,
-        "ttfb": 4885.5,
+        "tps": 46,
+        "ttfb": 4423,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23737,8 +23737,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 31,
-        "ttfb": 8278.5,
+        "tps": 22,
+        "ttfb": 16923,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -23771,8 +23771,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 790,
+        "tps": 16,
+        "ttfb": 840,
         "reasoning_efforts": [
           "none"
         ],
@@ -23802,8 +23802,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 81.5,
-        "ttfb": 602.5,
+        "tps": 71,
+        "ttfb": 590,
         "reasoning_efforts": [
           "none"
         ],
@@ -23825,8 +23825,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 84,
-        "ttfb": 292,
+        "tps": 81,
+        "ttfb": 303,
         "reasoning_efforts": [
           "none"
         ],
@@ -23856,8 +23856,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 667,
+        "tps": 25,
+        "ttfb": 1210,
         "reasoning_efforts": [
           "none"
         ],
@@ -23887,8 +23887,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 716,
+        "tps": 50,
+        "ttfb": 775,
         "reasoning_efforts": [
           "none"
         ],
@@ -23918,8 +23918,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22,
-        "ttfb": 645,
+        "tps": 20,
+        "ttfb": 940,
         "reasoning_efforts": [
           "none"
         ],
@@ -23941,8 +23941,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36.5,
-        "ttfb": 761.5,
+        "tps": 25.5,
+        "ttfb": 894,
         "reasoning_efforts": [
           "none"
         ],
@@ -23972,8 +23972,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 22.5,
-        "ttfb": 1000,
+        "tps": 14.5,
+        "ttfb": 1208,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24003,8 +24003,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
-        "ttfb": 410,
+        "tps": 45,
+        "ttfb": 569,
         "reasoning_efforts": [
           "none"
         ],
@@ -24033,8 +24033,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 103,
-        "ttfb": 454.5,
+        "tps": 127,
+        "ttfb": 808,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24063,8 +24063,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 16,
-        "ttfb": 1928,
+        "tps": 15,
+        "ttfb": 2643,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24096,8 +24096,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 27,
-        "ttfb": 1936.5,
+        "tps": 28,
+        "ttfb": 1912,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24119,7 +24119,7 @@
           "text"
         ],
         "tps": 19,
-        "ttfb": 4657.5,
+        "ttfb": 4500,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24131,7 +24131,7 @@
       {
         "provider": "openrouter",
         "model_id": "z-ai/glm-5.2;friendli",
-        "context_length": 262144,
+        "context_length": 1048576,
         "per_mtok": {
           "prompt": 1.4,
           "completion": 4.4
@@ -24142,8 +24142,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 5131,
+        "tps": 16,
+        "ttfb": 5068.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24164,8 +24164,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 18,
-        "ttfb": 4529,
+        "tps": 20,
+        "ttfb": 4059.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24188,8 +24188,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 19,
-        "ttfb": 1951,
+        "tps": 12,
+        "ttfb": 2915,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24212,8 +24212,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 55,
-        "ttfb": 958,
+        "tps": 26,
+        "ttfb": 5382,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24236,8 +24236,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 21,
-        "ttfb": 2653,
+        "tps": 17,
+        "ttfb": 1532,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24260,8 +24260,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 26,
-        "ttfb": 1489,
+        "tps": 25,
+        "ttfb": 2935,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24282,8 +24282,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 2999,
+        "tps": 27,
+        "ttfb": 3939,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -24531,12 +24531,12 @@
     "elo_thinking": null
   },
   {
-    "id": "groq/compound-mini",
-    "name": "groq/compound mini",
+    "id": "groq/compound",
+    "name": "groq/compound",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "groq/compound-mini",
+        "model_id": "groq/compound",
         "context_length": 70000,
         "input_modalities": [
           "text"
@@ -24555,12 +24555,12 @@
     "elo_thinking": null
   },
   {
-    "id": "groq/compound",
-    "name": "groq/compound",
+    "id": "groq/compound-mini",
+    "name": "groq/compound mini",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "groq/compound",
+        "model_id": "groq/compound-mini",
         "context_length": 70000,
         "input_modalities": [
           "text"
