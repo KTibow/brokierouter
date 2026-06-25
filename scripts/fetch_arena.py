@@ -100,6 +100,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "glm-4.7-flash": ("z-ai/glm-4.7-flash", True),
     "glm-5": ("z-ai/glm-5", True),
     "glm-5.1": ("z-ai/glm-5.1", True),
+    "glm-5.2 (max)": ("z-ai/glm-5.2", True),
     # OpenAI GPT / o-series
     "gpt-3.5-turbo-0125": ("openai/gpt-3.5-turbo", False),
     "gpt-4-0314": ("openai/gpt-4-0314", False),
@@ -178,6 +179,10 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     ),
     "nvidia-nemotron-3-nano-30b-a3b-bf16": ("nvidia/nemotron-3-nano-30b-a3b", True),
     "nvidia-nemotron-3-super-120b-a12b": ("nvidia/nemotron-3-super-120b-a12b", True),
+    "nvidia-nemotron-3-ultra-550b-a55b-nvfp4": (
+        "nvidia/nemotron-3-ultra-550b-a55b",
+        True,
+    ),
     # AllenAI OLMo
     "olmo-3-32b-think": ("allenai/olmo-3-32b-think", True),
     "olmo-3.1-32b-instruct": ("allenai/olmo-3.1-32b-instruct", False),
@@ -257,6 +262,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "phi-4": ("microsoft/phi-4", False),
     "step-3.5-flash": ("stepfun/step-3.5-flash", True),
     "trinity-large-preview": ("arcee-ai/trinity-large-preview", False),
+    "trinity-large-thinking": ("arcee-ai/trinity-large-thinking", True),
     "intellect-3": ("prime-intellect/intellect-3", False),
     "granite-4.1-8b": ("ibm-granite/granite-4.1-8b", False),
 }
