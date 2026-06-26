@@ -74,6 +74,7 @@ export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
     variant: "precision",
   },
   "deepseek-v4-flash": { orId: "deepseek/deepseek-v4-flash" },
+  "kimi-k2.7-code": { orId: "moonshotai/kimi-k2.7-code" },
   "kimi-k2.6": { orId: "moonshotai/kimi-k2.6" },
   "kimi-k2.6-precision": { orId: "moonshotai/kimi-k2.6", variant: "precision" },
   "kimi-k2.5": { orId: "moonshotai/kimi-k2.5" },
@@ -81,6 +82,7 @@ export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
   "glm-5": { orId: "z-ai/glm-5" },
   "glm-5.1": { orId: "z-ai/glm-5.1" },
   "glm-5.1-precision": { orId: "z-ai/glm-5.1", variant: "precision" },
+  "glm-5.2": { orId: "z-ai/glm-5.2" },
   "minimax-m2.5": { orId: "minimax/minimax-m2.5" },
   "qwen3.6-27b": { orId: "qwen/qwen3.6-27b" },
   "qwen3.5-397b-a17b": { orId: "qwen/qwen3.5-397b-a17b" },
@@ -119,6 +121,7 @@ export const GROQ_ID_TO_OR: Record<string, string> = {
   "meta-llama/llama-4-scout-17b-16e-instruct": "meta-llama/llama-4-scout",
   "openai/gpt-oss-120b": "openai/gpt-oss-120b",
   "openai/gpt-oss-20b": "openai/gpt-oss-20b",
+  "qwen/qwen3.6-27b": "qwen/qwen3.6-27b",
   "qwen/qwen3-32b": "qwen/qwen3-32b",
   "allam-2-7b": "humain-ai/allam-2-7b",
 };
