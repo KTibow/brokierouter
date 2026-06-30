@@ -41,6 +41,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-sonnet-4-5-20250929": ("anthropic/claude-sonnet-4.5", False),
     "claude-sonnet-4-5-20250929-thinking-32k": ("anthropic/claude-sonnet-4.5", True),
     "claude-sonnet-4-6": ("anthropic/claude-sonnet-4.6", False),
+    "claude-fable-5": ("anthropic/claude-fable-5", True),
     # Cohere
     "command-a-03-2025": ("cohere/command-a", False),
     "command-r-08-2024": ("cohere/command-r-08-2024", False),
@@ -210,6 +211,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "qwen3.5-flash": ("qwen/qwen3.5-flash-02-23", True),
     "qwen3.6-plus": ("qwen/qwen3.6-plus", True),
     "qwen3.6-max-preview": ("qwen/qwen3.6-max-preview", True),
+    "qwen3.7-plus": ("qwen/qwen3.7-plus", True),
     "qwen3.7-max-preview": ("qwen/qwen3.7-max", True),
     "qwq-32b": ("qwen/qwq-32b", True),
     # "qwq-32b-preview": ("qwen/qwq-32b", True),  # DUPLICATE

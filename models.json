@@ -1,5 +1,253 @@
 [
   {
+    "id": "anthropic/claude-fable-5",
+    "name": "Claude Fable 5",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "anthropic/claude-fable-5;amazon-bedrock/claude-on-aws",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "anthropic/claude-fable-5;google-vertex/global",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "anthropic/claude-fable-5;amazon-bedrock/us",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "anthropic/claude-fable-5;anthropic",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "anthropic/claude-fable-5;azure",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "anthropic/claude-fable-5;amazon-bedrock/claude-on-aws",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "anthropic/claude-fable-5;google-vertex/global",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "anthropic/claude-fable-5;amazon-bedrock/us",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "anthropic/claude-fable-5;anthropic",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "anthropic/claude-fable-5;azure",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 10,
+          "completion": 50
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1508.1627141783267
+  },
+  {
     "id": "anthropic/claude-opus-4.6",
     "name": "Claude Opus 4.6",
     "providers": [
@@ -328,8 +576,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1498.7626252118196,
-    "elo_thinking": 1503.69291657551,
+    "elo_direct": 1499.0689777245884,
+    "elo_thinking": 1503.0861151826798,
     "token_use_direct": 218,
     "token_use_thinking": 3139
   },
@@ -724,8 +972,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1493.1376467510877,
-    "elo_thinking": 1502.3754306498533,
+    "elo_direct": 1493.802677613041,
+    "elo_thinking": 1502.307687488452,
     "token_use_direct": 231,
     "token_use_thinking": 2239
   },
@@ -843,7 +1091,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1486.4214845226224,
+    "elo_thinking": 1486.086602115323,
     "token_use_thinking": 1146
   },
   {
@@ -1139,8 +1387,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1477.8549075926494,
-    "elo_thinking": 1483.4582476802293,
+    "elo_direct": 1479.0558489187351,
+    "elo_thinking": 1483.7096581323847,
     "token_use_thinking": 2241
   },
   {
@@ -1310,8 +1558,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1467.7208584645232,
-    "elo_thinking": 1478.0186939148566,
+    "elo_direct": 1467.4457625732437,
+    "elo_thinking": 1477.7525290188767,
     "token_use_direct": 78,
     "token_use_thinking": 690
   },
@@ -1452,7 +1700,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1476.2549198704332,
+    "elo_thinking": 1476.43339328995,
     "token_use_direct": 231,
     "token_use_thinking": 1452
   },
@@ -1553,8 +1801,339 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1475.3598180331708,
+    "elo_direct": 1475.519581673969,
     "elo_thinking": null
+  },
+  {
+    "id": "x-ai/grok-4.20",
+    "name": "Grok 4.20",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.20;xai",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 156,
+        "ttfb": 553,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.20;xai/zdr",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 203,
+        "ttfb": 407,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.20;xai",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 156,
+        "ttfb": 553,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.20;xai/zdr",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 203,
+        "ttfb": 407,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": 1474.4326611200463,
+    "elo_thinking": 1475.5036716525879,
+    "token_use_direct": 721,
+    "token_use_thinking": 1219
+  },
+  {
+    "id": "qwen/qwen3.7-max",
+    "name": "Qwen3.7 Max",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "qwen/qwen3.7-max;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 3.75
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 40,
+        "ttfb": 1549,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "qwen/qwen3.7-max;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 3.75
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 40,
+        "ttfb": 1549,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1474.8367613664318,
+    "token_use_thinking": 1935
+  },
+  {
+    "id": "openai/gpt-5.5",
+    "name": "GPT 5.5",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "openai/gpt-5.5;openai",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5,
+          "completion": 30
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 42,
+        "ttfb": 2966.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "openai/gpt-5.5;azure",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5,
+          "completion": 30
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 22,
+        "ttfb": 4885,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "openai/gpt-5.5;azure/eu",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5.5,
+          "completion": 33
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "openai/gpt-5.5;openai",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5,
+          "completion": 30
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 42,
+        "ttfb": 2966.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "openai/gpt-5.5;azure",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5,
+          "completion": 30
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 22,
+        "ttfb": 4885,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "openai/gpt-5.5;azure/eu",
+        "context_length": 1050000,
+        "per_mtok": {
+          "prompt": 5.5,
+          "completion": 33
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": 1472.5048106330769,
+    "elo_thinking": 1474.8234419282019,
+    "token_use_direct": 57,
+    "token_use_thinking": 449
   },
   {
     "id": "z-ai/glm-5.1",
@@ -2477,339 +3056,8 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1475.2613359034647,
+    "elo_thinking": 1473.4186709216938,
     "token_use_direct": 1516
-  },
-  {
-    "id": "openai/gpt-5.5",
-    "name": "GPT 5.5",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "openai/gpt-5.5;openai",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 30
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 42,
-        "ttfb": 2966.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "openai/gpt-5.5;azure",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 30
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 4885,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "openai/gpt-5.5;azure/eu",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5.5,
-          "completion": 33
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "openai/gpt-5.5;openai",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 30
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 42,
-        "ttfb": 2966.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "openai/gpt-5.5;azure",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 30
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 4885,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "openai/gpt-5.5;azure/eu",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5.5,
-          "completion": 33
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": 1472.6834684132339,
-    "elo_thinking": 1474.8498231338704,
-    "token_use_direct": 57,
-    "token_use_thinking": 449
-  },
-  {
-    "id": "qwen/qwen3.7-max",
-    "name": "Qwen3.7 Max",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "qwen/qwen3.7-max;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 3.75
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 40,
-        "ttfb": 1549,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "qwen/qwen3.7-max;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 3.75
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 40,
-        "ttfb": 1549,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1474.6543730865267,
-    "token_use_thinking": 1935
-  },
-  {
-    "id": "x-ai/grok-4.20",
-    "name": "Grok 4.20",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.20;xai",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 156,
-        "ttfb": 553,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.20;xai/zdr",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 203,
-        "ttfb": 407,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.20;xai",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 156,
-        "ttfb": 553,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.20;xai/zdr",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 203,
-        "ttfb": 407,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": 1474.2572941816416,
-    "elo_thinking": 1474.4095861216995,
-    "token_use_direct": 721,
-    "token_use_thinking": 1219
   },
   {
     "id": "google/gemini-3-flash-preview",
@@ -2947,8 +3195,8 @@
         ]
       }
     ],
-    "elo_direct": 1460.2305128129804,
-    "elo_thinking": 1473.2332026255008,
+    "elo_direct": 1459.92959656547,
+    "elo_thinking": 1473.246651527022,
     "token_use_direct": 82,
     "token_use_thinking": 1440
   },
@@ -3217,115 +3465,10 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1469.1678567494766,
-    "elo_thinking": 1472.8027408898781,
+    "elo_direct": 1469.301235020157,
+    "elo_thinking": 1472.8490922360818,
     "token_use_direct": 157,
     "token_use_thinking": 1438
-  },
-  {
-    "id": "x-ai/grok-4.20-multi-agent",
-    "name": "Grok 4.20 Multi Agent",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.20-multi-agent;xai",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 613.5,
-        "ttfb": 3150.5,
-        "reasoning_efforts": [
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.20-multi-agent;xai/zdr",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 621,
-        "ttfb": 3152.5,
-        "reasoning_efforts": [
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.20-multi-agent;xai",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 613.5,
-        "ttfb": 3150.5,
-        "reasoning_efforts": [
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.20-multi-agent;xai/zdr",
-        "context_length": 2000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 621,
-        "ttfb": 3152.5,
-        "reasoning_efforts": [
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1471.7665370928753,
-    "token_use_thinking": 2000
   },
   {
     "id": "anthropic/claude-sonnet-4.6",
@@ -3764,10 +3907,115 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1471.744163127437,
+    "elo_direct": 1472.21499348245,
     "elo_thinking": null,
     "token_use_direct": 275,
     "token_use_thinking": 3963
+  },
+  {
+    "id": "x-ai/grok-4.20-multi-agent",
+    "name": "Grok 4.20 Multi Agent",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.20-multi-agent;xai",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 613.5,
+        "ttfb": 3150.5,
+        "reasoning_efforts": [
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.20-multi-agent;xai/zdr",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 621,
+        "ttfb": 3152.5,
+        "reasoning_efforts": [
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.20-multi-agent;xai",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 613.5,
+        "ttfb": 3150.5,
+        "reasoning_efforts": [
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.20-multi-agent;xai/zdr",
+        "context_length": 2000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 621,
+        "ttfb": 3152.5,
+        "reasoning_efforts": [
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1471.0664989576424,
+    "token_use_thinking": 2000
   },
   {
     "id": "z-ai/glm-5.2",
@@ -5054,7 +5302,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1470.987440557944
+    "elo_thinking": 1469.8691767041505
   },
   {
     "id": "xiaomi/mimo-v2.5-pro",
@@ -5306,7 +5554,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 52,
+        "tps": 62,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -5317,30 +5565,31 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1466.1819298837838,
+    "elo_thinking": 1465.9216098183942,
     "token_use_direct": 568,
     "token_use_thinking": 1838
   },
   {
-    "id": "qwen/qwen3.6-max-preview",
-    "name": "Qwen3.6 Max",
+    "id": "qwen/qwen3.7-plus",
+    "name": "Qwen3.7 Plus",
     "providers": [
       {
         "provider": "openrouter",
-        "model_id": "qwen/qwen3.6-max-preview;alibaba",
-        "context_length": 262144,
+        "model_id": "qwen/qwen3.7-plus;alibaba",
+        "context_length": 1000000,
         "per_mtok": {
-          "prompt": 1.04,
-          "completion": 6.24
+          "prompt": 0.32,
+          "completion": 1.28
         },
         "input_modalities": [
-          "text"
+          "text",
+          "image"
         ],
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 1485,
+        "tps": 20,
+        "ttfb": 1361,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5349,20 +5598,21 @@
       },
       {
         "provider": "hack-club",
-        "model_id": "qwen/qwen3.6-max-preview;alibaba",
-        "context_length": 262144,
+        "model_id": "qwen/qwen3.7-plus;alibaba",
+        "context_length": 1000000,
         "per_mtok": {
-          "prompt": 1.04,
-          "completion": 6.24
+          "prompt": 0.32,
+          "completion": 1.28
         },
         "input_modalities": [
-          "text"
+          "text",
+          "image"
         ],
         "output_modalities": [
           "text"
         ],
-        "tps": 39,
-        "ttfb": 1485,
+        "tps": 20,
+        "ttfb": 1361,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -5371,8 +5621,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1460.720512641168,
-    "token_use_thinking": 1477
+    "elo_thinking": 1463.8276630120677
   },
   {
     "id": "moonshotai/kimi-k2.6",
@@ -6418,7 +6667,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
+        "tps": 66,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -6429,21 +6678,21 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1460.2264609406323,
+    "elo_thinking": 1461.1504385013473,
     "token_use_direct": 543,
     "token_use_thinking": 3311
   },
   {
-    "id": "deepseek/deepseek-v4-pro",
-    "name": "DeepSeek v4 Pro",
+    "id": "qwen/qwen3.6-max-preview",
+    "name": "Qwen3.6 Max",
     "providers": [
       {
         "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;deepseek",
-        "context_length": 1048576,
+        "model_id": "qwen/qwen3.6-max-preview;alibaba",
+        "context_length": 262144,
         "per_mtok": {
-          "prompt": 0.435,
-          "completion": 0.87
+          "prompt": 1.04,
+          "completion": 6.24
         },
         "input_modalities": [
           "text"
@@ -6451,334 +6700,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 1376.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.7605,
-          "completion": 1.521
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 591,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.87,
-          "completion": 1.74
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 53,
-        "ttfb": 1635,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;gmicloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.131,
-          "completion": 2.262
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 2388,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;deepinfra/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.3,
-          "completion": 2.6
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 19,
-        "ttfb": 1010,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;digitalocean",
-        "context_length": 87040,
-        "per_mtok": {
-          "prompt": 1.392,
-          "completion": 2.784
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 1442.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;novita/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.568,
-          "completion": 3.136
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 60,
-        "ttfb": 1372,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;siliconflow/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.5999999999999999,
-          "completion": 3.1350000000000002
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 12,
-        "ttfb": 1329,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.608,
-          "completion": 3.216
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 34,
-        "ttfb": 1286,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;venice",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.6500000000000001,
-          "completion": 3.3009999999999997
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 51,
-        "ttfb": 2406,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;atlas-cloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.68,
-          "completion": 3.38
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 31,
-        "ttfb": 2280.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;parasail/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 688,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;wandb/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 12,
-        "ttfb": 691,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;together",
-        "context_length": 512000,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 40,
-        "ttfb": 742,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38,
-        "ttfb": 1676.5,
+        "tps": 39,
+        "ttfb": 1485,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -6787,11 +6710,11 @@
       },
       {
         "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;deepseek",
-        "context_length": 1048576,
+        "model_id": "qwen/qwen3.6-max-preview;alibaba",
+        "context_length": 262144,
         "per_mtok": {
-          "prompt": 0.435,
-          "completion": 0.87
+          "prompt": 1.04,
+          "completion": 6.24
         },
         "input_modalities": [
           "text"
@@ -6799,392 +6722,18 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
-        "ttfb": 1376.5,
+        "tps": 39,
+        "ttfb": 1485,
         "reasoning_efforts": [
           "none",
           "medium"
         ],
         "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.7605,
-          "completion": 1.521
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 591,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.87,
-          "completion": 1.74
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 53,
-        "ttfb": 1635,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;gmicloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.131,
-          "completion": 2.262
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 2388,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;deepinfra/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.3,
-          "completion": 2.6
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 19,
-        "ttfb": 1010,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;digitalocean",
-        "context_length": 87040,
-        "per_mtok": {
-          "prompt": 1.392,
-          "completion": 2.784
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 1442.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;novita/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.568,
-          "completion": 3.136
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 60,
-        "ttfb": 1372,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;siliconflow/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.5999999999999999,
-          "completion": 3.1350000000000002
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 12,
-        "ttfb": 1329,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.608,
-          "completion": 3.216
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 34,
-        "ttfb": 1286,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;venice",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.6500000000000001,
-          "completion": 3.3009999999999997
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 51,
-        "ttfb": 2406,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;atlas-cloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.68,
-          "completion": 3.38
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 31,
-        "ttfb": 2280.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;parasail/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 688,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;wandb/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 12,
-        "ttfb": 691,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;together",
-        "context_length": 512000,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 40,
-        "ttfb": 742,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "deepseek/deepseek-v4-pro;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.74,
-          "completion": 3.48
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38,
-        "ttfb": 1676.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "crofai",
-        "model_id": "deepseek-v4-pro",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.35,
-          "completion": 0.8
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 64,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "medium"
-        ],
-        "extra": {
-          "quantization": "Q8_0"
-        }
-      },
-      {
-        "provider": "crofai",
-        "model_id": "deepseek-v4-pro-lightning",
-        "note": "lightning variant",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.8,
-          "completion": 1.6
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "medium"
-        ],
-        "extra": {
-          "quantization": "Q8_0"
-        }
       }
     ],
-    "elo_direct": 1455.9298329374042,
-    "elo_thinking": 1457.7006807747186,
-    "token_use_direct": 270,
-    "token_use_thinking": 2075
+    "elo_direct": null,
+    "elo_thinking": 1460.407970012485,
+    "token_use_thinking": 1477
   },
   {
     "id": "z-ai/glm-5",
@@ -7919,9 +7468,762 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1457.2623746384393,
+    "elo_thinking": 1457.4955020198665,
     "token_use_direct": 253,
     "token_use_thinking": 2186
+  },
+  {
+    "id": "deepseek/deepseek-v4-pro",
+    "name": "DeepSeek v4 Pro",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;deepseek",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.435,
+          "completion": 0.87
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 1376.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.7605,
+          "completion": 1.521
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 591,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.87,
+          "completion": 1.74
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 53,
+        "ttfb": 1635,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;gmicloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.131,
+          "completion": 2.262
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 2388,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;deepinfra/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.3,
+          "completion": 2.6
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 19,
+        "ttfb": 1010,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;digitalocean",
+        "context_length": 87040,
+        "per_mtok": {
+          "prompt": 1.392,
+          "completion": 2.784
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 22,
+        "ttfb": 1442.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;novita/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.568,
+          "completion": 3.136
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 60,
+        "ttfb": 1372,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;siliconflow/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.5999999999999999,
+          "completion": 3.1350000000000002
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 12,
+        "ttfb": 1329,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.608,
+          "completion": 3.216
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 34,
+        "ttfb": 1286,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;venice",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.6500000000000001,
+          "completion": 3.3009999999999997
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 51,
+        "ttfb": 2406,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;atlas-cloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.68,
+          "completion": 3.38
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 31,
+        "ttfb": 2280.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;parasail/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 688,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;wandb/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 12,
+        "ttfb": 691,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;together",
+        "context_length": 512000,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 40,
+        "ttfb": 742,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 38,
+        "ttfb": 1676.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;deepseek",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.435,
+          "completion": 0.87
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 1376.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.7605,
+          "completion": 1.521
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 591,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.87,
+          "completion": 1.74
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 53,
+        "ttfb": 1635,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;gmicloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.131,
+          "completion": 2.262
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 2388,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;deepinfra/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.3,
+          "completion": 2.6
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 19,
+        "ttfb": 1010,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;digitalocean",
+        "context_length": 87040,
+        "per_mtok": {
+          "prompt": 1.392,
+          "completion": 2.784
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 22,
+        "ttfb": 1442.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;novita/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.568,
+          "completion": 3.136
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 60,
+        "ttfb": 1372,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;siliconflow/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.5999999999999999,
+          "completion": 3.1350000000000002
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 12,
+        "ttfb": 1329,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.608,
+          "completion": 3.216
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 34,
+        "ttfb": 1286,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;venice",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.6500000000000001,
+          "completion": 3.3009999999999997
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 51,
+        "ttfb": 2406,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;atlas-cloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.68,
+          "completion": 3.38
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 31,
+        "ttfb": 2280.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;parasail/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 688,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;wandb/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 12,
+        "ttfb": 691,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;together",
+        "context_length": 512000,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 40,
+        "ttfb": 742,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "deepseek/deepseek-v4-pro;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.74,
+          "completion": 3.48
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 38,
+        "ttfb": 1676.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "crofai",
+        "model_id": "deepseek-v4-pro",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.35,
+          "completion": 0.8
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 69,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "medium"
+        ],
+        "extra": {
+          "quantization": "Q8_0"
+        }
+      },
+      {
+        "provider": "crofai",
+        "model_id": "deepseek-v4-pro-lightning",
+        "note": "lightning variant",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.8,
+          "completion": 1.6
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 38,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "medium"
+        ],
+        "extra": {
+          "quantization": "Q8_0"
+        }
+      }
+    ],
+    "elo_direct": 1456.584745242528,
+    "elo_thinking": 1456.6958261365696,
+    "token_use_direct": 270,
+    "token_use_thinking": 2075
   },
   {
     "id": "anthropic/claude-sonnet-4.5",
@@ -8264,8 +8566,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1455.1551959542146,
-    "elo_thinking": 1455.4558241185525,
+    "elo_direct": 1455.077777953835,
+    "elo_thinking": 1455.4777455462208,
     "token_use_direct": 158,
     "token_use_thinking": 1273
   },
@@ -8430,8 +8732,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1438.7802366466515,
-    "elo_thinking": 1454.6482780306224,
+    "elo_direct": 1438.8351355809139,
+    "elo_thinking": 1454.7102786450537,
     "token_use_direct": 78,
     "token_use_thinking": 1373
   },
@@ -9185,7 +9487,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1450.8859282419753,
+    "elo_thinking": 1451.0603123737287,
     "token_use_direct": 143,
     "token_use_thinking": 785
   },
@@ -9777,8 +10079,8 @@
         }
       }
     ],
-    "elo_direct": 1431.4881990996137,
-    "elo_thinking": 1449.6873362097776,
+    "elo_direct": 1431.7643665026108,
+    "elo_thinking": 1449.789846428592,
     "token_use_direct": 256,
     "token_use_thinking": 1773
   },
@@ -9931,8 +10233,126 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1447.0548794030408,
-    "elo_thinking": 1449.0156423994804
+    "elo_direct": 1447.0374152795491,
+    "elo_thinking": 1449.0345608360924
+  },
+  {
+    "id": "openai/gpt-5.4-mini",
+    "name": "GPT 5.4 mini",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "openai/gpt-5.4-mini;openai",
+        "context_length": 400000,
+        "per_mtok": {
+          "prompt": 0.75,
+          "completion": 4.5
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 75,
+        "ttfb": 821,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "openai/gpt-5.4-mini;azure",
+        "context_length": 400000,
+        "per_mtok": {
+          "prompt": 0.75,
+          "completion": 4.5
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 1064,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "openai/gpt-5.4-mini;openai",
+        "context_length": 400000,
+        "per_mtok": {
+          "prompt": 0.75,
+          "completion": 4.5
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 75,
+        "ttfb": 821,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "openai/gpt-5.4-mini;azure",
+        "context_length": 400000,
+        "per_mtok": {
+          "prompt": 0.75,
+          "completion": 4.5
+        },
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 1064,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1449.0179270716346,
+    "token_use_direct": 49,
+    "token_use_thinking": 706
   },
   {
     "id": "openai/gpt-5.3-chat",
@@ -10031,7 +10451,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1448.6120023325332,
+    "elo_direct": 1448.6709336705587,
     "elo_thinking": null
   },
   {
@@ -10344,126 +10764,8 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1448.1734380336936,
+    "elo_thinking": 1447.3375574745642,
     "token_use_thinking": 1816
-  },
-  {
-    "id": "openai/gpt-5.4-mini",
-    "name": "GPT 5.4 mini",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "openai/gpt-5.4-mini;openai",
-        "context_length": 400000,
-        "per_mtok": {
-          "prompt": 0.75,
-          "completion": 4.5
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 75,
-        "ttfb": 821,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "openai/gpt-5.4-mini;azure",
-        "context_length": 400000,
-        "per_mtok": {
-          "prompt": 0.75,
-          "completion": 4.5
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 1064,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "openai/gpt-5.4-mini;openai",
-        "context_length": 400000,
-        "per_mtok": {
-          "prompt": 0.75,
-          "completion": 4.5
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 75,
-        "ttfb": 821,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "openai/gpt-5.4-mini;azure",
-        "context_length": 400000,
-        "per_mtok": {
-          "prompt": 0.75,
-          "completion": 4.5
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 1064,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1448.0375394860853,
-    "token_use_direct": 49,
-    "token_use_thinking": 706
   },
   {
     "id": "google/gemini-2.5-pro",
@@ -10687,7 +10989,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1445.70898876016,
+    "elo_thinking": 1445.7154659157468,
     "token_use_thinking": 1093
   },
   {
@@ -10744,122 +11046,8 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1444.2108584039431,
+    "elo_thinking": 1444.1501016069615,
     "token_use_thinking": 2026
-  },
-  {
-    "id": "x-ai/grok-4.3",
-    "name": "Grok 4.3",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.3;xai",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 93,
-        "ttfb": 723.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "x-ai/grok-4.3;xai/zdr",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 99,
-        "ttfb": 575,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.3;xai",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 93,
-        "ttfb": 723.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "x-ai/grok-4.3;xai/zdr",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 99,
-        "ttfb": 575,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1444.0191065872602,
-    "token_use_direct": 156,
-    "token_use_thinking": 565
   },
   {
     "id": "qwen/qwen3.5-397b-a17b",
@@ -11487,9 +11675,123 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1443.7179168772702,
+    "elo_thinking": 1443.0821464833402,
     "token_use_direct": 401,
     "token_use_thinking": 1719
+  },
+  {
+    "id": "x-ai/grok-4.3",
+    "name": "Grok 4.3",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.3;xai",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 93,
+        "ttfb": 723.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "x-ai/grok-4.3;xai/zdr",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 99,
+        "ttfb": 575,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.3;xai",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 93,
+        "ttfb": 723.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "x-ai/grok-4.3;xai/zdr",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 99,
+        "ttfb": 575,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1442.8883634346994,
+    "token_use_direct": 156,
+    "token_use_thinking": 565
   },
   {
     "id": "z-ai/glm-4.7",
@@ -11934,7 +12236,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1442.5818131413553,
+    "elo_thinking": 1442.4607382616741,
     "token_use_direct": 263,
     "token_use_thinking": 3350
   },
@@ -12521,7 +12823,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1438.1267563853057,
+    "elo_thinking": 1438.2853651315784,
     "token_use_direct": 278,
     "token_use_thinking": 1459
   },
@@ -12638,8 +12940,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1434.6386720908818,
-    "elo_thinking": 1437.5370733388877,
+    "elo_direct": 1435.0764509790476,
+    "elo_thinking": 1437.4928227667385,
     "token_use_direct": 76,
     "token_use_thinking": 429
   },
@@ -13449,7 +13751,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 70,
+        "tps": 83,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -13459,8 +13761,8 @@
         }
       }
     ],
-    "elo_direct": 1433.8503115667172,
-    "elo_thinking": 1436.3889691891477,
+    "elo_direct": 1435.140833942582,
+    "elo_thinking": 1437.2966410154713,
     "token_use_direct": 218,
     "token_use_thinking": 1974
   },
@@ -13646,7 +13948,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1433.5725917015595,
+    "elo_thinking": 1433.6281706932793,
     "token_use_direct": 80,
     "token_use_thinking": 841
   },
@@ -13868,7 +14170,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1433.0060020725116,
+    "elo_thinking": 1433.5353868038617,
     "token_use_thinking": 1488
   },
   {
@@ -14007,7 +14309,7 @@
         ]
       }
     ],
-    "elo_direct": 1432.2577368453947,
+    "elo_direct": 1431.6349484318193,
     "elo_thinking": null,
     "token_use_thinking": 1051
   },
@@ -14086,7 +14388,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1431.0073782572179,
+    "elo_thinking": 1431.0219105255937,
     "token_use_thinking": 967
   },
   {
@@ -14229,8 +14531,65 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1430.02011333545,
+    "elo_thinking": 1429.9105417863943,
     "token_use_thinking": 2000
+  },
+  {
+    "id": "mistralai/mistral-medium-3-5",
+    "name": "Mistral Medium 3.5",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "mistralai/mistral-medium-3-5;mistral",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.5,
+          "completion": 7.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 20,
+        "ttfb": 670,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "mistralai/mistral-medium-3-5;mistral",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.5,
+          "completion": 7.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 20,
+        "ttfb": 670,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1426.9822637642762,
+    "token_use_thinking": 1799
   },
   {
     "id": "openai/gpt-5-chat",
@@ -14300,65 +14659,8 @@
         ]
       }
     ],
-    "elo_direct": 1426.5934500831288,
+    "elo_direct": 1426.6391820820738,
     "elo_thinking": null
-  },
-  {
-    "id": "mistralai/mistral-medium-3-5",
-    "name": "Mistral Medium 3.5",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "mistralai/mistral-medium-3-5;mistral",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.5,
-          "completion": 7.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 670,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "mistralai/mistral-medium-3-5;mistral",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.5,
-          "completion": 7.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 670,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1426.23229027746,
-    "token_use_thinking": 1799
   },
   {
     "id": "z-ai/glm-4.6",
@@ -14606,7 +14908,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1425.3427728356048,
+    "elo_thinking": 1425.3623638595739,
     "token_use_direct": 174,
     "token_use_thinking": 1149
   },
@@ -15190,8 +15492,8 @@
         }
       }
     ],
-    "elo_direct": 1424.9706825177693,
-    "elo_thinking": 1423.0617678121264,
+    "elo_direct": 1425.0941038379508,
+    "elo_thinking": 1423.083257648968,
     "token_use_direct": 305,
     "token_use_thinking": 1229
   },
@@ -15344,8 +15646,8 @@
         }
       }
     ],
-    "elo_direct": 1423.0948316967126,
-    "elo_thinking": 1424.8192906046913,
+    "elo_direct": 1423.0220895183418,
+    "elo_thinking": 1424.7408570359373,
     "token_use_direct": 204,
     "token_use_thinking": 794
   },
@@ -15402,8 +15704,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1412.3017732279409,
-    "elo_thinking": 1424.3658008650063
+    "elo_direct": 1412.3097346512864,
+    "elo_thinking": 1424.3883183706935
   },
   {
     "id": "qwen/qwen3-max",
@@ -15453,7 +15755,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1424.1342235866803,
+    "elo_thinking": 1424.2604755671275,
     "token_use_direct": 253
   },
   {
@@ -15922,7 +16224,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1423.2429090607695,
+    "elo_direct": 1423.1980285740212,
     "elo_thinking": null,
     "token_use_direct": 295
   },
@@ -16174,8 +16476,178 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1422.2194433852942,
+    "elo_thinking": 1422.1711056523297,
     "token_use_thinking": 983
+  },
+  {
+    "id": "nvidia/nemotron-3-ultra-550b-a55b",
+    "name": "Nemotron 3 Ultra",
+    "providers": [
+      {
+        "provider": "openrouter-free",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free;nvidia",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 14,
+        "ttfb": 3845.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;deepinfra/bf16",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.5,
+          "completion": 2.2
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 55,
+        "ttfb": 4720,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "bf16"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;together",
+        "context_length": 512288,
+        "per_mtok": {
+          "prompt": 0.6,
+          "completion": 3.5999999999999996
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 52,
+        "ttfb": 1064,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;nebius/fp4",
+        "context_length": 8000,
+        "per_mtok": {
+          "prompt": 1,
+          "completion": 3
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 28,
+        "ttfb": 2040.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;deepinfra/bf16",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.5,
+          "completion": 2.2
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 55,
+        "ttfb": 4720,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "bf16"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;together",
+        "context_length": 512288,
+        "per_mtok": {
+          "prompt": 0.6,
+          "completion": 3.5999999999999996
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 52,
+        "ttfb": 1064,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;nebius/fp4",
+        "context_length": 8000,
+        "per_mtok": {
+          "prompt": 1,
+          "completion": 3
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 28,
+        "ttfb": 2040.5,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": 1420.455576762319
   },
   {
     "id": "moonshotai/kimi-k2-0905",
@@ -16316,7 +16788,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1417.9850942368469,
+    "elo_direct": 1417.8781782159651,
     "elo_thinking": null,
     "token_use_direct": 158
   },
@@ -16561,8 +17033,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1416.0190517635865,
-    "elo_thinking": 1417.6698228304185,
+    "elo_direct": 1416.0684864710074,
+    "elo_thinking": 1417.5518153196133,
     "token_use_direct": 162,
     "token_use_thinking": 849
   },
@@ -16617,7 +17089,7 @@
         }
       }
     ],
-    "elo_direct": 1417.4528735256192,
+    "elo_direct": 1417.4626915376075,
     "elo_thinking": null,
     "token_use_direct": 230
   },
@@ -16958,8 +17430,8 @@
         }
       }
     ],
-    "elo_direct": 1417.3886853374916,
-    "elo_thinking": 1416.9776377633812,
+    "elo_direct": 1417.3943430611782,
+    "elo_thinking": 1417.1535223022524,
     "token_use_direct": 185,
     "token_use_thinking": 1195
   },
@@ -17173,7 +17645,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1417.159999236003,
+    "elo_thinking": 1417.2703529989358,
     "token_use_direct": 587,
     "token_use_thinking": 1827
   },
@@ -17735,178 +18207,8 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1416.613079840981,
+    "elo_thinking": 1416.6525038775465,
     "token_use_thinking": 1739
-  },
-  {
-    "id": "nvidia/nemotron-3-ultra-550b-a55b",
-    "name": "Nemotron 3 Ultra",
-    "providers": [
-      {
-        "provider": "openrouter-free",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free;nvidia",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0,
-          "completion": 0
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 14,
-        "ttfb": 3845.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;deepinfra/bf16",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.5,
-          "completion": 2.2
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 55,
-        "ttfb": 4720,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "bf16"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;together",
-        "context_length": 512288,
-        "per_mtok": {
-          "prompt": 0.6,
-          "completion": 3.5999999999999996
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 52,
-        "ttfb": 1064,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;nebius/fp4",
-        "context_length": 8000,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 3
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 28,
-        "ttfb": 2040.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;deepinfra/bf16",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.5,
-          "completion": 2.2
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 55,
-        "ttfb": 4720,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "bf16"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;together",
-        "context_length": 512288,
-        "per_mtok": {
-          "prompt": 0.6,
-          "completion": 3.5999999999999996
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 52,
-        "ttfb": 1064,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "nvidia/nemotron-3-ultra-550b-a55b;nebius/fp4",
-        "context_length": 8000,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 3
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 28,
-        "ttfb": 2040.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1416.0280315299087
   },
   {
     "id": "mistralai/mistral-large",
@@ -17957,7 +18259,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1415.7355027676726,
+    "elo_direct": 1415.7209695344961,
     "elo_thinking": null,
     "token_use_direct": 104
   },
@@ -18250,7 +18552,7 @@
         }
       }
     ],
-    "elo_direct": 1415.4294297725528,
+    "elo_direct": 1415.3476480393556,
     "elo_thinking": null,
     "token_use_direct": 215
   },
@@ -18414,7 +18716,7 @@
         ]
       }
     ],
-    "elo_direct": 1413.6433939870678,
+    "elo_direct": 1413.5711277478413,
     "elo_thinking": null,
     "token_use_direct": 90
   },
@@ -18653,7 +18955,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1411.0661215792074,
+    "elo_direct": 1411.275185920855,
     "elo_thinking": null,
     "token_use_direct": 166,
     "token_use_thinking": 1746
@@ -18712,7 +19014,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1410.9416140851092,
+    "elo_thinking": 1410.954037074473,
     "token_use_thinking": 1215
   },
   {
@@ -18963,7 +19265,7 @@
         ]
       }
     ],
-    "elo_direct": 1410.383608347651,
+    "elo_direct": 1410.3723308036506,
     "elo_thinking": null,
     "token_use_direct": 350,
     "token_use_thinking": 1046
@@ -19019,7 +19321,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1409.6577722466454,
+    "elo_direct": 1409.6184984181473,
     "elo_thinking": null,
     "token_use_direct": 152
   },
@@ -19333,63 +19635,9 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1408.8077710059933,
+    "elo_thinking": 1408.8751551148355,
     "token_use_direct": 502,
     "token_use_thinking": 1957
-  },
-  {
-    "id": "qwen/qwen3-235b-a22b",
-    "name": "Qwen3 235b",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "qwen/qwen3-235b-a22b;alibaba",
-        "context_length": 131072,
-        "per_mtok": {
-          "prompt": 0.45499999999999996,
-          "completion": 1.8199999999999998
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 61,
-        "ttfb": 497,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "qwen/qwen3-235b-a22b;alibaba",
-        "context_length": 131072,
-        "per_mtok": {
-          "prompt": 0.45499999999999996,
-          "completion": 1.8199999999999998
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 61,
-        "ttfb": 497,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": 1403.1771326205564,
-    "elo_thinking": 1374.824872817616,
-    "token_use_direct": 82,
-    "token_use_thinking": 607
   },
   {
     "id": "openai/gpt-5.4-nano",
@@ -19505,9 +19753,63 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1403.1658553316145,
+    "elo_thinking": 1403.4052407417473,
     "token_use_direct": 74,
     "token_use_thinking": 531
+  },
+  {
+    "id": "qwen/qwen3-235b-a22b",
+    "name": "Qwen3 235b",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "qwen/qwen3-235b-a22b;alibaba",
+        "context_length": 131072,
+        "per_mtok": {
+          "prompt": 0.45499999999999996,
+          "completion": 1.8199999999999998
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 61,
+        "ttfb": 497,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "qwen/qwen3-235b-a22b;alibaba",
+        "context_length": 131072,
+        "per_mtok": {
+          "prompt": 0.45499999999999996,
+          "completion": 1.8199999999999998
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 61,
+        "ttfb": 497,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": 1403.095724971842,
+    "elo_thinking": 1374.8103412473613,
+    "token_use_direct": 82,
+    "token_use_thinking": 607
   },
   {
     "id": "openai/o1",
@@ -19584,7 +19886,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1401.9801147795447,
+    "elo_thinking": 1401.953753515604,
     "token_use_thinking": 703
   },
   {
@@ -19883,7 +20185,7 @@
         }
       }
     ],
-    "elo_direct": 1401.5851020852083,
+    "elo_direct": 1401.49241431752,
     "elo_thinking": null,
     "token_use_direct": 290
   },
@@ -20073,7 +20375,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1399.2429275149643,
+    "elo_thinking": 1399.3183488814145,
     "token_use_thinking": 1267
   },
   {
@@ -20321,8 +20623,8 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1388.8385475388868,
-    "elo_thinking": 1399.0746393525505,
+    "elo_direct": 1388.9748175351515,
+    "elo_thinking": 1399.1513101103585,
     "token_use_direct": 120,
     "token_use_thinking": 1109
   },
@@ -20436,7 +20738,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1398.0831916444108,
+    "elo_thinking": 1398.0555966820941,
     "token_use_thinking": 1246
   },
   {
@@ -20493,7 +20795,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1397.0344619497293
+    "elo_thinking": 1396.918364167792
   },
   {
     "id": "qwen/qwen3.5-35b-a3b",
@@ -20961,7 +21263,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1395.7698995738363,
+    "elo_thinking": 1395.7019434533677,
     "token_use_direct": 731,
     "token_use_thinking": 2010
   },
@@ -21063,7 +21365,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1395.745649958574,
+    "elo_thinking": 1395.6441089500038,
     "token_use_thinking": 856
   },
   {
@@ -21317,7 +21619,7 @@
         ]
       }
     ],
-    "elo_direct": 1395.5239111745457,
+    "elo_direct": 1395.4931373668219,
     "elo_thinking": null,
     "token_use_direct": 79
   },
@@ -21375,7 +21677,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1395.1676097569878,
+    "elo_thinking": 1395.4584090435712,
     "token_use_thinking": 5212
   },
   {
@@ -22199,7 +22501,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1390.606037279354,
+    "elo_thinking": 1390.7303787619032,
     "token_use_thinking": 1125
   },
   {
@@ -22384,7 +22686,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1390.035913543711,
+    "elo_thinking": 1390.0004967746465,
     "token_use_direct": 57,
     "token_use_thinking": 412
   },
@@ -22463,7 +22765,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1389.8096029195783,
+    "elo_thinking": 1389.827675731699,
     "token_use_thinking": 1648
   },
   {
@@ -22808,7 +23110,7 @@
         }
       }
     ],
-    "elo_direct": 1387.593696169379,
+    "elo_direct": 1387.6324922167958,
     "elo_thinking": null,
     "token_use_direct": 180
   },
@@ -22880,7 +23182,7 @@
         ]
       }
     ],
-    "elo_direct": 1386.8969285152975,
+    "elo_direct": 1386.8170354610202,
     "elo_thinking": null,
     "token_use_direct": 79
   },
@@ -23082,7 +23384,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1384.4190869776892,
+    "elo_thinking": 1384.5038885966142,
     "token_use_thinking": 1168
   },
   {
@@ -23358,7 +23660,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1383.323495179669,
+    "elo_direct": 1383.2567211655446,
     "elo_thinking": null,
     "token_use_direct": 295
   },
@@ -23522,7 +23824,7 @@
         ]
       }
     ],
-    "elo_direct": 1382.5414981485733,
+    "elo_direct": 1382.573971219857,
     "elo_thinking": null,
     "token_use_direct": 92
   },
@@ -23587,7 +23889,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1379.7262916148238,
+    "elo_direct": 1379.7131266963477,
     "elo_thinking": null,
     "token_use_direct": 557,
     "token_use_thinking": 890
@@ -23702,7 +24004,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1377.1853911446951,
+    "elo_thinking": 1377.3360234470065,
     "token_use_direct": 129,
     "token_use_thinking": 1802
   },
@@ -23880,7 +24182,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1374.390403070797,
+    "elo_thinking": 1374.3519377332357,
     "token_use_direct": 712,
     "token_use_thinking": 2152
   },
@@ -24034,7 +24336,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1373.0921543913246,
+    "elo_thinking": 1373.0345356123428,
     "token_use_thinking": 1358
   },
   {
@@ -24219,7 +24521,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1369.5440362811046,
+    "elo_thinking": 1369.6271212184324,
     "token_use_thinking": 1027
   },
   {
@@ -24270,7 +24572,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1368.7690127173594,
+    "elo_thinking": 1369.1771835515838,
     "token_use_thinking": 3095
   },
   {
@@ -24490,7 +24792,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1367.9027224233027,
+    "elo_thinking": 1367.927368541658,
     "token_use_direct": 396,
     "token_use_thinking": 1278
   },
@@ -24735,7 +25037,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1365.7471548899346,
+    "elo_direct": 1365.788967905541,
     "elo_thinking": null,
     "token_use_direct": 80
   },
@@ -24837,7 +25139,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1363.873303847508,
+    "elo_thinking": 1363.6848597822636,
     "token_use_thinking": 487
   },
   {
@@ -25056,7 +25358,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1361.5461536308028,
+    "elo_thinking": 1361.5529708218148,
     "token_use_thinking": 2079
   },
   {
@@ -25198,7 +25500,7 @@
         }
       }
     ],
-    "elo_direct": 1358.4939834010313,
+    "elo_direct": 1358.4494429893268,
     "elo_thinking": null,
     "token_use_direct": 52
   },
@@ -25395,7 +25697,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1357.6208958977452,
+    "elo_direct": 1357.5725249182753,
     "elo_thinking": null,
     "token_use_direct": 91
   },
@@ -25462,7 +25764,7 @@
         ]
       }
     ],
-    "elo_direct": 1353.931483399335,
+    "elo_direct": 1353.9104798021488,
     "elo_thinking": null,
     "token_use_direct": 77
   },
@@ -25572,7 +25874,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1353.2257066032935,
+    "elo_thinking": 1353.3212983507115,
     "token_use_direct": 139,
     "token_use_thinking": 613
   },
@@ -26582,7 +26884,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1352.703222995669,
+    "elo_thinking": 1352.6607534414177,
     "token_use_thinking": 490
   },
   {
@@ -26657,7 +26959,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1347.6570751333045,
+    "elo_thinking": 1347.622389761474,
     "token_use_thinking": 1222
   },
   {
@@ -26963,7 +27265,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1347.2828627949268,
+    "elo_thinking": 1347.2392546678432,
     "token_use_thinking": 598
   },
   {
@@ -27015,7 +27317,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1346.4877551432626,
+    "elo_direct": 1347.0062541978068,
     "elo_thinking": null,
     "token_use_thinking": 1392
   },
@@ -27213,7 +27515,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1346.001588167007,
+    "elo_thinking": 1345.8755123752783,
     "token_use_thinking": 1350
   },
   {
@@ -27313,7 +27615,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1345.6894214296196,
+    "elo_direct": 1345.6614835944422,
     "elo_thinking": null
   },
   {
@@ -27370,7 +27672,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1343.1483560769686,
+    "elo_thinking": 1343.0472096764777,
     "token_use_direct": 130,
     "token_use_thinking": 1060
   },
@@ -27427,117 +27729,9 @@
         }
       }
     ],
-    "elo_direct": 1341.8753392449073,
+    "elo_direct": 1341.8778545250673,
     "elo_thinking": null,
     "token_use_direct": 107
-  },
-  {
-    "id": "amazon/nova-2-lite-v1",
-    "name": "Nova 2 Lite",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock/eu-west-1",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.3,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "video",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 96.5,
-        "ttfb": 891,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.3,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "video",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 420,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock/eu-west-1",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.3,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "video",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 96.5,
-        "ttfb": 891,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.3,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "video",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 420,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": 1337.1740228739056,
-    "elo_thinking": null
   },
   {
     "id": "openai/gpt-5-nano",
@@ -27721,9 +27915,117 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1337.0757873129824,
+    "elo_thinking": 1337.2042767170535,
     "token_use_direct": 181,
     "token_use_thinking": 904
+  },
+  {
+    "id": "amazon/nova-2-lite-v1",
+    "name": "Nova 2 Lite",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock/eu-west-1",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 96.5,
+        "ttfb": 891,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 420,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock/eu-west-1",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 96.5,
+        "ttfb": 891,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "amazon/nova-2-lite-v1;amazon-bedrock",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 27,
+        "ttfb": 420,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": 1336.9957810102017,
+    "elo_thinking": null
   },
   {
     "id": "openai/gpt-4o",
@@ -27840,7 +28142,7 @@
         ]
       }
     ],
-    "elo_direct": 1334.9840131181074,
+    "elo_direct": 1334.9615908372054,
     "elo_thinking": null,
     "token_use_direct": 58
   },
@@ -27865,7 +28167,7 @@
         ]
       }
     ],
-    "elo_direct": 1332.8767364036512,
+    "elo_direct": 1332.8634070710305,
     "elo_thinking": null,
     "token_use_direct": 78
   },
@@ -28015,7 +28317,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1327.3895628590246,
+    "elo_thinking": 1327.3354727241765,
     "token_use_direct": 61,
     "token_use_thinking": 643
   },
@@ -28273,7 +28575,7 @@
         ]
       }
     ],
-    "elo_direct": 1326.97155026479,
+    "elo_direct": 1327.004752404032,
     "elo_thinking": null,
     "token_use_direct": 163
   },
@@ -28326,7 +28628,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1323.9048522532644,
+    "elo_direct": 1323.8760307906348,
     "elo_thinking": null
   },
   {
@@ -28552,7 +28854,7 @@
         ]
       }
     ],
-    "elo_direct": 1322.7262090025276,
+    "elo_direct": 1322.628837733814,
     "elo_thinking": null,
     "token_use_direct": 147
   },
@@ -28716,60 +29018,9 @@
         ]
       }
     ],
-    "elo_direct": 1322.0402214131334,
+    "elo_direct": 1322.010575077208,
     "elo_thinking": null,
     "token_use_direct": 105
-  },
-  {
-    "id": "google/gemma-3n-e4b-it",
-    "name": "Gemma 3n E4b",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "google/gemma-3n-e4b-it;together",
-        "context_length": 32768,
-        "per_mtok": {
-          "prompt": 0.06,
-          "completion": 0.12
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 29,
-        "ttfb": 273,
-        "reasoning_efforts": [
-          "none"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "google/gemma-3n-e4b-it;together",
-        "context_length": 32768,
-        "per_mtok": {
-          "prompt": 0.06,
-          "completion": 0.12
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 29,
-        "ttfb": 273,
-        "reasoning_efforts": [
-          "none"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": 1318.145947961313,
-    "elo_thinking": null,
-    "token_use_direct": 210
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct",
@@ -29417,9 +29668,60 @@
         ]
       }
     ],
-    "elo_direct": 1318.1372490611948,
+    "elo_direct": 1318.1140545492324,
     "elo_thinking": null,
     "token_use_direct": 77
+  },
+  {
+    "id": "google/gemma-3n-e4b-it",
+    "name": "Gemma 3n E4b",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "google/gemma-3n-e4b-it;together",
+        "context_length": 32768,
+        "per_mtok": {
+          "prompt": 0.06,
+          "completion": 0.12
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 29,
+        "ttfb": 273,
+        "reasoning_efforts": [
+          "none"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "google/gemma-3n-e4b-it;together",
+        "context_length": 32768,
+        "per_mtok": {
+          "prompt": 0.06,
+          "completion": 0.12
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 29,
+        "ttfb": 273,
+        "reasoning_efforts": [
+          "none"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": 1318.1138328220134,
+    "elo_thinking": null,
+    "token_use_direct": 210
   },
   {
     "id": "openai/gpt-4o-mini",
@@ -29582,7 +29884,7 @@
         ]
       }
     ],
-    "elo_direct": 1317.6808089612887,
+    "elo_direct": 1317.6325837634326,
     "elo_thinking": null
   },
   {
@@ -30279,7 +30581,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1317.5570469362196,
+    "elo_thinking": 1317.460017209345,
     "token_use_thinking": 486
   },
   {
@@ -30456,7 +30758,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1316.0142538360476,
+    "elo_thinking": 1316.0120675403828,
     "token_use_direct": 255,
     "token_use_thinking": 2869
   },
@@ -30509,7 +30811,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1313.9224331901517,
+    "elo_direct": 1313.8967779937095,
     "elo_thinking": null
   },
   {
@@ -30563,7 +30865,7 @@
         }
       }
     ],
-    "elo_direct": 1306.8073235821098,
+    "elo_direct": 1307.4058005582388,
     "elo_thinking": null,
     "token_use_direct": 79
   },
@@ -30594,7 +30896,7 @@
       }
     ],
     "elo_direct": null,
-    "elo_thinking": 1305.4015453401435
+    "elo_thinking": 1305.5056222370297
   },
   {
     "id": "mistralai/mistral-small-3.1-24b-instruct",
@@ -30662,7 +30964,7 @@
         ]
       }
     ],
-    "elo_direct": 1303.4930096147252,
+    "elo_direct": 1303.4607292868354,
     "elo_thinking": null,
     "token_use_direct": 94
   },
@@ -30719,7 +31021,7 @@
         }
       }
     ],
-    "elo_direct": 1303.2759884212971,
+    "elo_direct": 1303.2795763042157,
     "elo_thinking": null,
     "token_use_direct": 77
   },
@@ -30820,7 +31122,7 @@
         }
       }
     ],
-    "elo_direct": 1302.7818219729857,
+    "elo_direct": 1302.7406658210928,
     "elo_thinking": null
   },
   {
@@ -30962,7 +31264,7 @@
         }
       }
     ],
-    "elo_direct": 1293.1382530368562,
+    "elo_direct": 1293.116230041646,
     "elo_thinking": null,
     "token_use_direct": 93
   },
@@ -31059,7 +31361,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1289.9969312876665,
+    "elo_direct": 1289.9612755369317,
     "elo_thinking": null
   },
   {
@@ -31113,7 +31415,7 @@
         }
       }
     ],
-    "elo_direct": 1288.9389390443105,
+    "elo_direct": 1288.913168437597,
     "elo_thinking": null,
     "token_use_direct": 162
   },
@@ -31168,7 +31470,7 @@
         }
       }
     ],
-    "elo_direct": 1288.7344102329496,
+    "elo_direct": 1288.7377085842743,
     "elo_thinking": null
   },
   {
@@ -31218,7 +31520,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1275.7531080727908,
+    "elo_direct": 1275.7299708242876,
     "elo_thinking": null
   },
   {
@@ -31310,7 +31612,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1274.7781275472971,
+    "elo_direct": 1274.7730437838281,
     "elo_thinking": null
   },
   {
@@ -31364,7 +31666,7 @@
         }
       }
     ],
-    "elo_direct": 1274.02271190855,
+    "elo_direct": 1273.9993037339636,
     "elo_thinking": null
   },
   {
@@ -31414,7 +31716,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1270.3355372140425,
+    "elo_direct": 1270.3000685557943,
     "elo_thinking": null
   },
   {
@@ -31466,7 +31768,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1260.6542195942677,
+    "elo_direct": 1260.6496445980963,
     "elo_thinking": null,
     "token_use_direct": 62
   },
@@ -31563,7 +31865,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1260.32080792897,
+    "elo_direct": 1260.2861392157356,
     "elo_thinking": null
   },
   {
@@ -31633,7 +31935,7 @@
         ]
       }
     ],
-    "elo_direct": 1255.9606888727096,
+    "elo_direct": 1255.9382382321992,
     "elo_thinking": null
   },
   {
@@ -31683,7 +31985,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1249.5576899667535,
+    "elo_direct": 1249.5418478760353,
     "elo_thinking": null
   },
   {
@@ -31775,7 +32077,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1240.5730814528063,
+    "elo_direct": 1240.539609763645,
     "elo_thinking": null
   },
   {
@@ -31827,7 +32129,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1228.6108477274106,
+    "elo_direct": 1228.59356958612,
     "elo_thinking": null
   },
   {
@@ -31877,7 +32179,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1223.9470893352789,
+    "elo_direct": 1223.9479526266844,
     "elo_thinking": null
   },
   {
@@ -31931,7 +32233,7 @@
         }
       }
     ],
-    "elo_direct": 1222.8531346871034,
+    "elo_direct": 1222.8459199186234,
     "elo_thinking": null
   },
   {
@@ -32243,7 +32545,7 @@
         ]
       }
     ],
-    "elo_direct": 1211.290256048798,
+    "elo_direct": 1211.2547451474074,
     "elo_thinking": null,
     "token_use_direct": 104
   },
@@ -32317,7 +32619,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1166.0971178298876,
+    "elo_direct": 1166.080377266949,
     "elo_thinking": null
   },
   {
@@ -32367,7 +32669,7 @@
         "extra": {}
       }
     ],
-    "elo_direct": 1110.485766308434,
+    "elo_direct": 1110.4636259182978,
     "elo_thinking": null
   },
   {
@@ -32681,254 +32983,6 @@
         "extra": {
           "quantization": "fp8"
         }
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "anthropic/claude-fable-5",
-    "name": "Claude Fable 5",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/claude-on-aws",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "anthropic/claude-fable-5;google-vertex/global",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/us",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "anthropic/claude-fable-5;anthropic",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "anthropic/claude-fable-5;azure",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/claude-on-aws",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;google-vertex/global",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/us",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;anthropic",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;azure",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
       }
     ],
     "elo_direct": null,
@@ -37369,7 +37423,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 73,
+        "tps": 79,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -43534,60 +43588,6 @@
     "elo_thinking": null
   },
   {
-    "id": "qwen/qwen3.7-plus",
-    "name": "Qwen3.7 Plus",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "qwen/qwen3.7-plus;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.32,
-          "completion": 1.28
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 1361,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "qwen/qwen3.7-plus;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.32,
-          "completion": 1.28
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 1361,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
     "id": "rekaai/reka-edge",
     "name": "Reka Edge",
     "providers": [
@@ -45919,13 +45919,13 @@
     "elo_thinking": null
   },
   {
-    "id": "groq/compound-mini",
-    "name": "groq/compound mini",
+    "id": "humain-ai/allam-2-7b",
+    "name": "humain ai/allam 2 7b",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "groq/compound-mini",
-        "context_length": 70000,
+        "model_id": "allam-2-7b",
+        "context_length": 4096,
         "input_modalities": [
           "text"
         ],
@@ -45943,13 +45943,13 @@
     "elo_thinking": null
   },
   {
-    "id": "humain-ai/allam-2-7b",
-    "name": "humain ai/allam 2 7b",
+    "id": "groq/compound-mini",
+    "name": "groq/compound mini",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "allam-2-7b",
-        "context_length": 4096,
+        "model_id": "groq/compound-mini",
+        "context_length": 70000,
         "input_modalities": [
           "text"
         ],
