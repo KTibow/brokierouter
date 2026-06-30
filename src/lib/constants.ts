@@ -50,8 +50,9 @@ export const GROQ_SKIP = new Set([
 export const CEREBRAS_SKIP = new Set(["zai-glm-4.7", "gpt-oss-120b"]);
 
 export const CEREBRAS_CONTEXT: Record<string, number> = {
-  "llama3.1-8b": 8192,
-  "qwen-3-235b-a22b-instruct-2507": 30000,
+  "gemma-4-31b": 30000,
+  "gpt-oss-120b": 30000,
+  "zai-glm-4.7": 30000,
 };
 
 export const GHM_SKIP = new Set(["openai/o1-mini"]);
