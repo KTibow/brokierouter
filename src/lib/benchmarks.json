@@ -121,6 +121,10 @@
     "google-free": {
       "tps": 24,
       "ttfb": 893
+    },
+    "cerebras-free": {
+      "tps": 1430,
+      "ttfb": 141
     }
   },
   "meta-llama/llama-3.1-405b-instruct": {
@@ -133,10 +137,6 @@
     "github-models": {
       "tps": 200,
       "ttfb": 677
-    },
-    "cerebras-free": {
-      "tps": 2000,
-      "ttfb": 324
     },
     "groq-free": {
       "tps": 560,
@@ -331,6 +331,10 @@
     "groq-free": {
       "tps": 302,
       "ttfb": 317
+    },
+    "cerebras-free": {
+      "tps": 1133,
+      "ttfb": 563
     }
   },
   "openai/gpt-oss-20b": {
@@ -381,12 +385,6 @@
       "ttfb": null
     }
   },
-  "qwen/qwen3-235b-a22b-2507": {
-    "cerebras-free": {
-      "tps": 1529,
-      "ttfb": 291
-    }
-  },
   "qwen/qwen3-32b": {
     "groq-free": {
       "tps": 400,
@@ -409,6 +407,12 @@
     "github-copilot": {
       "tps": 200,
       "ttfb": null
+    }
+  },
+  "z-ai/glm-4.7": {
+    "cerebras-free": {
+      "tps": 1104,
+      "ttfb": 500
     }
   }
 }
