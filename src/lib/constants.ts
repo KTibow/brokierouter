@@ -213,7 +213,7 @@ const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
   // ANTHROPIC ─────────────────────────────────────────────
   // Effort API added progressively. Supported on: Opus 4.5, Sonnet 4.6, Opus 4.6, Opus 4.7
   // Older models use budget_tokens (on/off toggle) → "none" | "medium" standin
-  // xhigh: Opus 4.7 only. max: Opus 4.6+, Sonnet 4.6.
+  // xhigh: Opus 4.7, Fable 5 n/a. max: Opus 4.6+, Sonnet 4.6, Sonnet 5, Fable 5.
   "anthropic/claude-3-haiku": [null],
   "anthropic/claude-3.5-haiku": [null],
   "anthropic/claude-haiku-4.5": [null],
@@ -234,6 +234,8 @@ const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
     "xhigh",
     "max",
   ],
+  "anthropic/claude-fable-5": ["none", "low", "medium", "high", "max"],
+  "anthropic/claude-sonnet-5": ["low", "medium", "high", "xhigh", "max"],
 
   // OPENAI ─────────────────────────────────────────────────
   // GPT-4o / 4.1 family: no reasoning
