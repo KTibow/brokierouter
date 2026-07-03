@@ -234,8 +234,15 @@ const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
     "xhigh",
     "max",
   ],
-  "anthropic/claude-fable-5": ["none", "low", "medium", "high", "max"],
-  "anthropic/claude-sonnet-5": ["low", "medium", "high", "xhigh", "max"],
+  "anthropic/claude-fable-5": ["low", "medium", "high", "max"],
+  "anthropic/claude-sonnet-5": [
+    "none",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+    "max",
+  ],
 
   // OPENAI ─────────────────────────────────────────────────
   // GPT-4o / 4.1 family: no reasoning
