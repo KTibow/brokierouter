@@ -3,8 +3,6 @@ import type {
   Model,
   Provider,
   ORModel,
-  GHMModel,
-  GHCModel,
   CrofModel,
   GroqModel,
   CerebrasModel,
@@ -13,8 +11,6 @@ import type {
 } from "./types.ts";
 import {
   ORResponseSchema,
-  GHMResponseSchema,
-  GHCResponseSchema,
   CrofResponseSchema,
   GroqResponseSchema,
   CerebrasResponseSchema,
@@ -39,9 +35,6 @@ import {
   GROQ_VISION,
   GROQ_SKIP,
   CEREBRAS_CONTEXT,
-  GHM_SKIP,
-  GHM_ID_TO_OR,
-  GHC_ID_TO_OR,
   GROQ_ID_TO_OR,
   CEREBRAS_ID_TO_OR,
   GOOGLE_NAME_TO_OR,
@@ -319,115 +312,6 @@ const providers = {
         const arr = providers.get(orId);
         if (arr) arr.push(provider);
         else providers.set(orId, [provider]);
-      }
-      return { providers, unmapped };
-    },
-  },
-
-  ghm: {
-    async fetch() {
-      return fetchValidated(
-        "https://models.github.ai/catalog/models",
-        GHMResponseSchema,
-        {
-          token: process.env.GHM_KEY ?? "",
-        },
-      );
-    },
-    parse(raw: GHMModel[]): ParseResult {
-      const providers = new Map<string, Provider[]>();
-      const capped4000 = new Set([
-        "deepseek/deepseek-r1",
-        "deepseek/deepseek-r1-0528",
-        "microsoft/mai-ds-r1",
-        "x-ai/grok-3",
-        "x-ai/grok-3-mini",
-        "openai/gpt-5",
-        "openai/gpt-5-mini",
-        "openai/gpt-5-nano",
-        "openai/gpt-5-chat",
-      ]);
-      for (const m of raw) {
-        const orId = GHM_ID_TO_OR[m.id] ?? m.id;
-        if (GHM_SKIP.has(m.id)) continue;
-        let context = Math.min(m.limits.max_input_tokens, 8000);
-        if (capped4000.has(orId)) context = Math.min(context, 4000);
-        providers.set(orId, [
-          {
-            provider: "github-models",
-            model_id: m.id,
-            context_length: context,
-            input_modalities: m.supported_input_modalities,
-            output_modalities: m.supported_output_modalities,
-            tps: null,
-            ttfb: null,
-            reasoning_efforts: getReasoningEfforts(orId, "github-models"),
-          },
-        ]);
-      }
-      return { providers, unmapped: [] };
-    },
-  },
-
-  ghc: {
-    async fetch() {
-      // Step 1: exchange GitHub OAuth token for a temporary Copilot access token
-      const ghToken = process.env.GHC_KEY ?? "";
-      const tokenRes = await fetch(
-        "https://api.github.com/copilot_internal/v2/token",
-        { headers: { authorization: `bearer ${ghToken}` } },
-      );
-      if (!tokenRes.ok)
-        throw new Error(
-          `GHC token exchange failed: ${tokenRes.status} ${await tokenRes.text()}`,
-        );
-      const { token: copilotToken } = (await tokenRes.json()) as {
-        token: string;
-        expires_at: number;
-      };
-      // Step 2: fetch models using the Copilot access token
-      return fetchValidated(
-        "https://api.githubcopilot.com/models",
-        GHCResponseSchema,
-        {
-          token: copilotToken,
-          headers: {
-            "editor-version": "vscode/0-insider",
-            "x-github-api-version": "2025-05-01",
-          },
-        },
-      );
-    },
-    parse(raw: { data: GHCModel[] }): ParseResult {
-      const providers = new Map<string, Provider[]>();
-      const unmapped: string[] = [];
-      for (const m of raw.data) {
-        if (m.policy?.state === "off") continue;
-        if (!m.model_picker_enabled) continue;
-        if (m.capabilities?.type !== "chat") continue;
-        const orId = GHC_ID_TO_OR[m.id] ?? m.id;
-        if (!GHC_ID_TO_OR[m.id]) unmapped.push(m.id);
-        const provider: Provider = {
-          provider: "github-copilot",
-          model_id: m.id,
-          context_length: requireContextLength(
-            m.capabilities?.limits?.max_context_window_tokens,
-            `ghc ${m.id}`,
-          ),
-          tps: null,
-          ttfb: null,
-          reasoning_efforts: getReasoningEfforts(orId),
-          cost_multiplier: m.billing?.multiplier,
-          input_modalities: m.capabilities?.supports?.vision
-            ? ["text", "image"]
-            : ["text"],
-          output_modalities: ["text"],
-          extra: {
-            model_picker_enabled: m.model_picker_enabled,
-            supported_endpoints: m.supported_endpoints,
-          },
-        };
-        providers.set(orId, [provider]);
       }
       return { providers, unmapped };
     },
@@ -713,8 +597,6 @@ const [
   orData,
   hcData,
   crofData,
-  ghmData,
-  ghcData,
   groqData,
   cerebrasData,
   googleData,
@@ -726,14 +608,6 @@ const [
   }),
   providers.crof.fetch().catch((e) => {
     console.warn("CrofAI fetch failed:", e.message);
-    return { data: [] };
-  }),
-  providers.ghm.fetch().catch((e) => {
-    console.warn("GHM fetch failed:", e.message);
-    return [];
-  }),
-  providers.ghc.fetch().catch((e) => {
-    console.warn("GHC fetch failed:", e.message);
     return { data: [] };
   }),
   providers.groq.fetch().catch((e) => {
@@ -752,8 +626,6 @@ const [
 
 const providerResults = [
   { name: "Crof", result: providers.crof.parse(crofData) },
-  { name: "GHM", result: providers.ghm.parse(ghmData) },
-  { name: "GHC", result: providers.ghc.parse(ghcData) },
   { name: "Groq", result: providers.groq.parse(groqData) },
   { name: "Cerebras", result: providers.cerebras.parse(cerebrasData) },
   { name: "Google", result: providers.google.parse(googleData) },

@@ -1,11 +1,9 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import type { Provider } from "./types.ts";
 import {
-  GHM_ID_TO_OR,
   GROQ_ID_TO_OR,
   CEREBRAS_ID_TO_OR,
   GOOGLE_NAME_TO_OR,
-  GHC_ID_TO_OR,
   CROF_MAP,
 } from "./lib/constants.ts";
 
@@ -66,129 +64,7 @@ type ProviderConfig = {
   streamRequest(model_id: string): Promise<Response>;
 };
 
-const getGhcToken = async (): Promise<string> => {
-  const ghToken = process.env.GHC_KEY ?? "";
-  const tokenRes = await fetch(
-    "https://api.github.com/copilot_internal/v2/token",
-    { headers: { authorization: `bearer ${ghToken}` } },
-  );
-  if (!tokenRes.ok)
-    throw new Error(
-      `GHC token exchange failed: ${tokenRes.status} ${await tokenRes.text()}`,
-    );
-  const { token } = (await tokenRes.json()) as {
-    token: string;
-    expires_at: number;
-  };
-  return token;
-};
-
 const PROVIDERS: Record<string, ProviderConfig> = {
-  "github-models": {
-    name: "GitHub Models",
-    async fetchModels() {
-      const res = await fetch("https://models.github.ai/catalog/models", {
-        headers: {
-          Accept: "application/json",
-          Authorization: `Bearer ${process.env.GHM_KEY ?? ""}`,
-        },
-      });
-      if (!res.ok) throw new Error(`GHM fetch failed: ${res.status}`);
-      const models = (await res.json()) as {
-        id: string;
-        supported_output_modalities: string[];
-      }[];
-      return models
-        .filter(
-          (m) =>
-            !m.supported_output_modalities.length ||
-            m.supported_output_modalities.includes("text"),
-        )
-        .map((m) => ({
-          model_id: m.id,
-          or_id: GHM_ID_TO_OR[m.id] ?? m.id,
-        }));
-    },
-    async streamRequest(model_id) {
-      const r = await fetch(
-        "https://models.github.ai/inference/chat/completions?api-version=2024-12-01-preview",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.GHM_KEY ?? ""}`,
-          },
-          body: JSON.stringify({
-            model: model_id,
-            messages: [{ role: "user", content: "List all US presidents." }],
-            stream: true,
-          }),
-        },
-      );
-      if (!r.ok) {
-        const body = await r.text();
-        throw new Error(
-          `GHM stream failed: ${r.status} - ${body.slice(0, 300)}`,
-        );
-      }
-      return r;
-    },
-  },
-
-  "github-copilot": {
-    name: "GitHub Copilot",
-    async fetchModels() {
-      const token = await getGhcToken();
-      const res = await fetch("https://api.githubcopilot.com/models", {
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "editor-version": "vscode/0-insider",
-          "x-github-api-version": "2025-05-01",
-        },
-      });
-      if (!res.ok) throw new Error(`GHC models fetch failed: ${res.status}`);
-      const { data } = (await res.json()) as {
-        data: {
-          id: string;
-          model_picker_enabled: boolean;
-          policy?: { state: string };
-          capabilities?: { type: string };
-        }[];
-      };
-      return data
-        .filter(
-          (m) =>
-            m.model_picker_enabled &&
-            m.policy?.state !== "off" &&
-            m.capabilities?.type === "chat",
-        )
-        .map((m) => ({
-          model_id: m.id,
-          or_id: GHC_ID_TO_OR[m.id] ?? m.id,
-        }));
-    },
-    async streamRequest(model_id) {
-      const token = await getGhcToken();
-      const r = await fetch("https://api.githubcopilot.com/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-          "editor-version": "vscode/0-insider",
-          "x-github-api-version": "2025-05-01",
-          "copilot-integration-id": "vscode-chat",
-        },
-        body: JSON.stringify({
-          model: model_id,
-          messages: [{ role: "user", content: "List all US presidents." }],
-          stream: true,
-        }),
-      });
-      if (!r.ok) throw new Error(`GHC stream failed: ${r.status}`);
-      return r;
-    },
-  },
-
   crofai: {
     name: "CrofAI",
     async fetchModels() {
@@ -357,13 +233,6 @@ if (!providerKey || !PROVIDERS[providerKey]) {
     `Usage: node --env-file=.env src/benchmark.ts <provider>\nProviders: ${Object.keys(PROVIDERS).join(", ")}`,
   );
   process.exit(1);
-}
-
-if (providerKey === "github-copilot") {
-  console.error(
-    "Warning: GHC costs premium requests. Press Ctrl+C to abort, or wait 5s to continue...",
-  );
-  await new Promise((r) => setTimeout(r, 5000));
 }
 
 const config = PROVIDERS[providerKey];

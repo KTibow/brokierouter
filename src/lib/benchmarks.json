@@ -1,64 +1,4 @@
 {
-  "anthropic/claude-haiku-4.5": {
-    "github-copilot": {
-      "tps": 180,
-      "ttfb": null
-    }
-  },
-  "anthropic/claude-opus-4.5": {
-    "github-copilot": {
-      "tps": 60,
-      "ttfb": null
-    }
-  },
-  "anthropic/claude-opus-4.6": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
-  "anthropic/claude-sonnet-4.5": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
-  "cohere/command-a": {
-    "github-models": {
-      "tps": 23,
-      "ttfb": 1293
-    }
-  },
-  "cohere/command-r-08-2024": {
-    "github-models": {
-      "tps": 20,
-      "ttfb": 1876
-    }
-  },
-  "cohere/command-r-plus-08-2024": {
-    "github-models": {
-      "tps": 13,
-      "ttfb": 2571
-    }
-  },
-  "deepseek/deepseek-chat-v3-0324": {
-    "github-models": {
-      "tps": 87,
-      "ttfb": 1011
-    }
-  },
-  "deepseek/deepseek-r1": {
-    "github-models": {
-      "tps": 97,
-      "ttfb": 8962
-    }
-  },
-  "deepseek/deepseek-r1-0528": {
-    "github-models": {
-      "tps": 97,
-      "ttfb": 2201
-    }
-  },
   "gemini-3.1-flash-lite-preview": {
     "google-free": {
       "tps": 209,
@@ -83,17 +23,7 @@
       "ttfb": 296
     }
   },
-  "google/gemini-2.5-pro": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
   "google/gemini-3-flash-preview": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    },
     "google-free": {
       "tps": 172,
       "ttfb": 3130
@@ -103,12 +33,6 @@
     "google-free": {
       "tps": 211,
       "ttfb": 448
-    }
-  },
-  "google/gemini-3.1-pro-preview": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
     }
   },
   "google/gemma-4-26b-a4b-it": {
@@ -127,204 +51,22 @@
       "ttfb": 1198
     }
   },
-  "meta-llama/llama-3.1-405b-instruct": {
-    "github-models": {
-      "tps": 200,
-      "ttfb": 1439
-    }
-  },
   "meta-llama/llama-3.1-8b-instruct": {
-    "github-models": {
-      "tps": 200,
-      "ttfb": 677
-    },
     "groq-free": {
       "tps": 560,
       "ttfb": 128
     }
   },
-  "meta-llama/llama-3.2-11b-vision-instruct": {
-    "github-models": {
-      "tps": 40,
-      "ttfb": 1241
-    }
-  },
-  "meta-llama/llama-3.2-90b-vision-instruct": {
-    "github-models": {
-      "tps": 31,
-      "ttfb": 1319
-    }
-  },
   "meta-llama/llama-3.3-70b-instruct": {
-    "github-models": {
-      "tps": 130,
-      "ttfb": 985
-    },
     "groq-free": {
       "tps": 280,
       "ttfb": 72
     }
   },
-  "meta-llama/llama-4-maverick": {
-    "github-models": {
-      "tps": 182,
-      "ttfb": 1492
-    }
-  },
   "meta-llama/llama-4-scout": {
-    "github-models": {
-      "tps": 57,
-      "ttfb": 838
-    },
     "groq-free": {
       "tps": 299,
       "ttfb": 404
-    }
-  },
-  "microsoft/phi-4": {
-    "github-models": {
-      "tps": 30,
-      "ttfb": 1257
-    }
-  },
-  "microsoft/phi-4-mini-reasoning": {
-    "github-models": {
-      "tps": 24,
-      "ttfb": 929
-    }
-  },
-  "microsoft/phi-4-multimodal-instruct": {
-    "github-models": {
-      "tps": 13,
-      "ttfb": 1977
-    }
-  },
-  "mistral-ai/codestral-2501": {
-    "github-models": {
-      "tps": 63,
-      "ttfb": 1677
-    }
-  },
-  "mistralai/ministral-3b": {
-    "github-models": {
-      "tps": 101,
-      "ttfb": 1099
-    }
-  },
-  "mistralai/mistral-medium-3": {
-    "github-models": {
-      "tps": 27,
-      "ttfb": 1747
-    }
-  },
-  "mistralai/mistral-small-3.1-24b-instruct": {
-    "github-models": {
-      "tps": 88,
-      "ttfb": 1071
-    }
-  },
-  "openai/gpt-4.1": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    },
-    "github-models": {
-      "tps": 124,
-      "ttfb": 2044
-    }
-  },
-  "openai/gpt-4.1-mini": {
-    "github-models": {
-      "tps": 64,
-      "ttfb": 1815
-    }
-  },
-  "openai/gpt-4.1-nano": {
-    "github-models": {
-      "tps": 184,
-      "ttfb": 1323
-    }
-  },
-  "openai/gpt-4o": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    },
-    "github-models": {
-      "tps": 159,
-      "ttfb": 1335
-    }
-  },
-  "openai/gpt-4o-mini": {
-    "github-models": {
-      "tps": 90,
-      "ttfb": 1898
-    }
-  },
-  "openai/gpt-5": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5-chat": {
-    "github-models": {
-      "tps": 129,
-      "ttfb": 1536
-    }
-  },
-  "openai/gpt-5-codex": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5-mini": {
-    "github-copilot": {
-      "tps": 40,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.1": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.1-codex": {
-    "github-copilot": {
-      "tps": 100,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.1-codex-max": {
-    "github-copilot": {
-      "tps": 100,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.1-codex-mini": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.2": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.2-codex": {
-    "github-copilot": {
-      "tps": 80,
-      "ttfb": null
-    }
-  },
-  "openai/gpt-5.4-mini": {
-    "github-copilot": {
-      "tps": 150,
-      "ttfb": null
     }
   },
   "openai/gpt-oss-120b": {
@@ -343,70 +85,10 @@
       "ttfb": 1076
     }
   },
-  "openai/o1": {
-    "github-models": {
-      "tps": 161,
-      "ttfb": 4958
-    }
-  },
-  "openai/o1-mini": {
-    "github-models": {
-      "tps": 64,
-      "ttfb": 6622
-    }
-  },
-  "openai/o1-preview": {
-    "github-models": {
-      "tps": 197,
-      "ttfb": 6332
-    }
-  },
-  "openai/o3": {
-    "github-models": {
-      "tps": 200,
-      "ttfb": 4814
-    }
-  },
-  "openai/o3-mini": {
-    "github-models": {
-      "tps": 200,
-      "ttfb": 4111
-    }
-  },
-  "openai/o4-mini": {
-    "github-models": {
-      "tps": 46,
-      "ttfb": 13884
-    }
-  },
-  "openai/raptor-mini": {
-    "github-copilot": {
-      "tps": 140,
-      "ttfb": null
-    }
-  },
   "qwen/qwen3-32b": {
     "groq-free": {
       "tps": 400,
       "ttfb": 53
-    }
-  },
-  "x-ai/grok-3": {
-    "github-models": {
-      "tps": 59,
-      "ttfb": 1390
-    }
-  },
-  "x-ai/grok-3-mini": {
-    "github-models": {
-      "tps": 156,
-      "ttfb": 4705
-    }
-  },
-  "x-ai/grok-code-fast-1": {
-    "github-copilot": {
-      "tps": 200,
-      "ttfb": null
     }
   },
   "z-ai/glm-4.7": {

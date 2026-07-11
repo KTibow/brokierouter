@@ -53,8 +53,6 @@ export const CEREBRAS_CONTEXT: Record<string, number> = {
   "zai-glm-4.7": 30000,
 };
 
-export const GHM_SKIP = new Set(["openai/o1-mini"]);
-
 // ─── provider id mappings ──────────────────────────────────────────────────
 
 export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
@@ -93,27 +91,6 @@ export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
   "gemma-4-31b-it": { orId: "google/gemma-4-31b-it" },
 };
 
-export const GHM_ID_TO_OR: Record<string, string> = {
-  "cohere/cohere-command-a": "cohere/command-a",
-  "cohere/cohere-command-r-08-2024": "cohere/command-r-08-2024",
-  "cohere/cohere-command-r-plus-08-2024": "cohere/command-r-plus-08-2024",
-  "deepseek/deepseek-v3-0324": "deepseek/deepseek-chat-v3-0324",
-  "meta/llama-3.2-11b-vision-instruct":
-    "meta-llama/llama-3.2-11b-vision-instruct",
-  "meta/llama-3.2-90b-vision-instruct":
-    "meta-llama/llama-3.2-90b-vision-instruct",
-  "meta/llama-3.3-70b-instruct": "meta-llama/llama-3.3-70b-instruct",
-  "meta/meta-llama-3.1-405b-instruct": "meta-llama/llama-3.1-405b-instruct",
-  "meta/llama-4-maverick-17b-128e-instruct-fp8": "meta-llama/llama-4-maverick",
-  "meta/llama-4-scout-17b-16e-instruct": "meta-llama/llama-4-scout",
-  "meta/meta-llama-3.1-8b-instruct": "meta-llama/llama-3.1-8b-instruct",
-  "mistral-ai/ministral-3b": "mistralai/ministral-3b",
-  "mistral-ai/mistral-medium-2505": "mistralai/mistral-medium-3",
-  "mistral-ai/mistral-small-2503": "mistralai/mistral-small-3.1-24b-instruct",
-  "xai/grok-3": "x-ai/grok-3",
-  "xai/grok-3-mini": "x-ai/grok-3-mini",
-};
-
 export const GROQ_ID_TO_OR: Record<string, string> = {
   "llama-3.1-8b-instant": "meta-llama/llama-3.1-8b-instruct",
   "llama-3.3-70b-versatile": "meta-llama/llama-3.3-70b-instruct",
@@ -145,22 +122,6 @@ export const GOOGLE_NAME_TO_OR: Record<string, string> = {
   "models/gemini-3-flash-preview": "google/gemini-3-flash-preview",
   "models/gemini-3.1-flash-lite": "google/gemini-3.1-flash-lite",
   "models/gemini-3.5-flash": "google/gemini-3.5-flash",
-};
-
-export const GHC_ID_TO_OR: Record<string, string> = {
-  "gemini-3.1-pro-preview": "google/gemini-3.1-pro-preview",
-  "gpt-5.2-codex": "openai/gpt-5.2-codex",
-  "gpt-5.3-codex": "openai/gpt-5.3-codex",
-  "gpt-5.4-mini": "openai/gpt-5.4-mini",
-  "gpt-5-mini": "openai/gpt-5-mini",
-  "grok-code-fast-1": "x-ai/grok-code-fast-1",
-  "claude-haiku-4.5": "anthropic/claude-haiku-4.5",
-  "gemini-3-flash-preview": "google/gemini-3-flash-preview",
-  "gemini-2.5-pro": "google/gemini-2.5-pro",
-  "oswe-vscode-prime": "openai/raptor-mini",
-  "gpt-5.2": "openai/gpt-5.2",
-  "gpt-4.1": "openai/gpt-4.1",
-  "gpt-4o": "openai/gpt-4o",
 };
 
 // ─── model skip lists ─────────────────────────────────────────────────────
@@ -361,9 +322,6 @@ export const REASONING_EFFORT_OVERRIDES: Record<
   "google/gemma-4-31b-it": {
     "google-free": ["minimal", "high"],
   },
-  "google/gemini-3-flash-preview": {
-    "github-copilot": ["low", "medium", "high"],
-  },
 };
 
 // Providers whose APIs reject the reasoning_effort parameter entirely for
@@ -374,7 +332,6 @@ export const PICKY_PROVIDERS = new Set([
   "groq-free",
   "cerebras-free",
   "google-free",
-  "github-models",
 ]);
 
 const THINKING_KEYWORDS = ["r1", "reasoning", "think", "deepthink"];
