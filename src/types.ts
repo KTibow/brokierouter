@@ -3,6 +3,7 @@ import {
   object,
   string,
   number,
+  boolean,
   array,
   nullable,
   optional,
