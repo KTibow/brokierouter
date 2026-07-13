@@ -17,6 +17,7 @@ jobs:
         with:
           runtime: node@latest
           cache: true
+          version: latest
 
       - run: pnpm run benchmark google-free
         env:
