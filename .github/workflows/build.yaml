@@ -13,15 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - uses: pnpm/setup@v1
         with:
-          node-version: latest
-      - uses: pnpm/action-setup@v6
-        with:
-          version: latest
+          runtime: node@latest
+          cache: true
       - uses: astral-sh/setup-uv@v4
-
-      - run: pnpm install
 
       - run: uv run scripts/fetch_arena.py
 
