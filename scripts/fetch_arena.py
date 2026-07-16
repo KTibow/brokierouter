@@ -271,6 +271,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "trinity-large-thinking": ("arcee-ai/trinity-large-thinking", True),
     "intellect-3": ("prime-intellect/intellect-3", False),
     "granite-4.1-8b": ("ibm-granite/granite-4.1-8b", False),
+    "muse-spark-1.1": ("meta/muse-spark-1.1", True),
 }
 
 os.makedirs("data", exist_ok=True)
