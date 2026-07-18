@@ -47,6 +47,25 @@ export const GROQ_SKIP = new Set([
   "canopylabs/orpheus-v1-english",
 ]);
 
+// ─── hack club restrictions ────────────────────────────────────────────────
+// Hack Club proxies OpenRouter with account-level restrictions we mirror here.
+
+// Models that only route inside the US; Hack Club's proxy runs on Hetzner (DE)
+export const HC_GEOBLOCKED = /^meta\/muse-spark/;
+
+// Hack Club has banned these sub-providers outright
+export const HC_BANNED_TAGS = new Set(["cerebras"]);
+
+// Hack Club enforces ZDR per model group on frontier first-party endpoints
+// (see openrouter.ai/docs/guides/features/zdr): these tag roots only remain
+// available when the endpoint is on OpenRouter's ZDR list.
+export const HC_ZDR_ENFORCED_TAGS = new Set([
+  "anthropic",
+  "openai",
+  "google-ai-studio",
+  "xai",
+]);
+
 export const CEREBRAS_CONTEXT: Record<string, number> = {
   "gemma-4-31b": 30000,
   "gpt-oss-120b": 30000,
@@ -166,196 +185,3 @@ export const TOKEN_USE_PROXIES: Record<
     },
   ]),
 );
-
-// ─── reasoning efforts ─────────────────────────────────────────────────────
-
-type Effort = "none" | "minimal" | "low" | "medium" | "high" | "xhigh" | "max";
-
-const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
-  // ANTHROPIC ─────────────────────────────────────────────
-  // Effort API added progressively. Supported on: Opus 4.5, Sonnet 4.6, Opus 4.6, Opus 4.7
-  // Older models use budget_tokens (on/off toggle) → "none" | "medium" standin
-  // xhigh: Opus 4.7, Fable 5 n/a. max: Opus 4.6+, Sonnet 4.6, Sonnet 5, Fable 5.
-  "anthropic/claude-3-haiku": [null],
-  "anthropic/claude-3.5-haiku": [null],
-  "anthropic/claude-haiku-4.5": [null],
-  "anthropic/claude-3.7-sonnet": ["none", "medium"], // budget_tokens on/off
-  "anthropic/claude-sonnet-4": ["none", "medium"], // budget_tokens on/off
-  "anthropic/claude-sonnet-4.5": ["none", "medium"], // budget_tokens on/off
-  "anthropic/claude-sonnet-4.6": ["none", "low", "medium", "high", "max"],
-  "anthropic/claude-opus-4": ["none", "medium"], // budget_tokens on/off
-  "anthropic/claude-opus-4.1": ["none", "medium"], // budget_tokens on/off
-  "anthropic/claude-opus-4.5": ["none", "low", "medium", "high"], // effort API, no max
-  "anthropic/claude-opus-4.6": ["none", "low", "medium", "high", "max"],
-  "anthropic/claude-opus-4.6-fast": ["none", "low", "medium", "high", "max"],
-  "anthropic/claude-opus-4.7": [
-    "none",
-    "low",
-    "medium",
-    "high",
-    "xhigh",
-    "max",
-  ],
-  "anthropic/claude-fable-5": ["low", "medium", "high", "max"],
-  "anthropic/claude-sonnet-5": [
-    "none",
-    "low",
-    "medium",
-    "high",
-    "xhigh",
-    "max",
-  ],
-
-  // OPENAI ─────────────────────────────────────────────────
-  // GPT-4o / 4.1 family: no reasoning
-  "openai/gpt-4o": [null],
-  "openai/gpt-4o-2024-05-13": [null],
-  "openai/gpt-4o-2024-11-20": [null],
-  "openai/gpt-4o-audio-preview": [null],
-  "openai/gpt-4o-mini": [null],
-  "openai/gpt-4o-mini-search-preview": [null],
-  "openai/gpt-4o-search-preview": [null],
-  "openai/gpt-4.1": [null],
-  "openai/gpt-4.1-mini": [null],
-  "openai/gpt-4.1-nano": [null],
-  // o-series: low/medium/high only (no xhigh, no none)
-  "openai/o1": ["low", "medium", "high"],
-  "openai/o1-mini": ["low", "medium", "high"],
-  "openai/o1-pro": ["low", "medium", "high"],
-  "openai/o3-mini": ["low", "medium", "high"],
-  "openai/o3": ["low", "medium", "high"],
-  "openai/o3-pro": ["low", "medium", "high"],
-  "openai/o3-deep-research": ["medium"], // always-on deep research
-  "openai/o4-mini": ["low", "medium", "high"],
-  "openai/o4-mini-deep-research": ["medium"], // always-on
-  "openai/gpt-oss-20b": ["low", "medium", "high"],
-  "openai/gpt-oss-120b": ["low", "medium", "high"],
-  // GPT-5 (original): minimal/low/medium/high — no "none", no xhigh
-  "openai/gpt-5": ["minimal", "low", "medium", "high"],
-  "openai/gpt-5-image": ["minimal", "low", "medium", "high"],
-  "openai/gpt-5-mini": ["minimal", "low", "medium", "high"],
-  "openai/gpt-5-image-mini": ["minimal", "low", "medium", "high"],
-  "openai/raptor-mini": ["minimal", "low", "medium", "high"],
-  "openai/gpt-5-nano": ["minimal", "low", "medium", "high"],
-  "openai/gpt-5-chat": [null], // chat/non-reasoning variant
-  "openai/gpt-5-codex": ["low", "medium", "high"], // no minimal, no xhigh
-  "openai/gpt-5-pro": ["high"], // fixed at high only
-  // GPT-5.1: none added as default; codex-max first to get xhigh
-  "openai/gpt-5.1": ["none", "low", "medium", "high"],
-  "openai/gpt-5.1-chat": [null],
-  "openai/gpt-5.1-codex": ["low", "medium", "high"],
-  "openai/gpt-5.1-codex-mini": ["low", "medium", "high"],
-  "openai/gpt-5.1-codex-max": ["low", "medium", "high", "xhigh"], // xhigh debut
-  // GPT-5.2: xhigh added across the board
-  "openai/gpt-5.2": ["none", "low", "medium", "high", "xhigh"],
-  "openai/gpt-5.2-chat": [null],
-  "openai/gpt-5.2-codex": ["low", "medium", "high", "xhigh"],
-  "openai/gpt-5.2-pro": ["high", "xhigh"], // pro = always reasoning, wide range
-  // GPT-5.3
-  "openai/gpt-5.3-chat": [null],
-  "openai/gpt-5.3-codex": ["low", "medium", "high", "xhigh"],
-  // GPT-5.4: full range none→xhigh; mini/nano also reach xhigh (confirmed in release chart)
-  "openai/gpt-5.4": ["none", "low", "medium", "high", "xhigh"],
-  "openai/gpt-5.4-mini": ["none", "low", "medium", "high", "xhigh"],
-  "openai/gpt-5.4-nano": ["none", "low", "medium", "high", "xhigh"],
-  "openai/gpt-5.4-pro": ["low", "medium", "high", "xhigh"],
-  "openai/gpt-5.5": ["none", "low", "medium", "high", "xhigh"],
-  "openai/gpt-5.5-pro": ["low", "medium", "high", "xhigh"],
-
-  // GOOGLE ─────────────────────────────────────────────────
-  "google/gemini-2.0-flash-001": ["minimal"],
-  "google/gemini-2.0-flash-lite-001": ["minimal"],
-  "google/gemini-2.5-pro": ["low", "medium", "high"],
-  "google/gemini-2.5-flash": ["minimal", "low", "medium", "high"],
-  "google/gemini-2.5-flash-lite": ["minimal", "low", "medium", "high"],
-  "google/gemini-2.5-flash-lite-preview-09-2025": [
-    "minimal",
-    "low",
-    "medium",
-    "high",
-  ],
-  "google/gemini-2.5-flash-image": ["minimal"],
-  "google/gemini-3-flash-preview": ["minimal", "low", "medium", "high"],
-  "google/gemini-3-pro-image-preview": ["minimal", "low", "medium", "high"],
-  "google/gemini-3.1-pro-preview": ["low", "medium", "high"],
-  "google/gemini-3.1-pro-preview-customtools": ["low", "medium", "high"],
-  "google/gemini-3.1-flash-lite": ["minimal", "low", "medium", "high"],
-  "google/gemini-3.5-flash": ["minimal", "low", "medium", "high"],
-
-  // XAI ─────────────────────────────────────────────────────
-  "x-ai/grok-3": [null], // no reasoning
-  "x-ai/grok-3-mini": ["medium", "high"],
-  "x-ai/grok-4.1-fast": ["none", "medium", "high"],
-  "x-ai/grok-code-fast-1": [null], // no reasoning
-  "x-ai/grok-4.20-multi-agent": ["medium", "high"],
-  "x-ai/grok-4.3": ["none", "low", "medium", "high"],
-
-  // OTHERS
-  "deepseek/deepseek-r1": ["medium"],
-  "deepseek/deepseek-r1-0528": ["medium"],
-  "deepseek/deepseek-r1-distill-llama-70b": ["medium"],
-  "deepseek/deepseek-r1-distill-qwen-32b": ["medium"],
-  "deepseek/deepseek-v3.2-speciale": ["medium"],
-  "tngtech/deepseek-r1t2-chimera": ["medium"],
-  "qwen/qwen3-32b": ["none", "medium"],
-  "google/gemma-4-26b-a4b-it": ["none", "medium"],
-  "google/gemma-4-31b-it": ["none", "medium"],
-};
-
-// ─── per-provider reasoning effort restrictions ───────────────────────────
-// Some providers don't support all effort levels for a given model.
-// Key = model ID, value = map of provider ID prefix → allowed efforts.
-
-export const REASONING_EFFORT_OVERRIDES: Record<
-  string,
-  Record<string, (Effort | "default")[]>
-> = {
-  "z-ai/glm-4.7": {
-    "openrouter/google-vertex": ["medium"],
-    "hack-club/google-vertex": ["medium"],
-  },
-  "qwen/qwen3-32b": {
-    "groq-free": ["none", "default"],
-  },
-  "google/gemma-4-26b-a4b-it": {
-    "google-free": ["minimal", "high"],
-  },
-  "google/gemma-4-31b-it": {
-    "google-free": ["minimal", "high"],
-  },
-};
-
-// Providers whose APIs reject the reasoning_effort parameter entirely for
-// non-reasoning models. When a model on one of these providers gets the
-// default ["none"] (meaning it doesn't reason), we send [null] instead so
-// the parameter is omitted from the request.
-export const PICKY_PROVIDERS = new Set([
-  "groq-free",
-  "cerebras-free",
-  "google-free",
-]);
-
-const THINKING_KEYWORDS = ["r1", "reasoning", "think", "deepthink"];
-
-export const getReasoningEfforts = (
-  modelId: string,
-  providerId?: string,
-  supportsReasoningParam?: boolean,
-  crofId?: string,
-) => {
-  // Crof: all models have always-on reasoning, except -chat variants
-  if (providerId === "crofai" && crofId) {
-    return crofId.includes("-chat") ? ["none" as const] : ["medium" as const];
-  }
-  if (MODEL_EFFORTS[modelId]) return [...MODEL_EFFORTS[modelId]];
-  for (const prefix of Object.keys(MODEL_EFFORTS)) {
-    if (modelId.startsWith(prefix)) console.warn("No effort for", modelId);
-  }
-  if (modelId.includes("-thinking")) return ["medium" as const];
-  if (supportsReasoningParam) return ["none" as const, "medium" as const];
-  const lower = modelId.toLowerCase();
-  if (THINKING_KEYWORDS.some((k) => lower.includes(k)))
-    return ["none" as const, "medium" as const];
-  if (providerId && PICKY_PROVIDERS.has(providerId)) return [null];
-  return ["none" as const];
-};

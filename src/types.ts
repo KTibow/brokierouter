@@ -38,6 +38,15 @@ export type Provider = {
 
 // ─── API response schemas ────────────────────────────────────────────────
 
+// OpenRouter's native reasoning metadata: whether reasoning can be turned
+// off (mandatory) and which effort levels the model accepts.
+const ORReasoningSchema = object({
+  mandatory: boolean(),
+  supported_efforts: optional(array(string())),
+  default_effort: optional(nullable(string())),
+  default_enabled: optional(nullable(boolean())),
+});
+
 export const ORModelSchema = object({
   id: string(),
   name: string(),
@@ -50,7 +59,7 @@ export const ORModelSchema = object({
     prompt: string(),
     completion: string(),
   }),
-  supported_parameters: array(string()),
+  reasoning: optional(nullable(ORReasoningSchema)),
 });
 export type ORModel = InferOutput<typeof ORModelSchema>;
 
@@ -121,3 +130,8 @@ export const GoogleResponseSchema = object({
   models: array(GoogleModelSchema),
 });
 export const EndpointArraySchema = array(EndpointDataSchema);
+// https://openrouter.ai/api/v1/endpoints/zdr — every zero-data-retention
+// endpoint, identified by (model_id, tag)
+export const ZDRResponseSchema = object({
+  data: array(object({ model_id: string(), tag: string() })),
+});

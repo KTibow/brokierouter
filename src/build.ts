@@ -17,15 +17,10 @@ import {
   GoogleResponseSchema,
   EndpointArraySchema,
   HackClubStatusSchema,
+  ZDRResponseSchema,
 } from "./types.ts";
 import { safeParse } from "valibot";
-import {
-  fetchJSON,
-  fetchValidated,
-  readJSON,
-  readJSONOr,
-  readValidated,
-} from "./lib/fetch.ts";
+import { fetchValidated, readJSONOr, readValidated } from "./lib/fetch.ts";
 import { displayName } from "./lib/normalize.ts";
 import {
   BENCHMARKS,
@@ -38,12 +33,19 @@ import {
   GROQ_ID_TO_OR,
   CEREBRAS_ID_TO_OR,
   GOOGLE_NAME_TO_OR,
-  getReasoningEfforts,
-  REASONING_EFFORT_OVERRIDES,
   MODEL_SKIP,
   FAST_MODEL_MAP,
   TOKEN_USE_PROXIES,
+  HC_GEOBLOCKED,
+  HC_BANNED_TAGS,
+  HC_ZDR_ENFORCED_TAGS,
 } from "./lib/constants.ts";
+import {
+  orReasoningEfforts,
+  crofReasoningEfforts,
+  getReasoningEfforts,
+  REASONING_EFFORT_OVERRIDES,
+} from "./lib/reasoning.ts";
 
 // ─── helpers ─────────────────────────────────────────────────────────────
 
@@ -101,11 +103,7 @@ const endpointToProvider = (
     ),
     tps,
     ttfb,
-    reasoning_efforts: getReasoningEfforts(
-      m.id.replace(":free", ""),
-      undefined,
-      m.supported_parameters.includes("reasoning"),
-    ),
+    reasoning_efforts: orReasoningEfforts(m),
     note,
     extra: {
       quantization: ep.quantization !== "unknown" ? ep.quantization : undefined,
@@ -209,12 +207,27 @@ const providers = {
     parse(
       raw: { data: ORModel[] },
       orModels: Map<string, { name: string; providers: Provider[] }>,
-    ): ParseResult {
+      zdrEndpoints: Set<string>,
+    ): Map<string, Provider[]> {
+      // Which sub-provider endpoints are reachable through Hack Club's
+      // OpenRouter account. `model_id` is "<or id>;<tag>".
+      const hcCanRoute = (p: Provider): boolean => {
+        const tag = p.model_id.split(";")[1];
+        if (!tag) return true;
+        const tagRoot = tag.split("/")[0]!;
+        if (HC_BANNED_TAGS.has(tagRoot)) return false;
+        if (HC_ZDR_ENFORCED_TAGS.has(tagRoot))
+          return zdrEndpoints.has(p.model_id);
+        return true;
+      };
+
       const providers = new Map<string, Provider[]>();
       for (const m of raw.data) {
         const id = m.id.replace(":free", "");
+        if (providers.has(id)) continue; // HC's list repeats each model
         if (isEffortVariant(id)) continue;
         if (FAST_MODEL_MAP[id]) continue;
+        if (HC_GEOBLOCKED.test(id)) continue;
         const orEntry = orModels.get(id);
         if (orEntry) {
           // Copy OR's providers with hack-club prefix
@@ -222,7 +235,7 @@ const providers = {
             .filter(
               (p) =>
                 p.provider === "openrouter" && // not openrouter-free
-                !p.model_id.includes(";cerebras"), // HC has banned Cerebras
+                hcCanRoute(p),
             )
             .map(
               (p): Provider => ({
@@ -257,16 +270,12 @@ const providers = {
               ),
               tps: null,
               ttfb: null,
-              reasoning_efforts: getReasoningEfforts(
-                id,
-                undefined,
-                m.supported_parameters.includes("reasoning"),
-              ),
+              reasoning_efforts: orReasoningEfforts(m),
             },
           ]);
         }
       }
-      return { providers, unmapped: [] };
+      return providers;
     },
   },
 
@@ -301,12 +310,7 @@ const providers = {
           output_modalities: ["text"],
           tps: m.speed ? Math.min(m.speed, 100) : null,
           ttfb: null,
-          reasoning_efforts: getReasoningEfforts(
-            orId,
-            "crofai",
-            undefined,
-            m.id,
-          ),
+          reasoning_efforts: crofReasoningEfforts(m.id),
           extra: { quantization: m.quantization || undefined },
         };
         const arr = providers.get(orId);
@@ -444,7 +448,7 @@ const providerKey = (p: Provider): string => {
 
 const merge = (
   orModels: Map<string, { name: string; providers: Provider[] }>,
-  hcResult: ParseResult,
+  hcProviders: Map<string, Provider[]>,
   providerResults: { name: string; result: ParseResult }[],
   elos: EloMap,
 ): Model[] => {
@@ -520,7 +524,7 @@ const merge = (
   };
 
   // Add HC using mirrored OR data
-  for (const [id, provs] of hcResult.providers) {
+  for (const [id, provs] of hcProviders) {
     for (const p of provs) addProvider(id, p, id, "HC");
   }
 
@@ -596,6 +600,7 @@ if (existsSync("data/endpoints")) {
 const [
   orData,
   hcData,
+  zdrData,
   crofData,
   groqData,
   cerebrasData,
@@ -604,6 +609,15 @@ const [
   providers.openrouter.fetch(),
   providers.hackclub.fetch().catch((e) => {
     console.warn("Hack Club fetch failed:", e.message);
+    return { data: [] };
+  }),
+  // If this fails, the empty set conservatively drops all ZDR-enforced
+  // frontier endpoints from Hack Club
+  fetchValidated(
+    "https://openrouter.ai/api/v1/endpoints/zdr",
+    ZDRResponseSchema,
+  ).catch((e) => {
+    console.warn("ZDR list fetch failed:", e.message);
     return { data: [] };
   }),
   providers.crof.fetch().catch((e) => {
@@ -631,9 +645,13 @@ const providerResults = [
   { name: "Google", result: providers.google.parse(googleData) },
 ];
 
-const orModels = providers.openrouter.parse(orData, endpointData);
-const hcResult = providers.hackclub.parse(hcData, orModels);
+const zdrEndpoints = new Set(
+  zdrData.data.map((e) => `${e.model_id};${e.tag}`),
+);
 
-const models = merge(orModels, hcResult, providerResults, elos);
+const orModels = providers.openrouter.parse(orData, endpointData);
+const hcProviders = providers.hackclub.parse(hcData, orModels, zdrEndpoints);
+
+const models = merge(orModels, hcProviders, providerResults, elos);
 writeFileSync("models.json", JSON.stringify(models, null, 2));
 console.log(`Built models.json with ${models.length} models`);
