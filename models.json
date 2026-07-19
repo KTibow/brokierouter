@@ -164,141 +164,6 @@
           "max"
         ],
         "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;google-vertex/global",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 47,
-        "ttfb": 4618,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;azure",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/us",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38.5,
-        "ttfb": 5017.5,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;amazon-bedrock/claude-on-aws",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 42,
-        "ttfb": 6292,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-fable-5;google-vertex/europe",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 11,
-          "completion": 55
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
       }
     ],
     "elo_direct": null,
@@ -488,33 +353,6 @@
         ],
         "tps": 40,
         "ttfb": 1962,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-opus-4.6;azure/us-east-2",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 25
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 4314.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -859,34 +697,6 @@
         ],
         "tps": 77,
         "ttfb": 787,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-opus-4.7;azure/us-east-2",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 25
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "low",
@@ -1727,34 +1537,6 @@
         ],
         "tps": 106,
         "ttfb": 1406,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-opus-4.8;azure/us-east-2",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 25
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 56,
-        "ttfb": 1917,
         "reasoning_efforts": [
           "none",
           "low",
@@ -3333,30 +3115,6 @@
       },
       {
         "provider": "hack-club",
-        "model_id": "anthropic/claude-opus-4.5;azure/us-east-2",
-        "context_length": 200000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 25
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
         "model_id": "anthropic/claude-opus-4.5;amazon-bedrock/eu-west-1",
         "context_length": 200000,
         "per_mtok": {
@@ -3585,33 +3343,6 @@
         "per_mtok": {
           "prompt": 3.3000000000000003,
           "completion": 16.5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-sonnet-4.6;azure/us-east-2",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
         },
         "input_modalities": [
           "text",
@@ -6300,7 +6031,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
+        "tps": 75,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -6769,7 +6500,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
+        "tps": 68,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -9116,7 +8847,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
+        "tps": 61,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -10094,30 +9825,6 @@
       },
       {
         "provider": "hack-club",
-        "model_id": "anthropic/claude-sonnet-4.5;azure/us-east-2",
-        "context_length": 200000,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
         "model_id": "anthropic/claude-sonnet-4.5;google-vertex/us-east5",
         "context_length": 1000000,
         "per_mtok": {
@@ -10876,32 +10583,6 @@
       },
       {
         "provider": "hack-club",
-        "model_id": "google/gemma-4-31b-it;chutes/fp4",
-        "context_length": 131072,
-        "per_mtok": {
-          "prompt": 0.12,
-          "completion": 0.37
-        },
-        "input_modalities": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 9,
-        "ttfb": 2457,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
         "model_id": "google/gemma-4-31b-it;deepinfra/turbo",
         "context_length": 262144,
         "per_mtok": {
@@ -11003,30 +10684,6 @@
         "extra": {
           "quantization": "bf16"
         }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "google/gemma-4-31b-it;friendli",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.14,
-          "completion": 0.39999999999999997
-        },
-        "input_modalities": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 52,
-        "ttfb": 4554.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
       },
       {
         "provider": "hack-club",
@@ -11167,7 +10824,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
+        "tps": 56,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -12046,30 +11703,6 @@
         ],
         "tps": 4,
         "ttfb": 3595.5,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-opus-4.1;azure/us-east-2",
-        "context_length": 200000,
-        "per_mtok": {
-          "prompt": 15,
-          "completion": 75
-        },
-        "input_modalities": [
-          "image",
-          "text",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -13497,7 +13130,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 72,
+        "tps": 100,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -15170,7 +14803,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 79,
+        "tps": 75,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -15544,30 +15177,6 @@
         "extra": {
           "quantization": "fp8"
         }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "google/gemma-4-26b-a4b-it;cloudflare",
-        "context_length": 256000,
-        "per_mtok": {
-          "prompt": 0.09999999999999999,
-          "completion": 0.3
-        },
-        "input_modalities": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 57,
-        "ttfb": 1016,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
       },
       {
         "provider": "hack-club",
@@ -17859,7 +17468,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 70,
+        "tps": 97,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -21446,30 +21055,6 @@
         ],
         "tps": 76,
         "ttfb": 564,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "anthropic/claude-haiku-4.5;azure/us-east-2",
-        "context_length": 200000,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -46363,38 +45948,6 @@
     "elo_thinking": null
   },
   {
-    "id": "~x-ai/grok-latest",
-    "name": "~x ai/grok latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~x-ai/grok-latest",
-        "context_length": 500000,
-        "per_mtok": {
-          "prompt": 2,
-          "completion": 6
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
     "id": "openrouter/fusion",
     "name": "openrouter/fusion",
     "providers": [
@@ -46416,308 +45969,6 @@
         "ttfb": null,
         "reasoning_efforts": [
           null
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~anthropic/claude-fable-latest",
-    "name": "~anthropic/claude fable latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~anthropic/claude-fable-latest",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 10,
-          "completion": 50
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~anthropic/claude-haiku-latest",
-    "name": "~anthropic/claude haiku latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~anthropic/claude-haiku-latest",
-        "context_length": 200000,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 5
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "medium"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~openai/gpt-mini-latest",
-    "name": "~openai/GPT mini latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~openai/gpt-mini-latest",
-        "context_length": 400000,
-        "per_mtok": {
-          "prompt": 0.75,
-          "completion": 4.5
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~google/gemini-pro-latest",
-    "name": "~google/gemini pro latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~google/gemini-pro-latest",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2,
-          "completion": 12
-        },
-        "input_modalities": [
-          "audio",
-          "file",
-          "image",
-          "text",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "medium",
-          "high"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~moonshotai/kimi-latest",
-    "name": "~moonshotai/kimi latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~moonshotai/kimi-latest",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "max"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~google/gemini-flash-latest",
-    "name": "~google/gemini flash latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~google/gemini-flash-latest",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.5,
-          "completion": 9
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "video",
-          "file",
-          "audio"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "minimal",
-          "low",
-          "medium",
-          "high"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~anthropic/claude-sonnet-latest",
-    "name": "~anthropic/claude sonnet latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~anthropic/claude-sonnet-latest",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 2,
-          "completion": 10
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~openai/gpt-latest",
-    "name": "~openai/GPT latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~openai/gpt-latest",
-        "context_length": 1050000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 30
-        },
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
-        ]
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": null
-  },
-  {
-    "id": "~anthropic/claude-opus-latest",
-    "name": "~anthropic/claude opus latest",
-    "providers": [
-      {
-        "provider": "hack-club",
-        "model_id": "~anthropic/claude-opus-latest",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 5,
-          "completion": 25
-        },
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "medium",
-          "high",
-          "xhigh",
-          "max"
         ]
       }
     ],

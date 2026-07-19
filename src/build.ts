@@ -38,7 +38,7 @@ import {
   TOKEN_USE_PROXIES,
   HC_GEOBLOCKED,
   HC_BANNED_TAGS,
-  HC_ZDR_ENFORCED_TAGS,
+  HC_ZDR_ENFORCED_AUTHORS,
 } from "./lib/constants.ts";
 import {
   orReasoningEfforts,
@@ -146,6 +146,7 @@ const providers = {
           const m = modelById.get(ep.model_id);
           if (!m) continue;
           const id = ep.model_id.replace(":free", "");
+          if (id.startsWith("~")) continue; // ~author/family-latest aliases
           if (isEffortVariant(id)) continue;
           const fastBase = FAST_MODEL_MAP[id];
           const targetId = fastBase ?? id;
@@ -211,19 +212,25 @@ const providers = {
     ): Map<string, Provider[]> {
       // Which sub-provider endpoints are reachable through Hack Club's
       // OpenRouter account. `model_id` is "<or id>;<tag>".
+      const zdrModels = new Set(
+        [...zdrEndpoints].map((e) => e.split(";")[0]!),
+      );
       const hcCanRoute = (p: Provider): boolean => {
-        const tag = p.model_id.split(";")[1];
+        const [orId, tag] = p.model_id.split(";");
+        if (HC_ZDR_ENFORCED_AUTHORS.has(orId!.split("/")[0]!)) {
+          // Frontier model: only ZDR endpoints route. Without endpoint data
+          // (no tag), keep the model iff it has any ZDR endpoint.
+          if (!(tag ? zdrEndpoints.has(p.model_id) : zdrModels.has(orId!)))
+            return false;
+        }
         if (!tag) return true;
-        const tagRoot = tag.split("/")[0]!;
-        if (HC_BANNED_TAGS.has(tagRoot)) return false;
-        if (HC_ZDR_ENFORCED_TAGS.has(tagRoot))
-          return zdrEndpoints.has(p.model_id);
-        return true;
+        return !HC_BANNED_TAGS.has(tag.split("/")[0]!);
       };
 
       const providers = new Map<string, Provider[]>();
       for (const m of raw.data) {
         const id = m.id.replace(":free", "");
+        if (id.startsWith("~")) continue; // ~author/family-latest aliases
         if (providers.has(id)) continue; // HC's list repeats each model
         if (isEffortVariant(id)) continue;
         if (FAST_MODEL_MAP[id]) continue;
@@ -246,6 +253,11 @@ const providers = {
           if (hcProvs.length) providers.set(id, hcProvs);
         } else {
           // Fallback for models not in OR
+          if (
+            HC_ZDR_ENFORCED_AUTHORS.has(id.split("/")[0]!) &&
+            !zdrModels.has(id)
+          )
+            continue;
           providers.set(id, [
             {
               provider: "hack-club",

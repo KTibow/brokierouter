@@ -56,14 +56,15 @@ export const HC_GEOBLOCKED = /^meta\/muse-spark/;
 // Hack Club has banned these sub-providers outright
 export const HC_BANNED_TAGS = new Set(["cerebras"]);
 
-// Hack Club enforces ZDR per model group on frontier first-party endpoints
-// (see openrouter.ai/docs/guides/features/zdr): these tag roots only remain
-// available when the endpoint is on OpenRouter's ZDR list.
-export const HC_ZDR_ENFORCED_TAGS = new Set([
+// Hack Club's account enforces ZDR on frontier model groups: every endpoint
+// serving a model authored by these orgs must be on OpenRouter's ZDR list
+// (https://openrouter.ai/api/v1/endpoints/zdr), regardless of which
+// sub-provider hosts it.
+export const HC_ZDR_ENFORCED_AUTHORS = new Set([
   "anthropic",
   "openai",
-  "google-ai-studio",
-  "xai",
+  "google",
+  "x-ai",
 ]);
 
 export const CEREBRAS_CONTEXT: Record<string, number> = {
