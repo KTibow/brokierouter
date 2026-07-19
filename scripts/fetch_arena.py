@@ -41,6 +41,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-sonnet-4-5-20250929": ("anthropic/claude-sonnet-4.5", False),
     "claude-sonnet-4-5-20250929-thinking-32k": ("anthropic/claude-sonnet-4.5", True),
     "claude-sonnet-4-6": ("anthropic/claude-sonnet-4.6", False),
+    "claude-sonnet-5-high": ("anthropic/claude-sonnet-5", True),
     "claude-fable-5": ("anthropic/claude-fable-5", True),
     # Cohere
     "command-a-03-2025": ("cohere/command-a", False),
@@ -162,6 +163,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "kimi-k2.5-instant": ("moonshotai/kimi-k2.5", False),
     "kimi-k2.5-thinking": ("moonshotai/kimi-k2.5", True),
     "kimi-k2.6": ("moonshotai/kimi-k2.6", True),
+    "kimi-k3": ("moonshotai/kimi-k3", True),
     # Meta Llama
     "llama-3-8b-instruct": ("meta-llama/llama-3-8b-instruct", False),
     "llama-3-70b-instruct": ("meta-llama/llama-3-70b-instruct", False),
@@ -272,6 +274,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "intellect-3": ("prime-intellect/intellect-3", False),
     "granite-4.1-8b": ("ibm-granite/granite-4.1-8b", False),
     "muse-spark-1.1": ("meta/muse-spark-1.1", True),
+    "inkling": ("thinkingmachines/inkling", True),
 }
 
 os.makedirs("data", exist_ok=True)
