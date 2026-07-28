@@ -104,7 +104,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "glm-4.7-flash": ("z-ai/glm-4.7-flash", True),
     "glm-5": ("z-ai/glm-5", True),
     "glm-5.1": ("z-ai/glm-5.1", True),
-    "glm-5.2 (max)": ("z-ai/glm-5.2", True),
+    "glm-5.2-max": ("z-ai/glm-5.2", True),
     # OpenAI GPT / o-series
     "gpt-3.5-turbo-0125": ("openai/gpt-3.5-turbo", False),
     "gpt-4-0314": ("openai/gpt-4-0314", False),
@@ -165,7 +165,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "kimi-k2.5-instant": ("moonshotai/kimi-k2.5", False),
     "kimi-k2.5-thinking": ("moonshotai/kimi-k2.5", True),
     "kimi-k2.6": ("moonshotai/kimi-k2.6", True),
-    "kimi-k3": ("moonshotai/kimi-k3", True),
+    "kimi-k3-max": ("moonshotai/kimi-k3", True),
     # Meta Llama
     "llama-3-8b-instruct": ("meta-llama/llama-3-8b-instruct", False),
     "llama-3-70b-instruct": ("meta-llama/llama-3-70b-instruct", False),
