@@ -87,6 +87,24 @@
       "ttfb": 404
     }
   },
+  "openai/gpt-5.6-luna": {
+    "jatevo": {
+      "tps": 51,
+      "ttfb": 6294
+    }
+  },
+  "openai/gpt-5.6-sol": {
+    "jatevo": {
+      "tps": 36,
+      "ttfb": 10604
+    }
+  },
+  "openai/gpt-5.6-terra": {
+    "jatevo": {
+      "tps": 50,
+      "ttfb": 4768
+    }
+  },
   "openai/gpt-oss-120b": {
     "groq-free": {
       "tps": 302,

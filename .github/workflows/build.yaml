@@ -35,6 +35,7 @@ jobs:
           CROF_KEY: ${{ secrets.CROF_KEY }}
           GHM_KEY: ${{ secrets.GHM_KEY }}
           GHC_KEY: ${{ secrets.GHC_KEY }}
+          JATEVO_ENCRYPTION_KEY: ${{ secrets.JATEVO_ENCRYPTION_KEY }}
 
       # Commit models.json if changed
       - name: Commit models.json if changed

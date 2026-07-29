@@ -828,8 +828,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
-        "ttfb": 3014.5,
+        "tps": 101,
+        "ttfb": 3000,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -855,7 +855,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
+        "tps": 9,
         "ttfb": 88972,
         "reasoning_efforts": [
           "low",
@@ -909,8 +909,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 91,
-        "ttfb": 2799,
+        "tps": 92,
+        "ttfb": 2786,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -936,8 +936,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65,
-        "ttfb": 6008,
+        "tps": 52,
+        "ttfb": 6169,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -990,8 +990,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
-        "ttfb": 3014.5,
+        "tps": 101,
+        "ttfb": 3000,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -1017,7 +1017,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 17,
+        "tps": 9,
         "ttfb": 88972,
         "reasoning_efforts": [
           "low",
@@ -1057,480 +1057,6 @@
     "elo_direct": null,
     "elo_thinking": 1485.9295993473456,
     "token_use_thinking": 1146
-  },
-  {
-    "id": "moonshotai/kimi-k3",
-    "name": "Kimi K3",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;digitalocean",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 17,
-        "ttfb": 6326.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;modal/mxfp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 45,
-        "ttfb": 3601,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "mxfp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;baseten/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 3979,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;morph",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38,
-        "ttfb": 955.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;nebius/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 6,
-        "ttfb": 22767.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 3616.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;together",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 3810.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;moonshotai/mxfp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 4200,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "mxfp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "moonshotai/kimi-k3;fireworks/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 4.5,
-          "completion": 22.5
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 1393,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;digitalocean",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 17,
-        "ttfb": 6326.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;modal/mxfp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 45,
-        "ttfb": 3601,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "mxfp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;baseten/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 22,
-        "ttfb": 3979,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;morph",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 38,
-        "ttfb": 955.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;nebius/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 6,
-        "ttfb": 22767.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 3616.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;together",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 27,
-        "ttfb": 3810.5,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;moonshotai/mxfp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 3,
-          "completion": 15
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 4200,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "mxfp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "moonshotai/kimi-k3;fireworks/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 4.5,
-          "completion": 22.5
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 1393,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1485.7744055463882
   },
   {
     "id": "openai/gpt-5.6-sol",
@@ -4368,1655 +3894,6 @@
     "token_use_thinking": 2000
   },
   {
-    "id": "z-ai/glm-5.2",
-    "name": "GLM 5.2",
-    "providers": [
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;novita/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.693,
-          "completion": 2.178
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 3067.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.6937,
-          "completion": 2.1801999999999997
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 31,
-        "ttfb": 2470,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.7,
-          "completion": 2.2
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 46,
-        "ttfb": 952,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;coreweave/fp4",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.76,
-          "completion": 2.42
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 42,
-        "ttfb": 583,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;akashml/fp8",
-        "context_length": 96890,
-        "per_mtok": {
-          "prompt": 0.77,
-          "completion": 2.42
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 33,
-        "ttfb": 3409,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;gmicloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.9239999999999999,
-          "completion": 2.904
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 33,
-        "ttfb": 1664.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;deepinfra/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.9299999999999999,
-          "completion": 3
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 47,
-        "ttfb": 668,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;inceptron/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.94,
-          "completion": 2.9000000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 8,
-        "ttfb": 1776,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;alibaba/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.966,
-          "completion": 3.036
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 43,
-        "ttfb": 2146.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;sail-research/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 3.5
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 26,
-        "ttfb": 840,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;digitalocean",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.0499999999999998,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 23,
-        "ttfb": 1723,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;ambient/fp8",
-        "context_length": 101376,
-        "per_mtok": {
-          "prompt": 1.0499999999999998,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 2390,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;morph",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.1,
-          "completion": 4.1
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 55,
-        "ttfb": 1181,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;siliconflow/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.19,
-          "completion": 3.74
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 7320,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;decart/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.2,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 74,
-        "ttfb": 583,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;chutes/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 3.95
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 39,
-        "ttfb": 1539.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;wafer/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.26,
-          "completion": 3.9600000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 1808,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;atlas-cloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.26,
-          "completion": 3.9600000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 37,
-        "ttfb": 1925,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;z-ai/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 44,
-        "ttfb": 3454,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 39,
-        "ttfb": 1467.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;cloudflare",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 17,
-        "ttfb": 9267,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;friendli",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 46,
-        "ttfb": 1297,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;parasail/fp4",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 94,
-        "ttfb": 701,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;venice/fp8",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 1260,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;together",
-        "context_length": 512000,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 36,
-        "ttfb": 1267,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;ionstream/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 63,
-        "ttfb": 511,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;phala",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 34,
-        "ttfb": 1002.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;baseten/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 54,
-        "ttfb": 1627,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;wafer/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 87,
-        "ttfb": 3949,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;fireworks/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 74,
-        "ttfb": 1459.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;baseten/fast",
-        "context_length": 524288,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 145,
-        "ttfb": 1782,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;alibaba/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.31,
-          "completion": 7.26
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 60,
-        "ttfb": 1659.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;io-net/fp8",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 3.3278760000000003,
-          "completion": 7.279730000000001
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 66,
-        "ttfb": 1677,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;novita/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.693,
-          "completion": 2.178
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 25,
-        "ttfb": 3067.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.6937,
-          "completion": 2.1801999999999997
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 31,
-        "ttfb": 2470,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.7,
-          "completion": 2.2
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 46,
-        "ttfb": 952,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;coreweave/fp4",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 0.76,
-          "completion": 2.42
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 42,
-        "ttfb": 583,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;akashml/fp8",
-        "context_length": 96890,
-        "per_mtok": {
-          "prompt": 0.77,
-          "completion": 2.42
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 33,
-        "ttfb": 3409,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;gmicloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.9239999999999999,
-          "completion": 2.904
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 33,
-        "ttfb": 1664.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;deepinfra/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.9299999999999999,
-          "completion": 3
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 47,
-        "ttfb": 668,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;inceptron/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.94,
-          "completion": 2.9000000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 8,
-        "ttfb": 1776,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;alibaba/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.966,
-          "completion": 3.036
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 43,
-        "ttfb": 2146.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;sail-research/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1,
-          "completion": 3.5
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 26,
-        "ttfb": 840,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;digitalocean",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.0499999999999998,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 23,
-        "ttfb": 1723,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;ambient/fp8",
-        "context_length": 101376,
-        "per_mtok": {
-          "prompt": 1.0499999999999998,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 2390,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;morph",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.1,
-          "completion": 4.1
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 55,
-        "ttfb": 1181,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;siliconflow/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.19,
-          "completion": 3.74
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 20,
-        "ttfb": 7320,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;decart/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.2,
-          "completion": 2.5
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 74,
-        "ttfb": 583,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;chutes/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.25,
-          "completion": 3.95
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 39,
-        "ttfb": 1539.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;wafer/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.26,
-          "completion": 3.9600000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 50,
-        "ttfb": 1808,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;atlas-cloud/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.26,
-          "completion": 3.9600000000000004
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 37,
-        "ttfb": 1925,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;z-ai/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 44,
-        "ttfb": 3454,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;fireworks",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 39,
-        "ttfb": 1467.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;cloudflare",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 17,
-        "ttfb": 9267,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;friendli",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 46,
-        "ttfb": 1297,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;parasail/fp4",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 94,
-        "ttfb": 701,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;venice/fp8",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 48,
-        "ttfb": 1260,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;together",
-        "context_length": 512000,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 36,
-        "ttfb": 1267,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;ionstream/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 63,
-        "ttfb": 511,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;phala",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 34,
-        "ttfb": 1002.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;baseten/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.4,
-          "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 54,
-        "ttfb": 1627,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;wafer/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 87,
-        "ttfb": 3949,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;fireworks/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 74,
-        "ttfb": 1459.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {}
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;baseten/fast",
-        "context_length": 524288,
-        "per_mtok": {
-          "prompt": 2.0999999999999996,
-          "completion": 6.6000000000000005
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 145,
-        "ttfb": 1782,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;alibaba/fast",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 2.31,
-          "completion": 7.26
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 60,
-        "ttfb": 1659.5,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "hack-club",
-        "model_id": "z-ai/glm-5.2;io-net/fp8",
-        "context_length": 262144,
-        "per_mtok": {
-          "prompt": 3.3278760000000003,
-          "completion": 7.279730000000001
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 66,
-        "ttfb": 1677,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "crofai",
-        "model_id": "glm-5.2",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.3,
-          "completion": 1.05
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": 85,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "medium"
-        ],
-        "extra": {
-          "quantization": "Q8_0"
-        }
-      }
-    ],
-    "elo_direct": null,
-    "elo_thinking": 1469.3943633911508
-  },
-  {
     "id": "z-ai/glm-5.1",
     "name": "GLM 5.1",
     "providers": [
@@ -7400,7 +5277,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 74,
+        "tps": 65,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -8542,8 +6419,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 45,
-        "ttfb": 1393.5,
+        "tps": 46,
+        "ttfb": 1759,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -8566,8 +6443,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 45,
-        "ttfb": 1393.5,
+        "tps": 46,
+        "ttfb": 1759,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -9278,7 +7155,7 @@
           "text"
         ],
         "tps": 49,
-        "ttfb": 1251,
+        "ttfb": 1250,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9301,7 +7178,7 @@
           "text"
         ],
         "tps": 48,
-        "ttfb": 1010,
+        "ttfb": 987,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9326,7 +7203,7 @@
           "text"
         ],
         "tps": 43,
-        "ttfb": 1321.5,
+        "ttfb": 1340,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9350,8 +7227,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 2434,
+        "tps": 50,
+        "ttfb": 2447,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9376,7 +7253,7 @@
           "text"
         ],
         "tps": 6,
-        "ttfb": 2041,
+        "ttfb": 2111,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9400,8 +7277,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 1528,
+        "tps": 53,
+        "ttfb": 1509,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9425,8 +7302,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 1210,
+        "tps": 29,
+        "ttfb": 1219,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9451,7 +7328,7 @@
           "text"
         ],
         "tps": 8,
-        "ttfb": 2316,
+        "ttfb": 2279,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9474,7 +7351,7 @@
           "text"
         ],
         "tps": 52,
-        "ttfb": 1617,
+        "ttfb": 1581,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9499,7 +7376,7 @@
           "text"
         ],
         "tps": 44,
-        "ttfb": 1226.5,
+        "ttfb": 1222,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9547,7 +7424,7 @@
           "text"
         ],
         "tps": 47,
-        "ttfb": 2351,
+        "ttfb": 2341.5,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9571,8 +7448,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 97,
-        "ttfb": 584.5,
+        "tps": 96,
+        "ttfb": 599,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9596,8 +7473,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 743,
+        "tps": 50,
+        "ttfb": 755,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9621,8 +7498,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 967,
+        "tps": 50,
+        "ttfb": 1088.5,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9645,7 +7522,7 @@
           "text"
         ],
         "tps": 36,
-        "ttfb": 3655,
+        "ttfb": 3815,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9668,7 +7545,7 @@
           "text"
         ],
         "tps": 17,
-        "ttfb": 771,
+        "ttfb": 775,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9693,7 +7570,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 1736,
+        "ttfb": 1664,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9716,7 +7593,7 @@
           "text"
         ],
         "tps": 49,
-        "ttfb": 1251,
+        "ttfb": 1250,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9739,7 +7616,7 @@
           "text"
         ],
         "tps": 48,
-        "ttfb": 1010,
+        "ttfb": 987,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9764,7 +7641,7 @@
           "text"
         ],
         "tps": 43,
-        "ttfb": 1321.5,
+        "ttfb": 1340,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9788,8 +7665,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 2434,
+        "tps": 50,
+        "ttfb": 2447,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9814,7 +7691,7 @@
           "text"
         ],
         "tps": 6,
-        "ttfb": 2041,
+        "ttfb": 2111,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9838,8 +7715,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 1528,
+        "tps": 53,
+        "ttfb": 1509,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9863,8 +7740,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 30,
-        "ttfb": 1210,
+        "tps": 29,
+        "ttfb": 1219,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9889,7 +7766,7 @@
           "text"
         ],
         "tps": 8,
-        "ttfb": 2316,
+        "ttfb": 2279,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9912,7 +7789,7 @@
           "text"
         ],
         "tps": 52,
-        "ttfb": 1617,
+        "ttfb": 1581,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9937,7 +7814,7 @@
           "text"
         ],
         "tps": 44,
-        "ttfb": 1226.5,
+        "ttfb": 1222,
         "reasoning_efforts": [
           "none",
           "high",
@@ -9985,7 +7862,7 @@
           "text"
         ],
         "tps": 47,
-        "ttfb": 2351,
+        "ttfb": 2341.5,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10009,8 +7886,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 97,
-        "ttfb": 584.5,
+        "tps": 96,
+        "ttfb": 599,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10034,8 +7911,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
-        "ttfb": 743,
+        "tps": 50,
+        "ttfb": 755,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10059,8 +7936,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 967,
+        "tps": 50,
+        "ttfb": 1088.5,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10083,7 +7960,7 @@
           "text"
         ],
         "tps": 36,
-        "ttfb": 3655,
+        "ttfb": 3815,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10106,7 +7983,7 @@
           "text"
         ],
         "tps": 17,
-        "ttfb": 771,
+        "ttfb": 775,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10131,7 +8008,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 1736,
+        "ttfb": 1664,
         "reasoning_efforts": [
           "none",
           "high",
@@ -10153,7 +8030,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
+        "tps": 65,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -10822,7 +8699,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
+        "tps": 43,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -12182,7 +10059,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 49,
+        "tps": 51,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -13065,7 +10942,7 @@
           "text"
         ],
         "tps": 32,
-        "ttfb": 1710,
+        "ttfb": 1702.5,
         "reasoning_efforts": [
           null
         ],
@@ -13983,7 +11860,7 @@
           "text"
         ],
         "tps": 7,
-        "ttfb": 6790.5,
+        "ttfb": 7186.5,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -14012,8 +11889,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 69,
-        "ttfb": 636,
+        "tps": 68,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -14042,8 +11919,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 2162,
+        "tps": 25,
+        "ttfb": 1783,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -14071,7 +11948,7 @@
           "text"
         ],
         "tps": 7,
-        "ttfb": 6790.5,
+        "ttfb": 7186.5,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -14100,8 +11977,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 69,
-        "ttfb": 636,
+        "tps": 68,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -14130,8 +12007,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 23,
-        "ttfb": 2162,
+        "tps": 25,
+        "ttfb": 1783,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -16856,7 +14733,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
+        "tps": 67,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -17566,7 +15443,7 @@
           "text"
         ],
         "tps": 59,
-        "ttfb": 671.5,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17594,8 +15471,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28.5,
-        "ttfb": 17557.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17624,7 +15501,7 @@
           "text"
         ],
         "tps": 16,
-        "ttfb": 2111,
+        "ttfb": 2116,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17652,8 +15529,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
-        "ttfb": 593,
+        "tps": 96,
+        "ttfb": 609.5,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17682,7 +15559,7 @@
           "text"
         ],
         "tps": 92,
-        "ttfb": 1064,
+        "ttfb": 1063,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17710,8 +15587,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 269,
-        "ttfb": 1373,
+        "tps": 265,
+        "ttfb": 1381,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17740,7 +15617,7 @@
           "text"
         ],
         "tps": 59,
-        "ttfb": 671.5,
+        "ttfb": 671,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17768,8 +15645,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28.5,
-        "ttfb": 17557.5,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -17798,7 +15675,7 @@
           "text"
         ],
         "tps": 16,
-        "ttfb": 2111,
+        "ttfb": 2116,
         "reasoning_efforts": [
           "none",
           "minimal",
@@ -26817,8 +24694,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 4083,
+        "tps": 43,
+        "ttfb": 4799,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -26843,8 +24720,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 3780,
+        "tps": 38,
+        "ttfb": 4843.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -26869,8 +24746,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 42,
-        "ttfb": 4083,
+        "tps": 43,
+        "ttfb": 4799,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -26895,8 +24772,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 41,
-        "ttfb": 3780,
+        "tps": 38,
+        "ttfb": 4843.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -30326,8 +28203,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 84,
-        "ttfb": 8527,
+        "tps": 85,
+        "ttfb": 8629,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30352,8 +28229,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 36,
-        "ttfb": 4775,
+        "tps": 35,
+        "ttfb": 4407,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30379,7 +28256,7 @@
           "text"
         ],
         "tps": 60,
-        "ttfb": 682.5,
+        "ttfb": 670,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30404,8 +28281,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 104,
-        "ttfb": 2864,
+        "tps": 105.5,
+        "ttfb": 3297,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30431,7 +28308,7 @@
           "text"
         ],
         "tps": 60,
-        "ttfb": 682.5,
+        "ttfb": 670,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30456,8 +28333,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 104,
-        "ttfb": 2864,
+        "tps": 105.5,
+        "ttfb": 3297,
         "reasoning_efforts": [
           "minimal",
           "low",
@@ -30676,8 +28553,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 260.5,
+        "tps": 49,
+        "ttfb": 254.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -30700,8 +28577,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 77,
-        "ttfb": 387,
+        "tps": 92,
+        "ttfb": 398,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -30724,8 +28601,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 51,
-        "ttfb": 260.5,
+        "tps": 49,
+        "ttfb": 254.5,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -30748,8 +28625,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 77,
-        "ttfb": 387,
+        "tps": 92,
+        "ttfb": 398,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -32442,7 +30319,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 2788,
+        "ttfb": 2701,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -33595,7 +31472,7 @@
           "text"
         ],
         "tps": 6,
-        "ttfb": 866,
+        "ttfb": 873,
         "reasoning_efforts": [
           null
         ],
@@ -33618,7 +31495,7 @@
           "text"
         ],
         "tps": 6,
-        "ttfb": 866,
+        "ttfb": 873,
         "reasoning_efforts": [
           null
         ],
@@ -34696,8 +32573,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 1356,
+        "tps": 61,
+        "ttfb": 1339.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -34717,8 +32594,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 1356,
+        "tps": 61,
+        "ttfb": 1339.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -35279,7 +33156,7 @@
           "text"
         ],
         "tps": 34,
-        "ttfb": 4292,
+        "ttfb": 4263.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -35334,8 +33211,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 59,
-        "ttfb": 4323.5,
+        "tps": 60,
+        "ttfb": 4397.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -35390,8 +33267,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 4681.5,
+        "tps": 45,
+        "ttfb": 4575,
         "reasoning_efforts": [
           "none",
           "low",
@@ -35419,7 +33296,7 @@
           "text"
         ],
         "tps": 65,
-        "ttfb": 3247,
+        "ttfb": 2976,
         "reasoning_efforts": [
           "none",
           "low",
@@ -35474,8 +33351,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 4681.5,
+        "tps": 45,
+        "ttfb": 4575,
         "reasoning_efforts": [
           "none",
           "low",
@@ -35503,7 +33380,7 @@
           "text"
         ],
         "tps": 65,
-        "ttfb": 3247,
+        "ttfb": 2976,
         "reasoning_efforts": [
           "none",
           "low",
@@ -37205,7 +35082,7 @@
           "text"
         ],
         "tps": 42,
-        "ttfb": 713,
+        "ttfb": 707,
         "reasoning_efforts": [
           null
         ],
@@ -37227,8 +35104,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 230,
+        "tps": 45,
+        "ttfb": 228,
         "reasoning_efforts": [
           null
         ],
@@ -37250,8 +35127,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 687.5,
+        "tps": 26,
+        "ttfb": 682.5,
         "reasoning_efforts": [
           null
         ],
@@ -37274,7 +35151,7 @@
           "text"
         ],
         "tps": 42,
-        "ttfb": 713,
+        "ttfb": 707,
         "reasoning_efforts": [
           null
         ],
@@ -37296,8 +35173,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 230,
+        "tps": 45,
+        "ttfb": 228,
         "reasoning_efforts": [
           null
         ],
@@ -37319,8 +35196,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 687.5,
+        "tps": 26,
+        "ttfb": 682.5,
         "reasoning_efforts": [
           null
         ],
@@ -37502,8 +35379,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 96,
-        "ttfb": 1992.5,
+        "tps": 94,
+        "ttfb": 1984,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -37636,7 +35513,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 755.5,
+        "ttfb": 736,
         "reasoning_efforts": [
           null
         ],
@@ -37657,7 +35534,7 @@
           "text"
         ],
         "tps": 22,
-        "ttfb": 755.5,
+        "ttfb": 736,
         "reasoning_efforts": [
           null
         ],
@@ -38048,7 +35925,7 @@
           "text"
         ],
         "tps": 25,
-        "ttfb": 982.5,
+        "ttfb": 957,
         "reasoning_efforts": [
           null
         ],
@@ -38070,7 +35947,7 @@
           "text"
         ],
         "tps": 25,
-        "ttfb": 982.5,
+        "ttfb": 957,
         "reasoning_efforts": [
           null
         ],
@@ -39593,6 +37470,480 @@
     "elo_thinking": null
   },
   {
+    "id": "moonshotai/kimi-k3",
+    "name": "Kimi K3",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;digitalocean",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 17,
+        "ttfb": 5835,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;modal/mxfp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 3290,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "mxfp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;baseten/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 21,
+        "ttfb": 3853,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;morph",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 37,
+        "ttfb": 960,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;nebius/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 9,
+        "ttfb": 18779,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 26,
+        "ttfb": 3363.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;together",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 29,
+        "ttfb": 3483,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;moonshotai/mxfp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 25,
+        "ttfb": 4240,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "mxfp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;fireworks/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 4.5,
+          "completion": 22.5
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 52,
+        "ttfb": 1332.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;digitalocean",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 17,
+        "ttfb": 5835,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;modal/mxfp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 3290,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "mxfp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;baseten/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 21,
+        "ttfb": 3853,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;morph",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 37,
+        "ttfb": 960,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;nebius/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 9,
+        "ttfb": 18779,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 26,
+        "ttfb": 3363.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;together",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 29,
+        "ttfb": 3483,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;moonshotai/mxfp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 3,
+          "completion": 15
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 25,
+        "ttfb": 4240,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "mxfp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "moonshotai/kimi-k3;fireworks/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 4.5,
+          "completion": 22.5
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 52,
+        "ttfb": 1332.5,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": null
+  },
+  {
     "id": "morph/morph-v3-fast",
     "name": "Morph v3 Fast",
     "providers": [
@@ -40820,8 +39171,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 84,
-        "ttfb": 2509.5,
+        "tps": 82,
+        "ttfb": 2497.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -40845,8 +39196,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 84,
-        "ttfb": 2509.5,
+        "tps": 82,
+        "ttfb": 2497.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -41254,8 +39605,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54,
-        "ttfb": 2921,
+        "tps": 55,
+        "ttfb": 2907.5,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -41306,8 +39657,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54.5,
-        "ttfb": 4663,
+        "tps": 56,
+        "ttfb": 4635,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -41332,8 +39683,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 54.5,
-        "ttfb": 4663,
+        "tps": 56,
+        "ttfb": 4635,
         "reasoning_efforts": [
           "low",
           "medium",
@@ -42715,7 +41066,7 @@
           "text"
         ],
         "tps": 39,
-        "ttfb": 3088.5,
+        "ttfb": 2937,
         "reasoning_efforts": [
           "none",
           "low",
@@ -42742,8 +41093,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": null,
-        "ttfb": null,
+        "tps": 81,
+        "ttfb": 5296.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -42770,8 +41121,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 46,
-        "ttfb": 1684,
+        "tps": null,
+        "ttfb": null,
         "reasoning_efforts": [
           "none",
           "low",
@@ -42798,8 +41149,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 3009,
+        "tps": 52,
+        "ttfb": 3023,
         "reasoning_efforts": [
           "none",
           "low",
@@ -42854,8 +41205,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 53,
-        "ttfb": 3009,
+        "tps": 52,
+        "ttfb": 3023,
         "reasoning_efforts": [
           "none",
           "low",
@@ -42952,8 +41303,8 @@
           "text",
           "audio"
         ],
-        "tps": 37.5,
-        "ttfb": 659.5,
+        "tps": 34.5,
+        "ttfb": 660,
         "reasoning_efforts": [
           null
         ],
@@ -43539,8 +41890,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 173,
+        "tps": 13,
+        "ttfb": 172,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -43587,8 +41938,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 14,
-        "ttfb": 173,
+        "tps": 13,
+        "ttfb": 172,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -43619,8 +41970,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 136,
-        "ttfb": 523.5,
+        "tps": 134,
+        "ttfb": 459,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -43667,8 +42018,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 136,
-        "ttfb": 523.5,
+        "tps": 134,
+        "ttfb": 459,
         "reasoning_efforts": [
           "none",
           "medium"
@@ -44465,8 +42816,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1298,
+        "tps": 41,
+        "ttfb": 1307.5,
         "reasoning_efforts": [
           null
         ],
@@ -44488,8 +42839,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 1298,
+        "tps": 41,
+        "ttfb": 1307.5,
         "reasoning_efforts": [
           null
         ],
@@ -47175,8 +45526,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 194,
+        "tps": 62,
+        "ttfb": 191,
         "reasoning_efforts": [
           null
         ],
@@ -47198,8 +45549,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 300,
+        "tps": 66,
+        "ttfb": 305,
         "reasoning_efforts": [
           null
         ],
@@ -47221,8 +45572,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 60,
-        "ttfb": 194,
+        "tps": 62,
+        "ttfb": 191,
         "reasoning_efforts": [
           null
         ],
@@ -47244,8 +45595,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 63,
-        "ttfb": 300,
+        "tps": 66,
+        "ttfb": 305,
         "reasoning_efforts": [
           null
         ],
@@ -47651,8 +46002,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 2909,
+        "tps": 35,
+        "ttfb": 3920.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47677,7 +46028,7 @@
           "text"
         ],
         "tps": 48,
-        "ttfb": 2392,
+        "ttfb": 2389,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47701,8 +46052,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 1850,
+        "tps": 29,
+        "ttfb": 1573,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47727,7 +46078,7 @@
           "text"
         ],
         "tps": 50,
-        "ttfb": 3190.5,
+        "ttfb": 3171,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47749,8 +46100,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 822,
+        "tps": 14,
+        "ttfb": 845,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47774,8 +46125,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 44,
-        "ttfb": 2909,
+        "tps": 35,
+        "ttfb": 3920.5,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47800,7 +46151,7 @@
           "text"
         ],
         "tps": 48,
-        "ttfb": 2392,
+        "ttfb": 2389,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47824,8 +46175,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 28,
-        "ttfb": 1850,
+        "tps": 29,
+        "ttfb": 1573,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47850,7 +46201,7 @@
           "text"
         ],
         "tps": 50,
-        "ttfb": 3190.5,
+        "ttfb": 3171,
         "reasoning_efforts": [
           "none",
           "low",
@@ -47872,8 +46223,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 11,
-        "ttfb": 822,
+        "tps": 14,
+        "ttfb": 845,
         "reasoning_efforts": [
           "none",
           "low",
@@ -48326,8 +46677,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 109,
-        "ttfb": 1076,
+        "tps": 123,
+        "ttfb": 805,
         "reasoning_efforts": [
           "medium"
         ],
@@ -48372,8 +46723,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 99.5,
-        "ttfb": 361,
+        "tps": 96,
+        "ttfb": 367.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -48418,8 +46769,8 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 99.5,
-        "ttfb": 361,
+        "tps": 96,
+        "ttfb": 367.5,
         "reasoning_efforts": [
           "medium"
         ],
@@ -48504,6 +46855,1655 @@
     "elo_direct": null,
     "elo_thinking": null,
     "token_use_thinking": 1888
+  },
+  {
+    "id": "z-ai/glm-5.2",
+    "name": "GLM 5.2",
+    "providers": [
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;novita/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.693,
+          "completion": 2.178
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 25,
+        "ttfb": 3067.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.6937,
+          "completion": 2.1801999999999997
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 31,
+        "ttfb": 2470,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.7,
+          "completion": 2.2
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 46,
+        "ttfb": 952,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;coreweave/fp4",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.76,
+          "completion": 2.42
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 42,
+        "ttfb": 583,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;akashml/fp8",
+        "context_length": 96890,
+        "per_mtok": {
+          "prompt": 0.77,
+          "completion": 2.42
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 33,
+        "ttfb": 3409,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;gmicloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.9239999999999999,
+          "completion": 2.904
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 33,
+        "ttfb": 1664.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;deepinfra/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.9299999999999999,
+          "completion": 3
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 47,
+        "ttfb": 668,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;inceptron/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.94,
+          "completion": 2.9000000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 8,
+        "ttfb": 1776,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;alibaba/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.966,
+          "completion": 3.036
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 43,
+        "ttfb": 2146.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;sail-research/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1,
+          "completion": 3.5
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 26,
+        "ttfb": 840,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;digitalocean",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.0499999999999998,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 23,
+        "ttfb": 1723,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;ambient/fp8",
+        "context_length": 101376,
+        "per_mtok": {
+          "prompt": 1.0499999999999998,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 50,
+        "ttfb": 2390,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;morph",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.1,
+          "completion": 4.1
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 55,
+        "ttfb": 1181,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;siliconflow/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.19,
+          "completion": 3.74
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 20,
+        "ttfb": 7320,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;decart/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.2,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 583,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;chutes/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 3.95
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 39,
+        "ttfb": 1539.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;wafer/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.26,
+          "completion": 3.9600000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 50,
+        "ttfb": 1808,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;atlas-cloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.26,
+          "completion": 3.9600000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 37,
+        "ttfb": 1925,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;z-ai/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 44,
+        "ttfb": 3454,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 39,
+        "ttfb": 1467.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;cloudflare",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 17,
+        "ttfb": 9267,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;friendli",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 46,
+        "ttfb": 1297,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;parasail/fp4",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 94,
+        "ttfb": 701,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;venice/fp8",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 1260,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;together",
+        "context_length": 512000,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 36,
+        "ttfb": 1267,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;ionstream/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 63,
+        "ttfb": 511,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;phala",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 34,
+        "ttfb": 1002.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;baseten/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 54,
+        "ttfb": 1627,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;wafer/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 87,
+        "ttfb": 3949,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;fireworks/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 1459.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;baseten/fast",
+        "context_length": 524288,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 145,
+        "ttfb": 1782,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;alibaba/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.31,
+          "completion": 7.26
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 60,
+        "ttfb": 1659.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;io-net/fp8",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 3.3278760000000003,
+          "completion": 7.279730000000001
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 66,
+        "ttfb": 1677,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;novita/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.693,
+          "completion": 2.178
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 25,
+        "ttfb": 3067.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.6937,
+          "completion": 2.1801999999999997
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 31,
+        "ttfb": 2470,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.7,
+          "completion": 2.2
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 46,
+        "ttfb": 952,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;coreweave/fp4",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.76,
+          "completion": 2.42
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 42,
+        "ttfb": 583,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;akashml/fp8",
+        "context_length": 96890,
+        "per_mtok": {
+          "prompt": 0.77,
+          "completion": 2.42
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 33,
+        "ttfb": 3409,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;gmicloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.9239999999999999,
+          "completion": 2.904
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 33,
+        "ttfb": 1664.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;deepinfra/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.9299999999999999,
+          "completion": 3
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 47,
+        "ttfb": 668,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;inceptron/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.94,
+          "completion": 2.9000000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 8,
+        "ttfb": 1776,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;alibaba/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.966,
+          "completion": 3.036
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 43,
+        "ttfb": 2146.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;sail-research/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1,
+          "completion": 3.5
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 26,
+        "ttfb": 840,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;digitalocean",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.0499999999999998,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 23,
+        "ttfb": 1723,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;ambient/fp8",
+        "context_length": 101376,
+        "per_mtok": {
+          "prompt": 1.0499999999999998,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 50,
+        "ttfb": 2390,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;morph",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.1,
+          "completion": 4.1
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 55,
+        "ttfb": 1181,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;siliconflow/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.19,
+          "completion": 3.74
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 20,
+        "ttfb": 7320,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;decart/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.2,
+          "completion": 2.5
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 583,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;chutes/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.25,
+          "completion": 3.95
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 39,
+        "ttfb": 1539.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;wafer/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.26,
+          "completion": 3.9600000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 50,
+        "ttfb": 1808,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;atlas-cloud/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.26,
+          "completion": 3.9600000000000004
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 37,
+        "ttfb": 1925,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;z-ai/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 44,
+        "ttfb": 3454,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 39,
+        "ttfb": 1467.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;cloudflare",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 17,
+        "ttfb": 9267,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;friendli",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 46,
+        "ttfb": 1297,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;parasail/fp4",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 94,
+        "ttfb": 701,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;venice/fp8",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 48,
+        "ttfb": 1260,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;together",
+        "context_length": 512000,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 36,
+        "ttfb": 1267,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;ionstream/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 63,
+        "ttfb": 511,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;phala",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 34,
+        "ttfb": 1002.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;baseten/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.4,
+          "completion": 4.4
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 54,
+        "ttfb": 1627,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;wafer/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 87,
+        "ttfb": 3949,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp4"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;fireworks/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 74,
+        "ttfb": 1459.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;baseten/fast",
+        "context_length": 524288,
+        "per_mtok": {
+          "prompt": 2.0999999999999996,
+          "completion": 6.6000000000000005
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 145,
+        "ttfb": 1782,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;alibaba/fast",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.31,
+          "completion": 7.26
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 60,
+        "ttfb": 1659.5,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "hack-club",
+        "model_id": "z-ai/glm-5.2;io-net/fp8",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 3.3278760000000003,
+          "completion": 7.279730000000001
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 66,
+        "ttfb": 1677,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "crofai",
+        "model_id": "glm-5.2",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 1.05
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 83,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "medium"
+        ],
+        "extra": {
+          "quantization": "Q8_0"
+        }
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": null
   },
   {
     "id": "z-ai/glm-5v-turbo",
