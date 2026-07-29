@@ -1257,6 +1257,28 @@
           "max"
         ],
         "extra": {}
+      },
+      {
+        "provider": "jatevo",
+        "model_id": "gpt-5.6-sol",
+        "context_length": 1050000,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 36,
+        "ttfb": 10604,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
       }
     ],
     "elo_direct": null,
@@ -5277,7 +5299,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65,
+        "tps": 72,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -8030,7 +8052,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 65,
+        "tps": 70,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -14733,7 +14755,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 67,
+        "tps": 68,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -40632,6 +40654,28 @@
           "max"
         ],
         "extra": {}
+      },
+      {
+        "provider": "jatevo",
+        "model_id": "gpt-5.6-luna",
+        "context_length": 1050000,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 51,
+        "ttfb": 6294,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
       }
     ],
     "elo_direct": null,
@@ -41244,6 +41288,28 @@
           "max"
         ],
         "extra": {}
+      },
+      {
+        "provider": "jatevo",
+        "model_id": "gpt-5.6-terra",
+        "context_length": 1050000,
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": 50,
+        "ttfb": 4768,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
       }
     ],
     "elo_direct": null,
@@ -48492,7 +48558,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 83,
+        "tps": 71,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -48833,13 +48899,13 @@
     "elo_thinking": null
   },
   {
-    "id": "humain-ai/allam-2-7b",
-    "name": "humain ai/allam 2 7b",
+    "id": "groq/compound",
+    "name": "groq/compound",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "allam-2-7b",
-        "context_length": 4096,
+        "model_id": "groq/compound",
+        "context_length": 70000,
         "input_modalities": [
           "text"
         ],
@@ -48857,13 +48923,13 @@
     "elo_thinking": null
   },
   {
-    "id": "groq/compound",
-    "name": "groq/compound",
+    "id": "humain-ai/allam-2-7b",
+    "name": "humain ai/allam 2 7b",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "groq/compound",
-        "context_length": 70000,
+        "model_id": "allam-2-7b",
+        "context_length": 4096,
         "input_modalities": [
           "text"
         ],
