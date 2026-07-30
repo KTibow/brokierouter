@@ -36,6 +36,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-opus-4-7-thinking": ("anthropic/claude-opus-4.7", True),
     "claude-opus-4-8": ("anthropic/claude-opus-4.8", False),
     "claude-opus-4-8-thinking": ("anthropic/claude-opus-4.8", True),
+    "claude-opus-5-high": ("anthropic/claude-opus-5", True),
     "claude-sonnet-4-20250514": ("anthropic/claude-sonnet-4", False),
     "claude-sonnet-4-20250514-thinking-32k": ("anthropic/claude-sonnet-4", True),
     "claude-sonnet-4-5-20250929": ("anthropic/claude-sonnet-4.5", False),
@@ -158,6 +159,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "grok-4.5": ("x-ai/grok-4.5", True),
     # Hy
     "hunyuan-hy3-preview": ("tencent/hy3-preview", True),
+    "hy3": ("tencent/hy3", True),
     # Moonshot Kimi
     "kimi-k2-0711-preview": ("moonshotai/kimi-k2", False),
     "kimi-k2-0905-preview": ("moonshotai/kimi-k2-0905", False),
