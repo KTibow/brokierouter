@@ -135,6 +135,8 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "gpt-5.5": ("openai/gpt-5.5", True),
     "gpt-5.5-instant": ("openai/gpt-5.5", False),
     "gpt-5.6-sol-xhigh": ("openai/gpt-5.6-sol", True),
+    "gpt-5.6-terra-xhigh": ("openai/gpt-5.6-terra", True),
+    "gpt-5.6-luna-xhigh": ("openai/gpt-5.6-luna", True),
     "gpt-oss-120b": ("openai/gpt-oss-120b", True),
     "gpt-oss-20b": ("openai/gpt-oss-20b", True),
     "o1-2024-12-17": ("openai/o1", True),
