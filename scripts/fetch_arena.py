@@ -65,9 +65,9 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "deepseek-v3.2-exp": ("deepseek/deepseek-v3.2-exp", False),
     "deepseek-v3.2-exp-thinking": ("deepseek/deepseek-v3.2-exp", True),
     "deepseek-v4-pro": ("deepseek/deepseek-v4-pro", False),
-    "deepseek-v4-pro-thinking": ("deepseek/deepseek-v4-pro", True),
+    "deepseek-v4-pro-high-preview": ("deepseek/deepseek-v4-pro", True),
     "deepseek-v4-flash": ("deepseek/deepseek-v4-flash", False),
-    "deepseek-v4-flash-thinking": ("deepseek/deepseek-v4-flash", True),
+    "deepseek-v4-flash-high-preview": ("deepseek/deepseek-v4-flash", True),
     # Google Gemini
     "gemini-2.0-flash-001": ("google/gemini-2.0-flash-001", False),
     "gemini-2.5-flash": ("google/gemini-2.5-flash", False),
