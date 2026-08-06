@@ -169,7 +169,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "kimi-k2.5-instant": ("moonshotai/kimi-k2.5", False),
     "kimi-k2.5-thinking": ("moonshotai/kimi-k2.5", True),
     "kimi-k2.6": ("moonshotai/kimi-k2.6", True),
-    "kimi-k3-max": ("moonshotai/kimi-k3", True),
+    # "kimi-k3-max": ("moonshotai/kimi-k3", True),
     # Meta Llama
     "llama-3-8b-instruct": ("meta-llama/llama-3-8b-instruct", False),
     "llama-3-70b-instruct": ("meta-llama/llama-3-70b-instruct", False),

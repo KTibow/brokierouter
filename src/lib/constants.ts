@@ -61,7 +61,7 @@ export const GROQ_SKIP = new Set([
 // Hack Club proxies OpenRouter with account-level restrictions we mirror here.
 
 // Models that only route inside the US; Hack Club's proxy runs on Hetzner (DE)
-export const HC_GEOBLOCKED = /^meta\/muse-spark/;
+export const HC_GEOBLOCKED = /^meta\/muse-spark-1\.1/;
 
 // Hack Club has banned these sub-providers outright
 export const HC_BANNED_TAGS = new Set(["cerebras"]);
