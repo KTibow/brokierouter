@@ -302,7 +302,7 @@ ds = load_dataset(
 )
 
 # Group ratings by OR ID
-by_id: dict[str, dict[str, list[float]]] = {}
+by_id: dict[str, dict[str, float | None]] = {}
 unmapped: list[str] = []
 
 arena_names = set()
@@ -319,17 +319,22 @@ for row in ds:
 
     or_id, is_thinking = entry
     if or_id not in by_id:
-        by_id[or_id] = {"direct": [], "thinking": []}
+        by_id[or_id] = {"direct": None, "thinking": None}
 
     key = "thinking" if is_thinking else "direct"
-    bucket = by_id[or_id][key]
-    if bucket:
+    if by_id[or_id][key] is not None:
         raise ValueError(
             f"Duplicate rating for {or_id} ({key}): "
-            f"already have {bucket[0]} from a different arena name, "
+            f"already have {by_id[or_id][key]} from a different arena name, "
             f"now got {row['rating']} from {name!r}"
         )
-    bucket.append(row["rating"])
+    by_id[or_id][key] = row["rating"]
+
+# Special case: duplicate the qwen3.8-max score for the 2.4t-a95b variant
+# (same model, different OpenRouter slug)
+_src = "qwen/qwen3.8-max"
+_dst = "qwen/qwen3.8-2.4t-a95b"
+by_id[_dst] = dict(by_id[_src])
 
 unused = [k for k in ARENA_TO_OR if k not in arena_names]
 if unused:
@@ -339,8 +344,8 @@ if unused:
 elos: dict[str, dict] = {}
 for or_id, ratings in sorted(by_id.items()):
     elos[or_id] = {
-        "elo_direct": max(ratings["direct"]) if ratings["direct"] else None,
-        "elo_thinking": max(ratings["thinking"]) if ratings["thinking"] else None,
+        "elo_direct": ratings["direct"],
+        "elo_thinking": ratings["thinking"],
     }
 
 with open("data/arena.json", "w") as f:
