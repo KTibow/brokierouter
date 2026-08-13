@@ -29,18 +29,18 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-opus-4-1-20250805": ("anthropic/claude-opus-4.1", False),
     "claude-opus-4-1-20250805-thinking-16k": ("anthropic/claude-opus-4.1", True),
     "claude-opus-4-5-20251101": ("anthropic/claude-opus-4.5", False),
-    "claude-opus-4-5-20251101-thinking-32k": ("anthropic/claude-opus-4.5", True),
+    "claude-opus-4-5-20251101-high-32k": ("anthropic/claude-opus-4.5", True),
     "claude-opus-4-6": ("anthropic/claude-opus-4.6", False),
-    "claude-opus-4-6-thinking": ("anthropic/claude-opus-4.6", True),
+    "claude-opus-4-6-high": ("anthropic/claude-opus-4.6", True),
     "claude-opus-4-7": ("anthropic/claude-opus-4.7", False),
-    "claude-opus-4-7-thinking": ("anthropic/claude-opus-4.7", True),
+    "claude-opus-4-7-high": ("anthropic/claude-opus-4.7", True),
     "claude-opus-4-8": ("anthropic/claude-opus-4.8", False),
-    "claude-opus-4-8-thinking": ("anthropic/claude-opus-4.8", True),
+    "claude-opus-4-8-high": ("anthropic/claude-opus-4.8", True),
     "claude-opus-5-high": ("anthropic/claude-opus-5", True),
     "claude-sonnet-4-20250514": ("anthropic/claude-sonnet-4", False),
     "claude-sonnet-4-20250514-thinking-32k": ("anthropic/claude-sonnet-4", True),
     "claude-sonnet-4-5-20250929": ("anthropic/claude-sonnet-4.5", False),
-    "claude-sonnet-4-5-20250929-thinking-32k": ("anthropic/claude-sonnet-4.5", True),
+    "claude-sonnet-4-5-20250929-high-32k": ("anthropic/claude-sonnet-4.5", True),
     "claude-sonnet-4-6": ("anthropic/claude-sonnet-4.6", False),
     "claude-sonnet-5-high": ("anthropic/claude-sonnet-5", True),
     "claude-fable-5": ("anthropic/claude-fable-5", True),
@@ -86,7 +86,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "gemini-3.1-pro-preview": ("google/gemini-3.1-pro-preview", True),
     "gemini-3.5-flash-medium": ("google/gemini-3.5-flash", True),
     "gemini-3.5-flash-lite": ("google/gemini-3.5-flash-lite", True),
-    "gemini-3.6-flash": ("google/gemini-3.6-flash", True),
+    "gemini-3.6-flash-high": ("google/gemini-3.6-flash", True),
     # Google Gemma
     "gemma-2-27b-it": ("google/gemma-2-27b-it", False),
     "gemma-3-12b-it": ("google/gemma-3-12b-it", False),
@@ -106,6 +106,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "glm-5": ("z-ai/glm-5", True),
     "glm-5.1": ("z-ai/glm-5.1", True),
     "glm-5.2-max": ("z-ai/glm-5.2", True),
+    "glm-5v-turbo": ("z-ai/glm-5v-turbo", True),
     # OpenAI GPT / o-series
     "gpt-3.5-turbo-0125": ("openai/gpt-3.5-turbo", False),
     "gpt-4-0314": ("openai/gpt-4-0314", False),
@@ -159,6 +160,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "grok-4.20-multi-agent-beta-0309": ("x-ai/grok-4.20-multi-agent", True),
     "grok-4.3": ("x-ai/grok-4.3", True),
     "grok-4.5": ("x-ai/grok-4.5", True),
+    "grok-4.6-high": ("x-ai/grok-4.6", True),
     # Hy
     "hunyuan-hy3-preview": ("tencent/hy3-preview", True),
     "hy3": ("tencent/hy3", True),
@@ -169,7 +171,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "kimi-k2.5-instant": ("moonshotai/kimi-k2.5", False),
     "kimi-k2.5-thinking": ("moonshotai/kimi-k2.5", True),
     "kimi-k2.6": ("moonshotai/kimi-k2.6", True),
-    # "kimi-k3-max": ("moonshotai/kimi-k3", True),
+    "kimi-k3-max": ("moonshotai/kimi-k3", True),
     # Meta Llama
     "llama-3-8b-instruct": ("meta-llama/llama-3-8b-instruct", False),
     "llama-3-70b-instruct": ("meta-llama/llama-3-70b-instruct", False),
@@ -194,6 +196,10 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "nvidia-nemotron-3-super-120b-a12b": ("nvidia/nemotron-3-super-120b-a12b", True),
     "nvidia-nemotron-3-ultra-550b-a55b-nvfp4": (
         "nvidia/nemotron-3-ultra-550b-a55b",
+        True,
+    ),
+    "nvidia-nemotron-3.5-lightning-30b-a3b-nvfp4": (
+        "nvidia/nemotron-3.5-lightning",
         True,
     ),
     # AllenAI OLMo
@@ -225,6 +231,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "qwen3.6-max-preview": ("qwen/qwen3.6-max-preview", True),
     "qwen3.7-plus": ("qwen/qwen3.7-plus", True),
     "qwen3.7-max-preview": ("qwen/qwen3.7-max", True),
+    "qwen3.8-max": ("qwen/qwen3.8-max", True),
     "qwq-32b": ("qwen/qwq-32b", True),
     # "qwq-32b-preview": ("qwen/qwq-32b", True),  # DUPLICATE
     # Minimax
@@ -278,8 +285,11 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "trinity-large-preview": ("arcee-ai/trinity-large-preview", False),
     "trinity-large-thinking": ("arcee-ai/trinity-large-thinking", True),
     "intellect-3": ("prime-intellect/intellect-3", False),
+    "solar-pro4": ("upstage/solar-pro4", True),
     "granite-4.1-8b": ("ibm-granite/granite-4.1-8b", False),
     "muse-spark-1.1": ("meta/muse-spark-1.1", True),
+    "muse-spark-1.2 (xHigh)": ("meta/muse-spark-1.2", True),
+    "muse-glimmer": ("meta/muse-glimmer-30b", True),
     "inkling": ("thinkingmachines/inkling", True),
 }
 
