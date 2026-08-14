@@ -23,12 +23,9 @@ export const GROQ_TPM: Record<string, number> = {
 // ─── vision sets ───────────────────────────────────────────────────────────
 
 export const CROF_VISION = new Set([
-  "kimi-k2.5",
-  "kimi-k2.5-lightning",
   "gemma-4-31b-it",
   "qwen3.5-397b-a17b",
   "qwen3.5-9b",
-  "qwen3.5-9b-chat",
 ]);
 
 export const GROQ_VISION = new Set([
@@ -87,36 +84,18 @@ export const CEREBRAS_CONTEXT: Record<string, number> = {
 
 export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
   "deepseek-v4-pro": { orId: "deepseek/deepseek-v4-pro" },
-  "deepseek-v4-pro-precision": {
-    orId: "deepseek/deepseek-v4-pro",
-    variant: "precision",
-  },
-  "deepseek-v4-pro-lightning": {
-    orId: "deepseek/deepseek-v4-pro",
-    variant: "lightning",
-  },
   "mimo-v2.5-pro": { orId: "xiaomi/mimo-v2.5-pro" },
-  "mimo-v2.5-pro-precision": {
-    orId: "xiaomi/mimo-v2.5-pro",
-    variant: "precision",
-  },
   "deepseek-v4-flash": { orId: "deepseek/deepseek-v4-flash" },
+  "deepseek-v4-flash-0731": { orId: "deepseek/deepseek-v4-flash-0731" },
+  "kimi-k3": { orId: "moonshotai/kimi-k3" },
+  "kimi-k3-eco": { orId: "moonshotai/kimi-k3", variant: "eco" },
   "kimi-k2.7-code": { orId: "moonshotai/kimi-k2.7-code" },
   "kimi-k2.6": { orId: "moonshotai/kimi-k2.6" },
-  "kimi-k2.6-precision": { orId: "moonshotai/kimi-k2.6", variant: "precision" },
-  "kimi-k2.5": { orId: "moonshotai/kimi-k2.5" },
-  "kimi-k2.5-lightning": { orId: "moonshotai/kimi-k2.5", variant: "lightning" },
-  "glm-5": { orId: "z-ai/glm-5" },
   "glm-5.1": { orId: "z-ai/glm-5.1" },
-  "glm-5.1-precision": { orId: "z-ai/glm-5.1", variant: "precision" },
   "glm-5.2": { orId: "z-ai/glm-5.2" },
-  "minimax-m2.5": { orId: "minimax/minimax-m2.5" },
   "qwen3.6-27b": { orId: "qwen/qwen3.6-27b" },
   "qwen3.5-397b-a17b": { orId: "qwen/qwen3.5-397b-a17b" },
   "qwen3.5-9b": { orId: "qwen/qwen3.5-9b" },
-  "qwen3.5-9b-chat": { orId: "qwen/qwen3.5-9b", variant: "chat" },
-  "glm-4.7": { orId: "z-ai/glm-4.7" },
-  "glm-4.7-flash": { orId: "z-ai/glm-4.7-flash" },
   "deepseek-v3.2": { orId: "deepseek/deepseek-v3.2" },
   "gemma-4-31b-it": { orId: "google/gemma-4-31b-it" },
 };
