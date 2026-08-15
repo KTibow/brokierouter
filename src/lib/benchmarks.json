@@ -1,68 +1,80 @@
 {
   "gemini-3.1-flash-lite-preview": {
     "google-free": {
-      "tps": 248,
-      "ttfb": 832
+      "tps": 239,
+      "ttfb": 10598
+    }
+  },
+  "gemini-3.7-flash": {
+    "google-free": {
+      "tps": 398,
+      "ttfb": 14495
+    }
+  },
+  "gemini-3.7-flash-video-understanding-eap": {
+    "google-free": {
+      "tps": 463,
+      "ttfb": 3110
     }
   },
   "gemini-robotics-er-1.6-preview": {
     "google-free": {
-      "tps": 1463,
-      "ttfb": 5028
+      "tps": 445,
+      "ttfb": 4442
     }
   },
   "gemini-robotics-er-2-preview": {
     "google-free": {
-      "tps": 144,
-      "ttfb": 4369
+      "tps": 145,
+      "ttfb": 1732
     }
   },
   "google/gemini-2.5-flash": {
     "google-free": {
-      "tps": 133,
-      "ttfb": 680
+      "tps": 152,
+      "ttfb": 8024
     }
   },
   "google/gemini-2.5-flash-lite": {
     "google-free": {
-      "tps": 241,
-      "ttfb": 275
+      "tps": 239,
+      "ttfb": 346
     }
   },
   "google/gemini-3-flash-preview": {
     "google-free": {
-      "tps": 174,
-      "ttfb": 1843
+      "tps": 169,
+      "ttfb": 2522
     }
   },
   "google/gemini-3.1-flash-lite": {
     "google-free": {
-      "tps": 263,
-      "ttfb": 428
+      "tps": 221,
+      "ttfb": 13633
     }
   },
   "google/gemini-3.5-flash": {
     "google-free": {
-      "tps": 186,
-      "ttfb": 5020
+      "tps": 203,
+      "ttfb": 4069
     }
   },
   "google/gemini-3.5-flash-lite": {
     "google-free": {
-      "tps": 241,
-      "ttfb": 466
+      "tps": 284,
+      "ttfb": 420
     }
   },
   "google/gemini-3.6-flash": {
     "google-free": {
-      "tps": 143,
-      "ttfb": 5749
+      "tps": 147,
+      "ttfb": 5195
     }
   },
   "google/gemma-4-26b-a4b-it": {
     "google-free": {
-      "tps": 37,
-      "ttfb": 623
+      "tps": 27,
+      "ttfb": 650
     }
   },
   "google/gemma-4-31b-it": {
@@ -71,8 +83,8 @@
       "ttfb": 141
     },
     "google-free": {
-      "tps": 26,
-      "ttfb": 851
+      "tps": 25,
+      "ttfb": 942
     }
   },
   "meta-llama/llama-3.1-8b-instruct": {
