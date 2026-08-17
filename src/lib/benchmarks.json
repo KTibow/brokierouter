@@ -1,80 +1,74 @@
 {
   "gemini-3.1-flash-lite-preview": {
     "google-free": {
-      "tps": 223,
-      "ttfb": 1047
+      "tps": 238,
+      "ttfb": 442
     }
   },
   "gemini-3.7-flash": {
     "google-free": {
-      "tps": 279,
-      "ttfb": 3345
-    }
-  },
-  "gemini-3.7-flash-video-understanding-eap": {
-    "google-free": {
-      "tps": 398,
-      "ttfb": 2839
+      "tps": 395,
+      "ttfb": 2642
     }
   },
   "gemini-robotics-er-1.6-preview": {
     "google-free": {
-      "tps": 555,
-      "ttfb": 4454
+      "tps": 396,
+      "ttfb": 5876
     }
   },
   "gemini-robotics-er-2-preview": {
     "google-free": {
-      "tps": 157,
-      "ttfb": 1583
+      "tps": 145,
+      "ttfb": 1356
     }
   },
   "google/gemini-2.5-flash": {
     "google-free": {
-      "tps": 146,
-      "ttfb": 4119
+      "tps": 147,
+      "ttfb": 5055
     }
   },
   "google/gemini-2.5-flash-lite": {
     "google-free": {
-      "tps": 217,
-      "ttfb": 285
+      "tps": 283,
+      "ttfb": 234
     }
   },
   "google/gemini-3-flash-preview": {
     "google-free": {
-      "tps": 167,
-      "ttfb": 2390
+      "tps": 155,
+      "ttfb": 19519
     }
   },
   "google/gemini-3.1-flash-lite": {
     "google-free": {
-      "tps": 236,
-      "ttfb": 661
+      "tps": 233,
+      "ttfb": 432
     }
   },
   "google/gemini-3.5-flash": {
     "google-free": {
-      "tps": 185,
-      "ttfb": 10387
+      "tps": 174,
+      "ttfb": 14622
     }
   },
   "google/gemini-3.5-flash-lite": {
     "google-free": {
-      "tps": 251,
-      "ttfb": 435
+      "tps": 254,
+      "ttfb": 412
     }
   },
   "google/gemini-3.6-flash": {
     "google-free": {
-      "tps": 145,
-      "ttfb": 5501
+      "tps": 133,
+      "ttfb": 4360
     }
   },
   "google/gemma-4-26b-a4b-it": {
     "google-free": {
-      "tps": 39,
-      "ttfb": 820
+      "tps": 37,
+      "ttfb": 595
     }
   },
   "google/gemma-4-31b-it": {
@@ -83,8 +77,8 @@
       "ttfb": 141
     },
     "google-free": {
-      "tps": 26,
-      "ttfb": 809
+      "tps": 29,
+      "ttfb": 822
     }
   },
   "meta-llama/llama-3.1-8b-instruct": {
