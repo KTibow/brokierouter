@@ -29,13 +29,11 @@ jobs:
       # Build models.json
       - run: pnpm run build
         env:
-          CEREBRAS_KEY: ${{ secrets.CEREBRAS_KEY }}
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
           GOOGLE_KEY: ${{ secrets.GOOGLE_KEY }}
           CROF_KEY: ${{ secrets.CROF_KEY }}
           GHM_KEY: ${{ secrets.GHM_KEY }}
           GHC_KEY: ${{ secrets.GHC_KEY }}
-          JATEVO_ENCRYPTION_KEY: ${{ secrets.JATEVO_ENCRYPTION_KEY }}
 
       # Commit models.json if changed
       - name: Commit models.json if changed

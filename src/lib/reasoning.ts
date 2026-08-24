@@ -58,7 +58,7 @@ export const orReasoningEfforts = (m: ORModel): (Effort | null)[] => {
 export const crofReasoningEfforts = (crofId: string): Effort[] =>
   crofId.includes("-chat") ? ["none"] : ["medium"];
 
-// ─── other non-OpenRouter providers (groq, cerebras, google) ──────────────
+// ─── other non-OpenRouter providers (groq, google) ────────────────────────
 // These APIs don't advertise reasoning support, so efforts stay curated
 // per model.
 
@@ -77,7 +77,7 @@ const MODEL_EFFORTS: Record<string, (Effort | null)[]> = {
 
 // Providers whose APIs reject the reasoning_effort parameter entirely for
 // non-reasoning models: send [null] so the parameter is omitted.
-const PICKY_PROVIDERS = new Set(["groq-free", "cerebras-free", "google-free"]);
+const PICKY_PROVIDERS = new Set(["groq-free", "google-free"]);
 
 const THINKING_KEYWORDS = ["r1", "reasoning", "think", "deepthink"];
 

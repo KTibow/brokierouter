@@ -2,12 +2,9 @@ import { readFileSync, writeFileSync } from "node:fs";
 import type { Provider } from "./types.ts";
 import {
   GROQ_ID_TO_OR,
-  CEREBRAS_ID_TO_OR,
   GOOGLE_NAME_TO_OR,
-  JATEVO_ID_TO_OR,
   CROF_MAP,
 } from "./lib/constants.ts";
-import { jatevoKey } from "./lib/jatevo.ts";
 
 // ─── SSE parser ─────────────────────────────────────────────────────────
 
@@ -149,40 +146,6 @@ const PROVIDERS: Record<string, ProviderConfig> = {
     },
   },
 
-  "cerebras-free": {
-    name: "Cerebras",
-    async fetchModels() {
-      const res = await fetch("https://api.cerebras.ai/v1/models", {
-        headers: {
-          Accept: "application/json",
-          Authorization: `Bearer ${process.env.CEREBRAS_KEY ?? ""}`,
-        },
-      });
-      if (!res.ok) throw new Error(`Cerebras fetch failed: ${res.status}`);
-      const { data } = (await res.json()) as { data: { id: string }[] };
-      return data.map((m) => ({
-        model_id: m.id,
-        or_id: CEREBRAS_ID_TO_OR[m.id] ?? m.id,
-      }));
-    },
-    async streamRequest(model_id) {
-      const r = await fetch("https://api.cerebras.ai/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.CEREBRAS_KEY ?? ""}`,
-        },
-        body: JSON.stringify({
-          model: model_id,
-          messages: [{ role: "user", content: "List all US presidents." }],
-          stream: true,
-        }),
-      });
-      if (!r.ok) throw new Error(`Cerebras stream failed: ${r.status}`);
-      return r;
-    },
-  },
-
   "google-free": {
     name: "Google",
     async fetchModels() {
@@ -226,38 +189,6 @@ const PROVIDERS: Record<string, ProviderConfig> = {
     },
   },
 
-  jatevo: {
-    name: "Jatevo",
-    async fetchModels() {
-      const res = await fetch("https://2.jatevo.ai/v1/models", {
-        headers: {
-          Accept: "application/json",
-          Authorization: `Bearer ${await jatevoKey()}`,
-        },
-      });
-      if (!res.ok) throw new Error(`Jatevo fetch failed: ${res.status}`);
-      const { data } = (await res.json()) as { data: { id: string }[] };
-      return data
-        .filter((m) => JATEVO_ID_TO_OR[m.id])
-        .map((m) => ({ model_id: m.id, or_id: JATEVO_ID_TO_OR[m.id]! }));
-    },
-    async streamRequest(model_id) {
-      const r = await fetch("https://2.jatevo.ai/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${await jatevoKey()}`,
-        },
-        body: JSON.stringify({
-          model: model_id,
-          messages: [{ role: "user", content: "List all US presidents." }],
-          stream: true,
-        }),
-      });
-      if (!r.ok) throw new Error(`Jatevo stream failed: ${r.status}`);
-      return r;
-    },
-  },
 };
 
 // ─── main ───────────────────────────────────────────────────────────────

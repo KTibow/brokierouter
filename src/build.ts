@@ -5,25 +5,20 @@ import type {
   ORModel,
   CrofModel,
   GroqModel,
-  CerebrasModel,
   GoogleModel,
-  JatevoModel,
   EndpointData,
 } from "./types.ts";
 import {
   ORResponseSchema,
   CrofResponseSchema,
   GroqResponseSchema,
-  CerebrasResponseSchema,
   GoogleResponseSchema,
-  JatevoResponseSchema,
   EndpointArraySchema,
   HackClubStatusSchema,
   ZDRResponseSchema,
 } from "./types.ts";
 import { safeParse } from "valibot";
 import { fetchValidated, readJSONOr, readValidated } from "./lib/fetch.ts";
-import { jatevoKey } from "./lib/jatevo.ts";
 import { displayName } from "./lib/normalize.ts";
 import {
   BENCHMARKS,
@@ -32,12 +27,8 @@ import {
   CROF_VISION,
   GROQ_VISION,
   GROQ_SKIP,
-  CEREBRAS_CONTEXT,
   GROQ_ID_TO_OR,
-  CEREBRAS_ID_TO_OR,
   GOOGLE_NAME_TO_OR,
-  JATEVO_ID_TO_OR,
-  JATEVO_SKIP,
   MODEL_SKIP,
   FAST_MODEL_MAP,
   TOKEN_USE_PROXIES,
@@ -376,40 +367,6 @@ const providers = {
     },
   },
 
-  cerebras: {
-    async fetch() {
-      return fetchValidated(
-        "https://api.cerebras.ai/v1/models",
-        CerebrasResponseSchema,
-        { token: process.env.CEREBRAS_KEY ?? "" },
-      );
-    },
-    parse(raw: { data: CerebrasModel[] }): ParseResult {
-      const providers = new Map<string, Provider[]>();
-      const unmapped: string[] = [];
-      for (const m of raw.data) {
-        const orId = CEREBRAS_ID_TO_OR[m.id] ?? m.id;
-        if (!CEREBRAS_ID_TO_OR[m.id]) unmapped.push(m.id);
-        providers.set(orId, [
-          {
-            provider: "cerebras-free",
-            model_id: m.id,
-            context_length: requireContextLength(
-              CEREBRAS_CONTEXT[m.id],
-              `cerebras ${m.id}`,
-            ),
-            input_modalities: ["text"],
-            output_modalities: ["text"],
-            tps: null,
-            ttfb: null,
-            reasoning_efforts: getReasoningEfforts(orId, "cerebras-free"),
-          },
-        ]);
-      }
-      return { providers, unmapped };
-    },
-  },
-
   google: {
     async fetch() {
       return fetchValidated(
@@ -448,54 +405,6 @@ const providers = {
     },
   },
 
-  jatevo: {
-    async fetch() {
-      return fetchValidated(
-        "https://2.jatevo.ai/v1/models",
-        JatevoResponseSchema,
-        { token: await jatevoKey() },
-      );
-    },
-    // Jatevo's list carries nothing but IDs, so context length and reasoning
-    // efforts are taken from the OpenRouter model it maps to.
-    parse(
-      raw: { data: JatevoModel[] },
-      orModelById: Map<string, ORModel>,
-    ): ParseResult {
-      const providers = new Map<string, Provider[]>();
-      const unmapped: string[] = [];
-      for (const m of raw.data) {
-        if (JATEVO_SKIP.has(m.id)) continue;
-        const orId = JATEVO_ID_TO_OR[m.id];
-        if (!orId) {
-          unmapped.push(m.id);
-          continue;
-        }
-        const orModel = orModelById.get(orId);
-        if (!orModel) {
-          console.warn(`Jatevo: ${orId} is not in the OpenRouter catalog`);
-          continue;
-        }
-        providers.set(orId, [
-          {
-            provider: "jatevo",
-            model_id: m.id,
-            context_length: requireContextLength(
-              orModel.context_length,
-              `jatevo ${m.id}`,
-            ),
-            // Jatevo takes text and images, but not OR's `file` modality
-            input_modalities: ["text", "image"],
-            output_modalities: ["text"],
-            tps: null,
-            ttfb: null,
-            reasoning_efforts: orReasoningEfforts(orModel),
-          },
-        ]);
-      }
-      return { providers, unmapped };
-    },
-  },
 } as const;
 
 // ─── merge ──────────────────────────────────────────────────────────────
@@ -669,9 +578,7 @@ const [
   zdrData,
   crofData,
   groqData,
-  cerebrasData,
   googleData,
-  jatevoData,
 ] = await Promise.all([
   providers.openrouter.fetch(),
   providers.hackclub.fetch().catch((e) => {
@@ -695,17 +602,9 @@ const [
     console.warn("Groq fetch failed:", e.message);
     return { data: [] };
   }),
-  providers.cerebras.fetch().catch((e) => {
-    console.warn("Cerebras fetch failed:", e.message);
-    return { data: [] };
-  }),
   providers.google.fetch().catch((e) => {
     console.warn("Google fetch failed:", e.message);
     return { models: [] };
-  }),
-  providers.jatevo.fetch().catch((e) => {
-    console.warn("Jatevo fetch failed:", e.message);
-    return { data: [] };
   }),
 ]);
 
@@ -714,9 +613,7 @@ const orModelById = new Map(orData.data.map((m) => [m.id, m]));
 const providerResults = [
   { name: "Crof", result: providers.crof.parse(crofData) },
   { name: "Groq", result: providers.groq.parse(groqData) },
-  { name: "Cerebras", result: providers.cerebras.parse(cerebrasData) },
   { name: "Google", result: providers.google.parse(googleData) },
-  { name: "Jatevo", result: providers.jatevo.parse(jatevoData, orModelById) },
 ];
 
 const zdrEndpoints = new Set(

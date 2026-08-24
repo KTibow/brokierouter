@@ -34,16 +34,6 @@ export const GROQ_VISION = new Set([
 
 // ─── provider skip lists ───────────────────────────────────────────────────
 
-// Jatevo also serves older GPT-5.x and Codex tiers; only the 5.6 line is
-// worth carrying, so the rest is skipped rather than reported as unmapped.
-export const JATEVO_SKIP = new Set([
-  "gpt-5.5",
-  "gpt-5.4",
-  "gpt-5.4-mini",
-  "gpt-5.3-codex-spark",
-  "codex-auto-review",
-]);
-
 export const GROQ_SKIP = new Set([
   "whisper-large-v3",
   "whisper-large-v3-turbo",
@@ -74,12 +64,6 @@ export const HC_ZDR_ENFORCED_AUTHORS = new Set([
   "x-ai",
 ]);
 
-export const CEREBRAS_CONTEXT: Record<string, number> = {
-  "gemma-4-31b": 30000,
-  "gpt-oss-120b": 30000,
-  "zai-glm-4.7": 30000,
-};
-
 // ─── provider id mappings ──────────────────────────────────────────────────
 
 export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
@@ -109,18 +93,6 @@ export const GROQ_ID_TO_OR: Record<string, string> = {
   "qwen/qwen3.6-27b": "qwen/qwen3.6-27b",
   "qwen/qwen3-32b": "qwen/qwen3-32b",
   "allam-2-7b": "humain-ai/allam-2-7b",
-};
-
-export const CEREBRAS_ID_TO_OR: Record<string, string> = {
-  "zai-glm-4.7": "z-ai/glm-4.7",
-  "gpt-oss-120b": "openai/gpt-oss-120b",
-  "gemma-4-31b": "google/gemma-4-31b-it",
-};
-
-export const JATEVO_ID_TO_OR: Record<string, string> = {
-  "gpt-5.6-sol": "openai/gpt-5.6-sol",
-  "gpt-5.6-terra": "openai/gpt-5.6-terra",
-  "gpt-5.6-luna": "openai/gpt-5.6-luna",
 };
 
 export const GOOGLE_NAME_TO_OR: Record<string, string> = {

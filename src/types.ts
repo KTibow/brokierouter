@@ -5,7 +5,6 @@ import {
   number,
   boolean,
   array,
-  literal,
   nullable,
   optional,
 } from "valibot";
@@ -70,11 +69,6 @@ export const GroqModelSchema = object({
 });
 export type GroqModel = InferOutput<typeof GroqModelSchema>;
 
-export const CerebrasModelSchema = object({
-  id: string(),
-});
-export type CerebrasModel = InferOutput<typeof CerebrasModelSchema>;
-
 export const GoogleModelSchema = object({
   name: string(),
   inputTokenLimit: number(),
@@ -92,13 +86,6 @@ export const CrofModelSchema = object({
   speed: number(),
 });
 export type CrofModel = InferOutput<typeof CrofModelSchema>;
-
-// Jatevo's list is bare — no context length, pricing or capabilities — so
-// everything but the ID comes from the matching OpenRouter model.
-export const JatevoModelSchema = object({
-  id: string(),
-});
-export type JatevoModel = InferOutput<typeof JatevoModelSchema>;
 
 const ThroughputSchema = object({
   p50: number(),
@@ -131,21 +118,9 @@ export const HackClubStatusSchema = object({
 });
 export const CrofResponseSchema = object({ data: array(CrofModelSchema) });
 export const GroqResponseSchema = object({ data: array(GroqModelSchema) });
-export const CerebrasResponseSchema = object({
-  data: array(CerebrasModelSchema),
-});
 export const GoogleResponseSchema = object({
   models: array(GoogleModelSchema),
 });
-export const JatevoResponseSchema = object({ data: array(JatevoModelSchema) });
-// https://jatevo.kendell.dev/key.json — the API key, AES-GCM encrypted under
-// JATEVO_ENCRYPTION_KEY, plus the JSON it decrypts to
-export const JatevoKeyFileSchema = object({
-  alg: literal("AES-GCM"),
-  iv: string(),
-  ct: string(),
-});
-export const JatevoSecretSchema = object({ key: string() });
 export const EndpointArraySchema = array(EndpointDataSchema);
 // https://openrouter.ai/api/v1/endpoints/zdr — every zero-data-retention
 // endpoint, identified by (model_id, tag)
