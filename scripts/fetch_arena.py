@@ -66,6 +66,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "deepseek-v3.2-exp-thinking": ("deepseek/deepseek-v3.2-exp", True),
     "deepseek-v4-pro": ("deepseek/deepseek-v4-pro", False),
     "deepseek-v4-pro-high-preview": ("deepseek/deepseek-v4-pro", True),
+    "deepseek-v4-pro-high-20260813": ("deepseek/deepseek-v4-pro-0813", True),
     "deepseek-v4-flash": ("deepseek/deepseek-v4-flash", False),
     "deepseek-v4-flash-high-preview": ("deepseek/deepseek-v4-flash", True),
     # Google Gemini
@@ -87,6 +88,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "gemini-3.5-flash-medium": ("google/gemini-3.5-flash", True),
     "gemini-3.5-flash-lite": ("google/gemini-3.5-flash-lite", True),
     "gemini-3.6-flash-high": ("google/gemini-3.6-flash", True),
+    "gemini-3.7-flash-high": ("google/gemini-3.7-flash", True),
     # Google Gemma
     "gemma-2-27b-it": ("google/gemma-2-27b-it", False),
     "gemma-3-12b-it": ("google/gemma-3-12b-it", False),
@@ -106,6 +108,8 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "glm-5": ("z-ai/glm-5", True),
     "glm-5.1": ("z-ai/glm-5.1", True),
     "glm-5.2-max": ("z-ai/glm-5.2", True),
+    "glm-5.3-flash": ("z-ai/glm-5.3-flash", True),
+    "glm-5.3-max": ("z-ai/glm-5.3", True),
     "glm-5v-turbo": ("z-ai/glm-5v-turbo", True),
     # OpenAI GPT / o-series
     "gpt-3.5-turbo-0125": ("openai/gpt-3.5-turbo", False),
@@ -232,6 +236,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "qwen3.7-plus": ("qwen/qwen3.7-plus", True),
     "qwen3.7-max-preview": ("qwen/qwen3.7-max", True),
     "qwen3.8-max": ("qwen/qwen3.8-max", True),
+    "qwen3.8-27b": ("qwen/qwen3.8-27b", True),
     "qwq-32b": ("qwen/qwq-32b", True),
     # "qwq-32b-preview": ("qwen/qwq-32b", True),  # DUPLICATE
     # Minimax
@@ -287,10 +292,12 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "intellect-3": ("prime-intellect/intellect-3", False),
     "solar-pro4": ("upstage/solar-pro4", True),
     "granite-4.1-8b": ("ibm-granite/granite-4.1-8b", False),
+    "granite-4.2-8b": ("ibm-granite/granite-4.2-8b", True),
     "muse-spark-1.1": ("meta/muse-spark-1.1", True),
     "muse-spark-1.2 (xHigh)": ("meta/muse-spark-1.2", True),
     "muse-glimmer": ("meta/muse-glimmer-30b", True),
     "inkling": ("thinkingmachines/inkling", True),
+    "Inkling Small": ("thinkingmachines/inkling-small", True),
 }
 
 os.makedirs("data", exist_ok=True)
