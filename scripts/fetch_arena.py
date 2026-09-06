@@ -44,6 +44,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-sonnet-4-6": ("anthropic/claude-sonnet-4.6", False),
     "claude-sonnet-5-high": ("anthropic/claude-sonnet-5", True),
     "claude-fable-5": ("anthropic/claude-fable-5", True),
+    "claude-fable-5.1-max": ("anthropic/claude-fable-5.1", True),
     # Cohere
     "command-a-03-2025": ("cohere/command-a", False),
     "command-r-08-2024": ("cohere/command-r-08-2024", False),
@@ -89,6 +90,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "gemini-3.5-flash-lite": ("google/gemini-3.5-flash-lite", True),
     "gemini-3.6-flash-high": ("google/gemini-3.6-flash", True),
     "gemini-3.7-flash-high": ("google/gemini-3.7-flash", True),
+    "gemini-3.8-flash-high": ("google/gemini-3.8-flash", True),
     # Google Gemma
     "gemma-2-27b-it": ("google/gemma-2-27b-it", False),
     "gemma-3-12b-it": ("google/gemma-3-12b-it", False),
@@ -164,7 +166,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "grok-4.20-multi-agent-beta-0309": ("x-ai/grok-4.20-multi-agent", True),
     "grok-4.3": ("x-ai/grok-4.3", True),
     "grok-4.5": ("x-ai/grok-4.5", True),
-    "grok-4.6-high": ("x-ai/grok-4.6", True),
+    # "grok-4.6-high": ("x-ai/grok-4.6", True),  # DELISTED from arena 2026-09-02
     # Hy
     "hunyuan-hy3-preview": ("tencent/hy3-preview", True),
     "hy3": ("tencent/hy3", True),
