@@ -6628,7 +6628,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 32,
+        "tps": 30,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -7042,7 +7042,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 57,
+        "tps": 75,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -8419,7 +8419,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 86,
+        "tps": 35,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -10957,7 +10957,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 61,
+        "tps": 72,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -12594,8 +12594,8 @@
         "model_id": "deepseek/deepseek-v4-flash;streamlake/fp8",
         "context_length": 1024000,
         "per_mtok": {
-          "prompt": 0.08707999999999999,
-          "completion": 0.17415999999999998
+          "prompt": 0.08399999999999999,
+          "completion": 0.16799999999999998
         },
         "input_modalities": [
           "text"
@@ -12619,8 +12619,8 @@
         "model_id": "deepseek/deepseek-v4-flash;baidu/fp8",
         "context_length": 1048576,
         "per_mtok": {
-          "prompt": 0.08847999999999999,
-          "completion": 0.17695999999999998
+          "prompt": 0.0854,
+          "completion": 0.1708
         },
         "input_modalities": [
           "text"
@@ -25058,8 +25058,8 @@
       },
       {
         "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-flash-0731;gmicloud/fp8",
-        "context_length": 1048575,
+        "model_id": "deepseek/deepseek-v4-flash-0731;gmicloud/fp4",
+        "context_length": 1048576,
         "per_mtok": {
           "prompt": 0.286,
           "completion": 0.858
@@ -25079,7 +25079,7 @@
           "max"
         ],
         "extra": {
-          "quantization": "fp8"
+          "quantization": "fp4"
         }
       },
       {
@@ -25248,7 +25248,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
+        "tps": 42,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -25372,6 +25372,33 @@
           "max"
         ],
         "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-flash-vision-exp;gmicloud/fp8",
+        "context_length": 1048575,
+        "per_mtok": {
+          "prompt": 0.44,
+          "completion": 1.32
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
       },
       {
         "provider": "openrouter",
@@ -25599,6 +25626,112 @@
         ],
         "extra": {
           "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4.1-flash;fireworks",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.22,
+          "completion": 0.66
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4.1-flash;parasail/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 1.2
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4.1-flash;gmicloud/fp8",
+        "context_length": 1048575,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 1.2
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4.1-flash;morph/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.3,
+          "completion": 1.2
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp4"
         }
       },
       {
@@ -28701,7 +28834,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 100,
+        "tps": 61,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
