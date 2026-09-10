@@ -1455,6 +1455,32 @@
       },
       {
         "provider": "openrouter",
+        "model_id": "moonshotai/kimi-k3;makora",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 2.5500000000000003,
+          "completion": 12.75
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
         "model_id": "moonshotai/kimi-k3;digitalocean",
         "context_length": 1048576,
         "per_mtok": {
@@ -2634,11 +2660,11 @@
     "providers": [
       {
         "provider": "openrouter",
-        "model_id": "z-ai/glm-5.3;reka/fp8",
-        "context_length": 262144,
+        "model_id": "z-ai/glm-5.3;streamlake/fp8",
+        "context_length": 1024000,
         "per_mtok": {
-          "prompt": 1.0075,
-          "completion": 3.41
+          "prompt": 0.7,
+          "completion": 2.2
         },
         "input_modalities": [
           "text"
@@ -2659,10 +2685,10 @@
       },
       {
         "provider": "openrouter",
-        "model_id": "z-ai/glm-5.3;streamlake/fp8",
-        "context_length": 1024000,
+        "model_id": "z-ai/glm-5.3;reka/fp8",
+        "context_length": 262144,
         "per_mtok": {
-          "prompt": 1.085,
+          "prompt": 1.0075,
           "completion": 3.41
         },
         "input_modalities": [
@@ -2705,6 +2731,31 @@
         ],
         "extra": {
           "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "z-ai/glm-5.3;morph/fp4",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 1.12,
+          "completion": 3.52
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp4"
         }
       },
       {
@@ -2764,31 +2815,6 @@
         "per_mtok": {
           "prompt": 1.15,
           "completion": 4.4
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.3;morph/fp4",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.17,
-          "completion": 3.9600000000000004
         },
         "input_modalities": [
           "text"
@@ -5785,6 +5811,31 @@
     "providers": [
       {
         "provider": "openrouter",
+        "model_id": "z-ai/glm-5.2;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.28,
+          "completion": 0.88
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
         "model_id": "z-ai/glm-5.2;baidu/fp8",
         "context_length": 1048576,
         "per_mtok": {
@@ -5840,31 +5891,6 @@
         "per_mtok": {
           "prompt": 0.6,
           "completion": 2
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "z-ai/glm-5.2;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.6762,
-          "completion": 2.1252
         },
         "input_modalities": [
           "text"
@@ -6602,7 +6628,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 35,
+        "tps": 32,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -7016,7 +7042,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 55,
+        "tps": 57,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -7944,8 +7970,8 @@
         "model_id": "moonshotai/kimi-k2.6;inceptron/int4",
         "context_length": 262144,
         "per_mtok": {
-          "prompt": 0.5933,
-          "completion": 2.9448000000000003
+          "prompt": 0.5895,
+          "completion": 2.4499999999999997
         },
         "input_modalities": [
           "text",
@@ -8393,7 +8419,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 40,
+        "tps": 86,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -8448,8 +8474,8 @@
         "model_id": "deepseek/deepseek-v4-pro-0813;baidu/fp8",
         "context_length": 1048576,
         "per_mtok": {
-          "prompt": 0.65868,
-          "completion": 1.97604
+          "prompt": 0.57948,
+          "completion": 1.73844
         },
         "input_modalities": [
           "text"
@@ -8468,6 +8494,54 @@
         "extra": {
           "quantization": "fp8"
         }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro-0813;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.5808,
+          "completion": 1.7424
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro-0813;streamlake",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.66,
+          "completion": 1.9800000000000002
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
       },
       {
         "provider": "openrouter",
@@ -8518,30 +8592,6 @@
         "extra": {
           "quantization": "fp8"
         }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro-0813;streamlake",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 1.0494,
-          "completion": 3.1482
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
       },
       {
         "provider": "openrouter",
@@ -8618,30 +8668,6 @@
         "extra": {
           "quantization": "fp8"
         }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro-0813;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 1.122,
-          "completion": 3.366
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
       },
       {
         "provider": "openrouter",
@@ -8955,6 +8981,31 @@
     "providers": [
       {
         "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.86866,
+          "completion": 1.73732
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
         "model_id": "deepseek/deepseek-v4-pro;digitalocean",
         "context_length": 1048576,
         "per_mtok": {
@@ -8981,8 +9032,8 @@
         "model_id": "deepseek/deepseek-v4-pro;streamlake/fp8",
         "context_length": 1024000,
         "per_mtok": {
-          "prompt": 0.9552599999999999,
-          "completion": 1.9105199999999998
+          "prompt": 0.87,
+          "completion": 1.74
         },
         "input_modalities": [
           "text"
@@ -9199,31 +9250,6 @@
       },
       {
         "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-pro;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 1.69,
-          "completion": 3.38
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
         "model_id": "deepseek/deepseek-v4-pro;baseten/fp4",
         "context_length": 1048576,
         "per_mtok": {
@@ -9325,8 +9351,8 @@
         "model_id": "deepseek/deepseek-v4-pro;nextbit/fp8",
         "context_length": 1048576,
         "per_mtok": {
-          "prompt": 1.9139999999999997,
-          "completion": 3.8279999999999994
+          "prompt": 2,
+          "completion": 4
         },
         "input_modalities": [
           "text"
@@ -9986,8 +10012,8 @@
         "model_id": "tencent/hy3;tencent/fp8",
         "context_length": 262144,
         "per_mtok": {
-          "prompt": 0.13199999999999998,
-          "completion": 0.5279999999999999
+          "prompt": 0.0825,
+          "completion": 0.33
         },
         "input_modalities": [
           "text"
@@ -12568,8 +12594,33 @@
         "model_id": "deepseek/deepseek-v4-flash;streamlake/fp8",
         "context_length": 1024000,
         "per_mtok": {
-          "prompt": 0.088606,
-          "completion": 0.177212
+          "prompt": 0.08707999999999999,
+          "completion": 0.17415999999999998
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "high",
+          "xhigh"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-flash;baidu/fp8",
+        "context_length": 1048576,
+        "per_mtok": {
+          "prompt": 0.08847999999999999,
+          "completion": 0.17695999999999998
         },
         "input_modalities": [
           "text"
@@ -12595,31 +12646,6 @@
         "per_mtok": {
           "prompt": 0.09,
           "completion": 0.18
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "high",
-          "xhigh"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-flash;baidu/fp8",
-        "context_length": 1048576,
-        "per_mtok": {
-          "prompt": 0.09086,
-          "completion": 0.18172
         },
         "input_modalities": [
           "text"
@@ -12974,6 +13000,30 @@
         "per_mtok": {
           "prompt": 0.09999999999999999,
           "completion": 0.3
+        },
+        "input_modalities": [
+          "image",
+          "text",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
+        "model_id": "google/gemma-4-26b-a4b-it;makora",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.09999999999999999,
+          "completion": 0.33999999999999997
         },
         "input_modalities": [
           "image",
@@ -24604,6 +24654,32 @@
       },
       {
         "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-flash-0731;streamlake/fp8",
+        "context_length": 1024000,
+        "per_mtok": {
+          "prompt": 0.088,
+          "completion": 0.26399999999999996
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
         "model_id": "deepseek/deepseek-v4-flash-0731;makora",
         "context_length": 1000000,
         "per_mtok": {
@@ -24674,32 +24750,6 @@
         ],
         "extra": {
           "quantization": "fp4"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-flash-0731;streamlake/fp8",
-        "context_length": 1024000,
-        "per_mtok": {
-          "prompt": 0.12319999999999999,
-          "completion": 0.3696
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp8"
         }
       },
       {
@@ -24934,6 +24984,30 @@
       },
       {
         "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4-flash-0731;alibaba",
+        "context_length": 1000000,
+        "per_mtok": {
+          "prompt": 0.176,
+          "completion": 0.5279999999999999
+        },
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {}
+      },
+      {
+        "provider": "openrouter",
         "model_id": "deepseek/deepseek-v4-flash-0731;fireworks",
         "context_length": 1048576,
         "per_mtok": {
@@ -25033,30 +25107,6 @@
         "extra": {
           "quantization": "fp8"
         }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4-flash-0731;alibaba",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.352,
-          "completion": 1.0559999999999998
-        },
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {}
       },
       {
         "provider": "openrouter",
@@ -25198,7 +25248,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 71,
+        "tps": 100,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -25526,6 +25576,33 @@
       },
       {
         "provider": "openrouter",
+        "model_id": "deepseek/deepseek-v4.1-flash;io-net/fp8",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0.15,
+          "completion": 1.2
+        },
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "low",
+          "high",
+          "max"
+        ],
+        "extra": {
+          "quantization": "fp8"
+        }
+      },
+      {
+        "provider": "openrouter",
         "model_id": "deepseek/deepseek-v4.1-flash;novita/fp8",
         "context_length": 1048576,
         "per_mtok": {
@@ -25558,33 +25635,6 @@
         "per_mtok": {
           "prompt": 0.3,
           "completion": 1.2
-        },
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tps": null,
-        "ttfb": null,
-        "reasoning_efforts": [
-          "none",
-          "low",
-          "high",
-          "max"
-        ],
-        "extra": {
-          "quantization": "fp8"
-        }
-      },
-      {
-        "provider": "openrouter",
-        "model_id": "deepseek/deepseek-v4.1-flash;venice/fp8",
-        "context_length": 1000000,
-        "per_mtok": {
-          "prompt": 0.375,
-          "completion": 1.5
         },
         "input_modalities": [
           "text",
@@ -26782,6 +26832,40 @@
           "medium"
         ],
         "extra": {}
+      }
+    ],
+    "elo_direct": null,
+    "elo_thinking": null
+  },
+  {
+    "id": "inclusionai/ling-3.0-flash-vl",
+    "name": "Ling 3.0 Flash VL",
+    "providers": [
+      {
+        "provider": "openrouter-free",
+        "model_id": "inclusionai/ling-3.0-flash-vl:free;novita/bf16",
+        "context_length": 262144,
+        "per_mtok": {
+          "prompt": 0,
+          "completion": 0
+        },
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tps": null,
+        "ttfb": null,
+        "reasoning_efforts": [
+          "none",
+          "medium"
+        ],
+        "extra": {
+          "quantization": "bf16"
+        }
       }
     ],
     "elo_direct": null,
@@ -28617,7 +28701,7 @@
         "output_modalities": [
           "text"
         ],
-        "tps": 48,
+        "tps": 100,
         "ttfb": null,
         "reasoning_efforts": [
           "medium"
@@ -35023,13 +35107,13 @@
     "elo_thinking": null
   },
   {
-    "id": "groq/compound",
-    "name": "groq/compound",
+    "id": "humain-ai/allam-2-7b",
+    "name": "humain ai/allam 2 7b",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "groq/compound",
-        "context_length": 70000,
+        "model_id": "allam-2-7b",
+        "context_length": 4096,
         "input_modalities": [
           "text"
         ],
@@ -35047,13 +35131,13 @@
     "elo_thinking": null
   },
   {
-    "id": "humain-ai/allam-2-7b",
-    "name": "humain ai/allam 2 7b",
+    "id": "groq/compound",
+    "name": "groq/compound",
     "providers": [
       {
         "provider": "groq-free",
-        "model_id": "allam-2-7b",
-        "context_length": 4096,
+        "model_id": "groq/compound",
+        "context_length": 70000,
         "input_modalities": [
           "text"
         ],
