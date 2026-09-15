@@ -1,10 +1,6 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import type { Provider } from "./types.ts";
-import {
-  GROQ_ID_TO_OR,
-  GOOGLE_NAME_TO_OR,
-  CROF_MAP,
-} from "./lib/constants.ts";
+import { GROQ_ID_TO_OR, GOOGLE_NAME_TO_OR } from "./lib/constants.ts";
 
 // ─── SSE parser ─────────────────────────────────────────────────────────
 
@@ -64,43 +60,6 @@ type ProviderConfig = {
 };
 
 const PROVIDERS: Record<string, ProviderConfig> = {
-  crofai: {
-    name: "CrofAI",
-    async fetchModels() {
-      const res = await fetch("https://crof.ai/v2/models", {
-        headers: {
-          Accept: "application/json",
-          Authorization: `Bearer ${process.env.CROF_KEY ?? ""}`,
-        },
-      });
-      if (!res.ok) throw new Error(`Crof fetch failed: ${res.status}`);
-      const { data } = (await res.json()) as { data: { id: string }[] };
-      return data.map((m) => {
-        const mapping = CROF_MAP[m.id];
-        return {
-          model_id: m.id,
-          or_id: mapping?.orId ?? m.id,
-        };
-      });
-    },
-    async streamRequest(model_id) {
-      const r = await fetch("https://crof.ai/v2/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${process.env.CROF_KEY ?? ""}`,
-        },
-        body: JSON.stringify({
-          model: model_id,
-          messages: [{ role: "user", content: "List all US presidents." }],
-          stream: true,
-        }),
-      });
-      if (!r.ok) throw new Error(`Crof stream failed: ${r.status}`);
-      return r;
-    },
-  },
-
   "groq-free": {
     name: "Groq",
     async fetchModels() {

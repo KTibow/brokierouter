@@ -3,14 +3,12 @@ import type {
   Model,
   Provider,
   ORModel,
-  CrofModel,
   GroqModel,
   GoogleModel,
   EndpointData,
 } from "./types.ts";
 import {
   ORResponseSchema,
-  CrofResponseSchema,
   GroqResponseSchema,
   GoogleResponseSchema,
   EndpointArraySchema,
@@ -23,8 +21,6 @@ import { displayName } from "./lib/normalize.ts";
 import {
   BENCHMARKS,
   GROQ_TPM,
-  CROF_MAP,
-  CROF_VISION,
   GROQ_VISION,
   GROQ_SKIP,
   GROQ_ID_TO_OR,
@@ -38,7 +34,6 @@ import {
 } from "./lib/constants.ts";
 import {
   orReasoningEfforts,
-  crofReasoningEfforts,
   getReasoningEfforts,
   REASONING_EFFORT_OVERRIDES,
 } from "./lib/reasoning.ts";
@@ -284,48 +279,6 @@ const providers = {
         }
       }
       return providers;
-    },
-  },
-
-  crof: {
-    async fetch() {
-      return fetchValidated("https://crof.ai/v2/models", CrofResponseSchema, {
-        token: process.env.CROF_KEY ?? "",
-      });
-    },
-    parse(raw: { data: CrofModel[] }): ParseResult {
-      const providers = new Map<string, Provider[]>();
-      const unmapped: string[] = [];
-      for (const m of raw.data) {
-        const mapping = CROF_MAP[m.id];
-        const orId = mapping?.orId ?? m.id;
-        if (!mapping) unmapped.push(m.id);
-        const provider: Provider = {
-          provider: "crofai",
-          model_id: m.id,
-          note: mapping?.variant ? `${mapping.variant} variant` : undefined,
-          context_length: requireContextLength(
-            m.context_length,
-            `crofai ${m.id}`,
-          ),
-          per_mtok: {
-            prompt: parseFloat(m.pricing.prompt),
-            completion: parseFloat(m.pricing.completion),
-          },
-          input_modalities: CROF_VISION.has(m.id)
-            ? ["text", "image"]
-            : ["text"],
-          output_modalities: ["text"],
-          tps: m.speed ? Math.min(m.speed, 100) : null,
-          ttfb: null,
-          reasoning_efforts: crofReasoningEfforts(m.id),
-          extra: { quantization: m.quantization || undefined },
-        };
-        const arr = providers.get(orId);
-        if (arr) arr.push(provider);
-        else providers.set(orId, [provider]);
-      }
-      return { providers, unmapped };
     },
   },
 
@@ -576,7 +529,6 @@ const [
   orData,
   hcData,
   zdrData,
-  crofData,
   groqData,
   googleData,
 ] = await Promise.all([
@@ -594,10 +546,6 @@ const [
     console.warn("ZDR list fetch failed:", e.message);
     return { data: [] };
   }),
-  providers.crof.fetch().catch((e) => {
-    console.warn("CrofAI fetch failed:", e.message);
-    return { data: [] };
-  }),
   providers.groq.fetch().catch((e) => {
     console.warn("Groq fetch failed:", e.message);
     return { data: [] };
@@ -611,7 +559,6 @@ const [
 const orModelById = new Map(orData.data.map((m) => [m.id, m]));
 
 const providerResults = [
-  { name: "Crof", result: providers.crof.parse(crofData) },
   { name: "Groq", result: providers.groq.parse(groqData) },
   { name: "Google", result: providers.google.parse(googleData) },
 ];

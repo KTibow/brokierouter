@@ -52,12 +52,6 @@ export const orReasoningEfforts = (m: ORModel): (Effort | null)[] => {
   return EFFORT_ORDER.filter((e) => efforts.has(e));
 };
 
-// ─── CrofAI ───────────────────────────────────────────────────────────────
-// All models have always-on reasoning, except -chat variants
-
-export const crofReasoningEfforts = (crofId: string): Effort[] =>
-  crofId.includes("-chat") ? ["none"] : ["medium"];
-
 // ─── other non-OpenRouter providers (groq, google) ────────────────────────
 // These APIs don't advertise reasoning support, so efforts stay curated
 // per model.

@@ -31,7 +31,6 @@ jobs:
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
           GOOGLE_KEY: ${{ secrets.GOOGLE_KEY }}
-          CROF_KEY: ${{ secrets.CROF_KEY }}
           GHM_KEY: ${{ secrets.GHM_KEY }}
           GHC_KEY: ${{ secrets.GHC_KEY }}
 

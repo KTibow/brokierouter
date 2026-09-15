@@ -22,12 +22,6 @@ export const GROQ_TPM: Record<string, number> = {
 
 // ─── vision sets ───────────────────────────────────────────────────────────
 
-export const CROF_VISION = new Set([
-  "gemma-4-31b-it",
-  "qwen3.5-397b-a17b",
-  "qwen3.5-9b",
-]);
-
 export const GROQ_VISION = new Set([
   "meta-llama/llama-4-scout-17b-16e-instruct",
 ]);
@@ -65,24 +59,6 @@ export const HC_ZDR_ENFORCED_AUTHORS = new Set([
 ]);
 
 // ─── provider id mappings ──────────────────────────────────────────────────
-
-export const CROF_MAP: Record<string, { orId: string; variant?: string }> = {
-  "deepseek-v4-pro": { orId: "deepseek/deepseek-v4-pro" },
-  "mimo-v2.5-pro": { orId: "xiaomi/mimo-v2.5-pro" },
-  "deepseek-v4-flash": { orId: "deepseek/deepseek-v4-flash" },
-  "deepseek-v4-flash-0731": { orId: "deepseek/deepseek-v4-flash-0731" },
-  "kimi-k3": { orId: "moonshotai/kimi-k3" },
-  "kimi-k3-eco": { orId: "moonshotai/kimi-k3", variant: "eco" },
-  "kimi-k2.7-code": { orId: "moonshotai/kimi-k2.7-code" },
-  "kimi-k2.6": { orId: "moonshotai/kimi-k2.6" },
-  "glm-5.1": { orId: "z-ai/glm-5.1" },
-  "glm-5.2": { orId: "z-ai/glm-5.2" },
-  "qwen3.6-27b": { orId: "qwen/qwen3.6-27b" },
-  "qwen3.5-397b-a17b": { orId: "qwen/qwen3.5-397b-a17b" },
-  "qwen3.5-9b": { orId: "qwen/qwen3.5-9b" },
-  "deepseek-v3.2": { orId: "deepseek/deepseek-v3.2" },
-  "gemma-4-31b-it": { orId: "google/gemma-4-31b-it" },
-};
 
 export const GROQ_ID_TO_OR: Record<string, string> = {
   "llama-3.1-8b-instant": "meta-llama/llama-3.1-8b-instruct",

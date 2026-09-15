@@ -76,17 +76,6 @@ export const GoogleModelSchema = object({
 });
 export type GoogleModel = InferOutput<typeof GoogleModelSchema>;
 
-export const CrofModelSchema = object({
-  id: string(),
-  context_length: number(),
-  pricing: object({ prompt: string(), completion: string() }),
-  quantization: string(),
-  reasoning_effort: optional(boolean()),
-  custom_reasoning: optional(boolean()),
-  speed: number(),
-});
-export type CrofModel = InferOutput<typeof CrofModelSchema>;
-
 const ThroughputSchema = object({
   p50: number(),
 });
@@ -116,7 +105,6 @@ export const HackClubStatusSchema = object({
   balanceRemaining: number(),
   dailyKeyUsageRemaining: number(),
 });
-export const CrofResponseSchema = object({ data: array(CrofModelSchema) });
 export const GroqResponseSchema = object({ data: array(GroqModelSchema) });
 export const GoogleResponseSchema = object({
   models: array(GoogleModelSchema),
