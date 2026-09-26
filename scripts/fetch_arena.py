@@ -43,7 +43,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "claude-sonnet-4-5-20250929-high-32k": ("anthropic/claude-sonnet-4.5", True),
     "claude-sonnet-4-6": ("anthropic/claude-sonnet-4.6", False),
     "claude-sonnet-5-high": ("anthropic/claude-sonnet-5", True),
-    "claude-fable-5": ("anthropic/claude-fable-5", True),
+    "claude-fable-5-high": ("anthropic/claude-fable-5", True),
     "claude-fable-5.1-max": ("anthropic/claude-fable-5.1", True),
     # Cohere
     "command-a-03-2025": ("cohere/command-a", False),
