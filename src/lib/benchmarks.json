@@ -1,50 +1,68 @@
 {
   "gemini-3.1-flash-lite-preview": {
     "google-free": {
-      "tps": 275,
-      "ttfb": 4982
+      "tps": 289,
+      "ttfb": 4821
+    }
+  },
+  "gemini-3.7-flash": {
+    "google-free": {
+      "tps": 108,
+      "ttfb": 6074
+    }
+  },
+  "gemini-3.8-flash": {
+    "google-free": {
+      "tps": 108,
+      "ttfb": 6820
     }
   },
   "gemini-robotics-er-2-preview": {
     "google-free": {
-      "tps": 151,
-      "ttfb": 3466
+      "tps": 147,
+      "ttfb": 4119
     }
   },
   "google/gemini-2.5-flash": {
     "google-free": {
-      "tps": 129,
-      "ttfb": 4941
+      "tps": 206,
+      "ttfb": 1869
     }
   },
   "google/gemini-2.5-flash-lite": {
     "google-free": {
-      "tps": 247,
-      "ttfb": 262
+      "tps": 235,
+      "ttfb": 309
     }
   },
   "google/gemini-3-flash-preview": {
     "google-free": {
-      "tps": 161,
-      "ttfb": 13187
+      "tps": 165,
+      "ttfb": 20292
     }
   },
   "google/gemini-3.1-flash-lite": {
     "google-free": {
-      "tps": 282,
-      "ttfb": 2818
-    }
-  },
-  "google/gemini-3.5-flash": {
-    "google-free": {
-      "tps": 122,
-      "ttfb": 6071
+      "tps": 263,
+      "ttfb": 1693
     }
   },
   "google/gemini-3.5-flash-lite": {
     "google-free": {
-      "tps": 318,
-      "ttfb": 467
+      "tps": 306,
+      "ttfb": 4157
+    }
+  },
+  "google/gemma-4-26b-a4b-it": {
+    "google-free": {
+      "tps": 28,
+      "ttfb": 758
+    }
+  },
+  "google/gemma-4-31b-it": {
+    "google-free": {
+      "tps": 27,
+      "ttfb": 8581
     }
   },
   "meta-llama/llama-3.1-8b-instruct": {
