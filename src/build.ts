@@ -358,6 +358,34 @@ const providers = {
     },
   },
 
+  // Direct API access, mirroring OR's first-party Anthropic endpoints (same
+  // TPS, context, pricing) rather than needing a key just to list models
+  anthropic: {
+    parse(
+      orModels: Map<string, { name: string; providers: Provider[] }>,
+    ): ParseResult {
+      const providers = new Map<string, Provider[]>();
+      for (const [id, { providers: provs }] of orModels) {
+        if (!id.startsWith("anthropic/") || id.includes(":")) continue;
+        const ep = provs.find(
+          (p) =>
+            p.provider === "openrouter" &&
+            p.model_id.endsWith(";anthropic") &&
+            !p.note, // fast tier needs a beta flag we don't send
+        );
+        if (!ep) continue;
+        providers.set(id, [
+          {
+            ...ep,
+            provider: "anthropic",
+            // anthropic/claude-opus-5.5 -> claude-opus-5-5
+            model_id: id.slice("anthropic/".length).replaceAll(".", "-"),
+          },
+        ]);
+      }
+      return { providers, unmapped: [] };
+    },
+  },
 } as const;
 
 // ─── merge ──────────────────────────────────────────────────────────────
@@ -558,16 +586,18 @@ const [
 
 const orModelById = new Map(orData.data.map((m) => [m.id, m]));
 
-const providerResults = [
-  { name: "Groq", result: providers.groq.parse(groqData) },
-  { name: "Google", result: providers.google.parse(googleData) },
-];
-
 const zdrEndpoints = new Set(
   zdrData.data.map((e) => `${e.model_id};${e.tag}`),
 );
 
 const orModels = providers.openrouter.parse(orData, endpointData);
+
+const providerResults = [
+  { name: "Groq", result: providers.groq.parse(groqData) },
+  { name: "Google", result: providers.google.parse(googleData) },
+  { name: "Anthropic", result: providers.anthropic.parse(orModels) },
+];
+
 const hcProviders = providers.hackclub.parse(hcData, orModels, zdrEndpoints);
 
 const models = merge(orModels, hcProviders, providerResults, elos);
