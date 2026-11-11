@@ -24,6 +24,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     ),
     # Claude 4 family
     "Claude Haiku 4.5 (20251001)": ("anthropic/claude-haiku-4.5", False),
+    "Claude Haiku 5.5 (High)": ("anthropic/claude-haiku-5.5", True),
     "Claude Opus 4 (20250514)": ("anthropic/claude-opus-4", False),
     "Claude Opus 4 (Thinking 16K, 20250514)": ("anthropic/claude-opus-4", True),
     "Claude Opus 4.1 (20250805)": ("anthropic/claude-opus-4.1", False),
@@ -95,6 +96,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "Gemini 3.7 Flash (High)": ("google/gemini-3.7-flash", True),
     "Gemini 3.8 Flash (High)": ("google/gemini-3.8-flash", True),
     "Gemini 4 Argon (High)": ("google/gemini-4-argon", True),
+    "Gemini 4 Carbon (High)": ("google/gemini-4-carbon", True),
     # Google Gemma
     "Gemma 2 27B IT": ("google/gemma-2-27b-it", False),
     "Gemma 3 12B IT": ("google/gemma-3-12b-it", False),
@@ -187,6 +189,7 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "Kimi K2.5 (Thinking)": ("moonshotai/kimi-k2.5", True),
     "Kimi K2.6": ("moonshotai/kimi-k2.6", True),
     "Kimi K3 (Max)": ("moonshotai/kimi-k3", True),
+    "Kimi K3.1 Pro (Max)": ("moonshotai/kimi-k3.1-pro", True),
     # Meta Llama
     "Llama 3 8B Instruct": ("meta-llama/llama-3-8b-instruct", False),
     "Llama 3 70B Instruct": ("meta-llama/llama-3-70b-instruct", False),
@@ -269,7 +272,8 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     # https://docs.mistral.ai/models/model-cards/mistral-large-2-1-24-11
     "Mistral Large (2411)": ("mistralai/mistral-large-2411", False),
     # https://docs.mistral.ai/models/model-cards/mistral-large-3-25-12
-    "Mistral Large 3": ("mistralai/mistral-large", False),
+    "Mistral Large 3": ("mistralai/mistral-large-2512", False),
+    "Mistral Large 4": ("mistralai/mistral-large-4-0", True),
     # https://docs.mistral.ai/models/model-cards/mistral-medium-3-25-05
     "Mistral Medium 3 (2505)": ("mistralai/mistral-medium-3", False),
     # https://docs.mistral.ai/models/model-cards/mistral-medium-3-1-25-08
@@ -318,6 +322,8 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "Muse Glimmer": ("meta/muse-glimmer-30b", True),
     "Inkling": ("thinkingmachines/inkling", True),
     "Inkling-Small": ("thinkingmachines/inkling-small", True),
+    "Inkling 2 Small": ("thinkingmachines/inkling-2-small", True),
+    "Beam 1.0 501B A23B": ("reflection/beam-1.0-501b-a23b", True),
 }
 
 os.makedirs("data", exist_ok=True)
