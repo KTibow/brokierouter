@@ -118,7 +118,6 @@ ARENA_TO_OR: dict[str, tuple[str, bool]] = {
     "GLM-5.2 (Max)": ("z-ai/glm-5.2", True),
     "GLM-5.3-Flash": ("z-ai/glm-5.3-flash", True),
     "GLM-5.3 (Max)": ("z-ai/glm-5.3", True),
-    "GLM-5V-Turbo": ("z-ai/glm-5v-turbo", True),
     # OpenAI GPT / o-series
     "GPT-3.5 Turbo (0125)": ("openai/gpt-3.5-turbo", False),
     "GPT-4 (0314)": ("openai/gpt-4-0314", False),
