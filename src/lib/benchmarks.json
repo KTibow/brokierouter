@@ -1,62 +1,44 @@
 {
-  "gemini-3.1-flash-lite-preview": {
-    "google-free": {
-      "tps": 286,
-      "ttfb": 549
-    }
-  },
   "gemini-robotics-er-2-preview": {
     "google-free": {
-      "tps": 156,
-      "ttfb": 1447
+      "tps": 157,
+      "ttfb": 3808
     }
   },
   "google/gemini-2.5-flash": {
     "google-free": {
-      "tps": 183,
-      "ttfb": 6802
+      "tps": 55,
+      "ttfb": 8266
     }
   },
   "google/gemini-2.5-flash-lite": {
     "google-free": {
-      "tps": 275,
-      "ttfb": 361
+      "tps": 282,
+      "ttfb": 397
     }
   },
   "google/gemini-3-flash-preview": {
     "google-free": {
-      "tps": 177,
-      "ttfb": 2686
+      "tps": 184,
+      "ttfb": 4956
     }
   },
   "google/gemini-3.1-flash-lite": {
     "google-free": {
-      "tps": 268,
-      "ttfb": 576
-    }
-  },
-  "google/gemini-3.5-flash": {
-    "google-free": {
-      "tps": 136,
-      "ttfb": 6537
+      "tps": 191,
+      "ttfb": 922
     }
   },
   "google/gemini-3.5-flash-lite": {
     "google-free": {
-      "tps": 26,
-      "ttfb": 8005
+      "tps": 251,
+      "ttfb": 1180
     }
   },
-  "google/gemini-3.6-flash": {
+  "google/gemma-4-31b-it": {
     "google-free": {
-      "tps": 142,
-      "ttfb": 6049
-    }
-  },
-  "google/gemma-4-26b-a4b-it": {
-    "google-free": {
-      "tps": 39,
-      "ttfb": 674
+      "tps": 25,
+      "ttfb": 26188
     }
   },
   "meta-llama/llama-3.1-8b-instruct": {
